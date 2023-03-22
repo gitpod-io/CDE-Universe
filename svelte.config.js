@@ -16,6 +16,9 @@ const config = {
     adapter: adapter({
       split: true,
     }),
+    files: {
+      lib: "src/lib",
+    },
   },
 };
 
