@@ -1,0 +1,71 @@
+[build]
+  command = "npm run build"
+  publish = "build/"
+
+[functions]
+  directory = "src/functions"
+  node_bundler = "esbuild"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    #
+    # X-Content-Type-Options controls whether browsers attempt to detect
+    # the content type, rather than relyihng on the Content-Type header.
+    # https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options
+    X-Content-Type-Options = "nosniff"
+    #
+    # Strict-Transport-Security to require HTTPS connections in supported
+    # browsers. These settings are required to be eligible for inclusion
+    # in the HSTS Preload list; see: https://hstspreload.org/
+    Strict-Transport-Security = """
+          max-age=31536000; \
+          includeSubDomains; \
+          preload \
+          """
+    #
+    # Referrer-Policy controls the Referer header in requests.
+    #
+    # same-origin allows analytics tools to understand user journeys.
+    Referrer-Policy = "same-origin"
+    #
+    # Content-Security-Policy controls what resources can be loaded on the page.
+    Content-Security-Policy = "frame-ancestors 'self' *.gitpod.io *.staging.gitpod-dev.com"
+    #
+    # Permissions-Policy controls the features that the site can request.
+    #
+    # https://developer.chrome.com/en/docs/privacy-sandbox/permissions-policy/
+    # https://github.com/w3c/webappsec-permissions-policy/blob/main/features.md
+    Permissions-Policy = """\
+          accelerometer=(), \
+          ambient-light-sensor=(), \
+          autoplay=(), \
+          battery=(), \
+          camera=(), \
+          cross-origin-isolated=(), \
+          display-capture=(), \
+          document-domain=(), \
+          encrypted-media=(), \
+          execution-while-not-rendered=(), \
+          execution-while-out-of-viewport=(), \
+          fullscreen=(), \
+          geolocation=(), \
+          gyroscope=(), \
+          hid=(), \
+          idle-detection=(), \
+          magnetometer=(), \
+          microphone=(), \
+          midi=(), \
+          navigation-override=(), \
+          payment=(), \
+          picture-in-picture=(), \
+          publickey-credentials-get=(), \
+          screen-wake-lock=(), \
+          serial=(), \
+          sync-xhr=(), \
+          usb=(), \
+          web-share=(), \
+          xr-spatial-tracking=() \
+          """
