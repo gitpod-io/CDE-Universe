@@ -1,3 +1,183 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    --dark-black: #070707;
+    --black: #161616;
+    --grey: #5a5353;
+    --grey-light: #bfbfbf;
+    --grey-slight: #f5f4f4;
+    --red: #ff5043;
+    --brown-light: #cdc0b2;
+    --brown-dark: #64584a;
+    --white: #fdfdfd;
+    --white-light: #fdfbfb;
+
+    --grey-slight-alpha: #f5f4f4cc;
+    --black-alpha: #161616cc;
+
+    --highlight: var(--red);
+
+    --xx-large: 10rem;
+    --x-large: 4.5rem;
+    --large: 4rem;
+    --medium: 3.5rem;
+    --small: 3rem;
+    --x-small: 2rem;
+    --xx-small: 1.5rem;
+
+    --h1: 5rem;
+    --h2: 3rem;
+    --h3: 2rem;
+    --h4: 1.75rem;
+
+    --p-x-large: 1.5rem;
+    --p-large: 1.25rem;
+    --p-medium: 1.125rem;
+    --p-small: 1rem;
+
+    --shadow-hover-default: 0px 8px 8px 0px rgba(0, 0, 0, 0.1);
+
+    --shadow-default: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  }
+
+  body.light {
+    --important: var(--black);
+    --body: var(--grey);
+    --sub: var(--brown-light);
+    --bg: var(--grey-slight);
+    --box: var(--white);
+    --nav: var(--grey-slight-alpha);
+
+    --gradient-primary: linear-gradient(
+      224.91deg,
+      var(--red) 32.52%,
+      #cdc0b2 79.06%
+    );
+    --gradient-stroke: linear-gradient(180deg, #ffffff 0%, #ece7e5 100%);
+    --gradient-404: linear-gradient(
+      224.91deg,
+      var(--white) 32.52%,
+      var(--brown-light) 79.06%
+    );
+  }
+
+  body.dark {
+    --important: var(--white-light);
+    --body: var(--grey-light);
+    --sub: var(--brown-dark);
+    --bg: var(--black);
+    --box: var(--dark-black);
+    --nav: var(--black-alpha);
+
+    --gradient-primary: linear-gradient(
+      224.91deg,
+      var(--red) 32.52%,
+      #64584a 79.06%
+    );
+    --gradient-stroke: linear-gradient(179.95deg, #332d23 0.04%, #0f0e0b 99.8%);
+    --gradient-404: linear-gradient(
+      224.91deg,
+      var(--dark-black) 32.52%,
+      var(--brown-dark) 79.06%
+    );
+  }
+
+  *,
+  *::before,
+  *::after {
+    @apply m-0 p-0;
+    box-sizing: inherit;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition: all 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+  }
+
+  html {
+    @apply box-border scroll-p-xx-small overflow-x-hidden;
+  }
+
+  body {
+    @apply bg-bg text-base text-body md:text-main;
+    text-rendering: optimizeLegibility;
+  }
+
+  main {
+    @apply text-base text-body md:text-main;
+  }
+
+  h1,
+  .h1,
+  h2,
+  .h2,
+  h3,
+  .h3,
+  h4,
+  .h4,
+  h5,
+  .h5,
+  h6,
+  .h6 {
+    @apply font-bold text-important;
+  }
+
+  p + p {
+    @apply mt-xx-small md:mt-x-small;
+  }
+
+  a {
+    @apply underline transition-all delay-50 duration-200 hover:decoration-transparent;
+  }
+
+  [type="checkbox"] {
+    @apply sr-only;
+  }
+
+  [type="checkbox"] + label::before {
+    content: "";
+    @apply h-5 w-5 rounded-sm border border-solid border-body;
+  }
+
+  [type="checkbox"] + label::after {
+    content: "\2713";
+    @apply absolute ml-1 -mt-0.5 font-serif text-base opacity-0 transition-all duration-200;
+    color: var(--red);
+  }
+
+  [type="checkbox"]:checked + label::after {
+    @apply text-white opacity-100;
+  }
+
+  [type="checkbox"]:checked + label::before {
+    background: var(--red);
+    border-color: var(--red);
+  }
+}
+
+@layer components {
+  .h2 {
+    @apply text-h3 leading-[2.5rem] md:text-h2 md:leading-[3.375rem];
+  }
+
+  .h3 {
+    @apply text-p-x-large leading-[2rem] tracking-[0.15em] md:text-h3 md:leading-[2.391rem];
+  }
+
+  .h4 {
+    @apply text-p-large leading-[1.5rem] md:text-h4 md:leading-[2rem];
+  }
+
+  .h5 {
+    @apply text-p-medium tracking-[0.15em];
+  }
+
+  .h6 {
+    @apply mb-2 text-p-small leading-[20.8px];
+  }
+
+  .text-large {
+    @apply text-p-x-large leading-[33.6px];
+  }
+}
