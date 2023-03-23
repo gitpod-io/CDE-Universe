@@ -1,4 +1,5 @@
 <script>
+  import ComingSoon from "$lib/components/layout/coming-soon.svelte";
   import OpenGraph from "$lib/components/library/open-graph.svelte";
 </script>
 
@@ -12,3 +13,5 @@
       "cde, cloud development environment, devx, developer experience, devops, devops tools, devx tools, devx conference",
   }}
 />
+
+<ComingSoon />
