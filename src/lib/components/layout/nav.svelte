@@ -1,6 +1,5 @@
 <script lang="ts">
   import SecondaryButton from "$lib/components/library/secondary-button.svelte";
-  import PrimaryButton from "$lib/components/library/primary-button.svelte";
   import CDEUniverse from "$lib/components/svgs/cde-universe.svelte";
   import showMobileMenu from "$lib/stores/mobile-menu";
 
