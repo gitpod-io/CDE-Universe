@@ -1,3 +1,14 @@
+<script>
+  import OpenGraph from "$lib/components/library/open-graph.svelte";
+</script>
+
+<OpenGraph
+  data={{
+    title: "Imprint - CDE Universe",
+    description: "Imprint for CDE Univervse",
+  }}
+/>
+
 <div class="mx-auto mb-medium max-w-xl">
   <h1 class="h2 mb-x-small text-left">Imprint</h1>
   <div>Gitpod GmbH</div>
