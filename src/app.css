@@ -5,28 +5,33 @@
 @layer base {
   :root {
     --dark-black: #070707;
-    --black: #161616;
-    --grey: #5a5353;
+    --black: #1e130f;
+    --grey: #c2c2c2;
     --grey-light: #bfbfbf;
     --grey-slight: #f5f4f4;
     --red: #ff5043;
+    --blue: #0539e0;
+    --rose: #ef9d83;
     --brown-light: #cdc0b2;
     --brown-dark: #64584a;
-    --white: #fdfdfd;
+    --white: #f7f8f8;
     --white-light: #fdfbfb;
 
     --grey-slight-alpha: #f5f4f4cc;
     --black-alpha: #161616cc;
 
     --highlight: var(--red);
+    --paragraph: var(--grey);
+    --headlines: var(--white);
 
-    --xx-large: 10rem;
+    --xxx-large: 12.5rem;
+    --xx-large: 7.5rem;
     --x-large: 4.5rem;
-    --large: 4rem;
-    --medium: 3.5rem;
-    --small: 3rem;
-    --x-small: 2rem;
-    --xx-small: 1.5rem;
+    --large: 3rem;
+    --medium: 2rem;
+    --small: 1.5rem;
+    --x-small: 1rem;
+    --xx-small: 0.5rem;
 
     --h1: 5rem;
     --h2: 3rem;
@@ -48,6 +53,7 @@
     --body: var(--grey-light);
     --sub: var(--brown-dark);
     --bg: var(--black);
+    --headlinerose: var(--rose);
     --box: var(--dark-black);
     --nav: var(--black-alpha);
 
