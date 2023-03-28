@@ -27,6 +27,6 @@
 <style lang="postcss">
   .scrolled-out {
     @apply border-b border-sub bg-nav;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(2px);
   }
 </style>

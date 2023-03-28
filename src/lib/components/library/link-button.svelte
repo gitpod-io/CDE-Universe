@@ -21,7 +21,7 @@
   {href}
   {rel}
   {...$$restProps}
-  class="inline-block rounded-2xl text-bg px-5 py-1 text-sm font-bold text-explicit-grey-slight bg-explicit-white-light no-underline {className}"
+  class="inline-block rounded-2xl text-bg px-5 py-1 text-sm font-bold bg-explicit-white-light no-underline {className}"
 >
   <slot />
 </svelte:element>
