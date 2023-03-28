@@ -1,3 +1,14 @@
+<script>
+  import OpenGraph from "$lib/components/library/open-graph.svelte";
+</script>
+
+<OpenGraph
+  data={{
+    title: "Privacy Policy - CDE Universe",
+    description: "Privacy policy for CDE Univervse website",
+  }}
+/>
+
 <h1 class="h2 mb-small text-left">Privacy Policy</h1>
 <div class="mx-auto mb-medium max-w-xl">
   <h2 class="text-h4 !mb-xx-small">Introduction</h2>
