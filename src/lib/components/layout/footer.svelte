@@ -1,6 +1,6 @@
 <script>
   import SecondaryButton from "../library/secondary-button.svelte";
-  import Gitpod from "../svgs/gitpod.svelte";
+  import GitpodLight from "../svgs/gitpod-light.svelte";
 </script>
 
 <footer
@@ -10,7 +10,7 @@
     class="w-full flex flex-col items-center text-center md:items-start md:text-left gap-6 mt-4"
   >
     <div class="w-28">
-      <Gitpod />
+      <GitpodLight />
     </div>
 
     <h1 class="text-xl font-bold">Organized by Gitpod</h1>
