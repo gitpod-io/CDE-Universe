@@ -1,5 +1,6 @@
 <script lang="ts">
-  import LinkButton from "$lib/components/library/link-button.svelte";
+  import SecondaryButton from "$lib/components/library/secondary-button.svelte";
+  import PrimaryButton from "$lib/components/library/primary-button.svelte";
   import CDEUniverse from "$lib/components/svgs/cde-universe.svelte";
   import showMobileMenu from "$lib/stores/mobile-menu";
 
@@ -18,7 +19,7 @@
     <CDEUniverse />
     <div class="hidden items-center gap-x-small lg:flex">
       <!-- TODO: Update URL when ready -->
-      <LinkButton href="/" text="Join waitlist" isDisabled={false} />
+      <SecondaryButton href="/" text="Join waitlist" isDisabled={false} />
     </div>
   </div>
 </nav>
