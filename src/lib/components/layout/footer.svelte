@@ -1,25 +1,54 @@
-<div class="mt-auto">
-  <footer
-    class="m-auto px-4 py-xx-small text-base text-body md:max-w-6xl md:px-x-small md:py-x-small md:text-main"
+<script>
+  import SecondaryButton from "../library/secondary-button.svelte";
+  import GitpodLight from "../svgs/gitpod-light.svelte";
+</script>
+
+<footer
+  class="bg-blue rounded-xl shadow-lg py-4 px-8 w-11/12 max-w-7xl mt-auto mb-8 mx-auto relative overflow-clip z-[-2]"
+>
+  <div
+    class="w-full flex flex-col items-center text-center md:items-start md:text-left gap-6 mt-4"
   >
-    <div class="pt-4 text-center">
-      <ul class="flex gap-4 md:justify-center ">
-        <li><a class="text-xs" href="/imprint">Imprint</a></li>
-        <li>
-          <a class="text-xs" href="/privacy">Privacy Policy</a>
-        </li>
-        <li>
-          <a
-            rel="noreferrer"
-            target="_blank"
-            class="text-xs"
-            href="https://github.com/gitpod-io/CDE-Universe">Source Code</a
-          >
-        </li>
-        <li>
-          <a class="text-xs" href="/code-of-conduct">Code of Conduct</a>
-        </li>
-      </ul>
+    <div class="w-28">
+      <GitpodLight />
     </div>
-  </footer>
-</div>
+
+    <h1 class="text-xl font-bold">Organized by Gitpod</h1>
+
+    <p class="text-p-x-large max-w-md">
+      Ship software faster with secure cloud development environments.
+    </p>
+
+    <SecondaryButton text="Submit Proposal" />
+  </div>
+
+  <ul class="flex gap-4 flex-wrap justify-center mt-4 mb-2">
+    <li>
+      <a class="text-xs" href="/imprint">Imprint</a>
+    </li>
+
+    <li>
+      <a class="text-xs" href="/privacy">Privacy Policy</a>
+    </li>
+
+    <li>
+      <a
+        rel="noreferrer"
+        target="_blank"
+        class="text-xs"
+        href="https://github.com/gitpod-io/CDE-Universe">Source Code</a
+      >
+    </li>
+
+    <li>
+      <a class="text-xs" href="/code-of-conduct">Code of Conduct</a>
+    </li>
+  </ul>
+
+  <img
+    src="/images/ring.webp"
+    alt="ring"
+    draggable={false}
+    class="absolute top-32 left-32 rotate-[-22deg] z-[-1] min-w-[800px] select-none scale-125"
+  />
+</footer>
