@@ -1,5 +1,6 @@
 <script>
   import PrimaryButton from "$lib/components/library/primary-button.svelte";
+  import Twitter from "../svgs/twitter.svelte";
 </script>
 
 <div class="flex flex-col gap-20 items-center">
@@ -49,4 +50,16 @@
   </div>
 
   <PrimaryButton text="Join the waitlist" />
+
+  <div class="flex gap-4 items-center">
+    <div class="w-6 h-6">
+      <Twitter />
+    </div>
+
+    <p class="text-xl font-bold">
+      Follow <a href="https://twitter.com/@cdeuniverse" target="_blank"
+        >@cdeuniverse</a
+      > on Twitter to stay updated
+    </p>
+  </div>
 </div>
