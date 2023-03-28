@@ -1,3 +1,14 @@
+<script>
+  import OpenGraph from "$lib/components/library/open-graph.svelte";
+</script>
+
+<OpenGraph
+  data={{
+    title: "Code of conduct - CDE Universe",
+    description: "Code of conduct for CDE Univervse",
+  }}
+/>
+
 <h1 class="h2 mb-small text-left">Code of Conduct</h1>
 <div class="mx-auto mb-medium max-w-xl">
   <h2 class="text-h4 !mb-xx-small">Our Pledge</h2>
