@@ -14,7 +14,7 @@
 >
   <div
     class:bg-box={$showMobileMenu}
-    class="flex flex-wrap justify-between px-4 py-4 transition-none lg:px-small"
+    class="flex flex-wrap justify-between px-4 py-4 transition-none lg:px-small mx-auto w-11/12"
   >
     <CDEUniverse />
     <div class="hidden items-center gap-x-small lg:flex">
