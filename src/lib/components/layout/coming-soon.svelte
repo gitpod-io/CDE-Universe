@@ -17,8 +17,8 @@
     <code
       style="
           color: #c25;
-          background-color: #f7f7f9;
-          border: 1px solid #e1e1e8;
+          background-color: #1E130F;
+          border:1px solid #EF9D83;
           border-radius: 3px;
         ">#event-cde-universe</code
     >

@@ -43,28 +43,7 @@
     --shadow-default: 0px 1px 1px rgba(0, 0, 0, 0.1);
   }
 
-  body.light {
-    --important: var(--black);
-    --body: var(--grey);
-    --sub: var(--brown-light);
-    --bg: var(--grey-slight);
-    --box: var(--white);
-    --nav: var(--grey-slight-alpha);
-
-    --gradient-primary: linear-gradient(
-      224.91deg,
-      var(--red) 32.52%,
-      #cdc0b2 79.06%
-    );
-    --gradient-stroke: linear-gradient(180deg, #ffffff 0%, #ece7e5 100%);
-    --gradient-404: linear-gradient(
-      224.91deg,
-      var(--white) 32.52%,
-      var(--brown-light) 79.06%
-    );
-  }
-
-  body.dark {
+  body {
     --important: var(--white-light);
     --body: var(--grey-light);
     --sub: var(--brown-dark);
