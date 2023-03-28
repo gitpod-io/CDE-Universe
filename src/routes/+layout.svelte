@@ -6,7 +6,7 @@
 </script>
 
 <div class="flex min-h-screen flex-col">
-  <Nav />
+  <Nav transparentNav={true} />
   <Container element="main" class="pt-xx-small sm:pt-x-small md:pt-small">
     <slot />
   </Container>

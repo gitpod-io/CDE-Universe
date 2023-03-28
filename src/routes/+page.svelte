@@ -1,6 +1,7 @@
 <script>
   import ComingSoon from "$lib/components/layout/coming-soon.svelte";
   import OpenGraph from "$lib/components/library/open-graph.svelte";
+  import Hero from "$lib/components/index/hero.svelte";
 </script>
 
 <OpenGraph
@@ -14,4 +15,4 @@
   }}
 />
 
-<ComingSoon />
+<Hero />

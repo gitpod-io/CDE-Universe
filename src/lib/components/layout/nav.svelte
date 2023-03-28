@@ -2,14 +2,16 @@
   import SecondaryButton from "$lib/components/library/secondary-button.svelte";
   import CDEUniverse from "$lib/components/svgs/cde-universe.svelte";
   import showMobileMenu from "$lib/stores/mobile-menu";
-
+  export let transparentNav = false;
   let scroll: number;
 </script>
 
 <svelte:window bind:scrollY={scroll} />
 <nav
   class:scrolled-out={scroll > 10}
-  class="sticky top-0 z-20 mx-auto w-full border-b border-t-0 border-solid border-transparent bg-bg"
+  class="sticky top-0 z-20 mx-auto w-full border-b border-t-0 border-solid border-transparent {transparentNav
+    ? ''
+    : 'bg-bg'}"
 >
   <div
     class:bg-box={$showMobileMenu}
