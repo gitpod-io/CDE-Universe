@@ -8,20 +8,26 @@
   export { className as class };
 </script>
 
-<!-- <span
-  class="inline-block rounded-lg bg-black px-3 py-[1.5px] text-xs font-bold leading-4 text-explicit-grey-slight dark:bg-explicit-white-light dark:text-bg"	  class="inline-block rounded-lg bg-black px-3 py-[1.5px] text-xs font-bold leading-4 text-explicit-grey-slight dark:bg-explicit-white-light dark:text-bg"
->	>
-  <slot />	  <slot />
-</span>	</span> -->
-
 <svelte:element
   this={element}
-  class:disabled={isDisabled}
+  class="rounded-xl no-underline px-5 py-1.5 text-sm font-bold {isDisabled
+    ? 'bg-bg btn-hover-border'
+    : 'text-bg bg-headlines hover:bg-rose'} 
+}   {className}"
+  class:disabled={`${isDisabled} opacity-50 cursor-not-allowed`}
   {target}
   {href}
   {rel}
   {...$$restProps}
-  class="inline-block rounded-2xl text-bg px-5 py-1 text-sm font-bold bg-explicit-white-light no-underline {className}"
 >
   <slot />
 </svelte:element>
+
+<style lang="postcss">
+  .btn-hover-border {
+    @apply border border-solid;
+  }
+  .btn-hover-border:hover {
+    @apply border-[3px];
+  }
+</style>

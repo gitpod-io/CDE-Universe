@@ -15,11 +15,10 @@
     class:bg-box={$showMobileMenu}
     class="flex flex-wrap justify-between px-4 py-4 transition-none lg:px-small"
   >
-    <!-- <Devx /> -->
     <CDEUniverse />
     <div class="hidden items-center gap-x-small lg:flex">
       <!-- TODO: Update URL when ready -->
-      <LinkButton href="/" text="Join waitlist" />
+      <LinkButton href="/" text="Join waitlist" isDisabled={false} />
     </div>
   </div>
 </nav>

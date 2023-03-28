@@ -19,6 +19,10 @@ const config = {
         sub: "var(--sub)",
         bg: "var(--bg)",
         box: "var(--box)",
+        rose: "var(--headlinerose)",
+        paragraph: "var(--paragraph)",
+        blue: "var(--blue)",
+        headlines: "var(--headlines)",
       },
       boxShadow: {
         "hover-default": "var(--shadow-hover-default)",
