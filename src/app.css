@@ -56,18 +56,6 @@
     --headlinerose: var(--rose);
     --box: var(--dark-black);
     --nav: var(--black-alpha);
-
-    --gradient-primary: linear-gradient(
-      224.91deg,
-      var(--red) 32.52%,
-      #64584a 79.06%
-    );
-    --gradient-stroke: linear-gradient(179.95deg, #332d23 0.04%, #0f0e0b 99.8%);
-    --gradient-404: linear-gradient(
-      224.91deg,
-      var(--dark-black) 32.52%,
-      var(--brown-dark) 79.06%
-    );
   }
 
   *,
