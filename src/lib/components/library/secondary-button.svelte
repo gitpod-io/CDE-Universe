@@ -26,9 +26,9 @@
 
 <style lang="postcss">
   .btn-hover-border {
-    @apply border border-solid;
+    @apply outline border-solid;
   }
   .btn-hover-border:hover {
-    @apply border-[3px];
+    @apply outline-[3px];
   }
 </style>
