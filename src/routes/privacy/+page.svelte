@@ -9,8 +9,8 @@
   }}
 />
 
-<h1 class="h2 mb-small text-left">Privacy Policy</h1>
 <div class="mx-auto mb-medium max-w-xl">
+  <h1 class="h2 mb-small text-left">Privacy Policy</h1>
   <h2 class="text-h4 !mb-xx-small">Introduction</h2>
   <p>
     This Privacy Policy for DevX Conf website (www.devxconf.org) applies to
