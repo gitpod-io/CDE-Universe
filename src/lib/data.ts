@@ -116,7 +116,6 @@ export const faqs: FAQ[] = [
 export const JOB_ROLE_OTHER = "other";
 
 export const jobRoles: JobRoles[] = [
-  { value: "", label: "Please select one" },
   { value: "software-eng", label: "Software Engineering" },
   { value: "data", label: "Data / Analytics" },
   { value: "academics", label: "Academia (Student, Researcher)" },
