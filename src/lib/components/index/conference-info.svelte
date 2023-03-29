@@ -16,6 +16,5 @@
     Join in on conversation around building and implementing the tools that improve
     the software development experience.
   </p>
-  <!-- TODO: Update Join waitlist URL -->
-  <PrimaryButton href="/" text="Join the waitlist" />
+  <PrimaryButton href="/join" text="Join the waitlist" />
 </div>
