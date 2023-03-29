@@ -3,7 +3,7 @@
   import Twitter from "../svgs/twitter.svelte";
 </script>
 
-<div class="flex flex-col gap-20 items-center">
+<div class="flex flex-col gap-20 items-center pb-20">
   <div class="relative overflow-visible">
     <h1
       class="font-bold text-8xl text-center md:text-left md:text-[200px] lg:text-[280px] xl:text-[380px]"

@@ -5,7 +5,7 @@
   import "../app.css";
 </script>
 
-<div class="flex min-h-screen flex-col">
+<div class="flex min-h-screen flex-col gap-16">
   <Nav />
   <Container element="main" class="pt-xx-small sm:pt-x-small md:pt-small">
     <slot />
