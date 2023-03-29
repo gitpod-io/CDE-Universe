@@ -1,7 +1,7 @@
 <script>
-  import ComingSoon from "$lib/components/layout/coming-soon.svelte";
   import Speakers from "$lib/components/layout/speakers.svelte";
   import OpenGraph from "$lib/components/library/open-graph.svelte";
+  import Hero from "$lib/components/index/hero.svelte";
   import { speakers } from "$lib/data";
 </script>
 
@@ -16,5 +16,5 @@
   }}
 />
 
-<ComingSoon />
+<Hero />
 <!-- <Speakers {speakers} /> -->
