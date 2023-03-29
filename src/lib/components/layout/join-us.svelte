@@ -21,16 +21,17 @@
     </div>
 
     <div
-      class="grid-rows-2 grid text-center md:text-left md:grid-rows-1 md:grid-cols-2 gap-8"
+      class="grid-rows-2 grid text-center md:text-left md:grid-rows-1 md:grid-cols-2 gap-8 mx-auto max-w-4xl"
     >
       <div class="space-y-2">
         <h4 class="font-bold text-2xl">Who?</h4>
 
-        <p>
+        <p class="text-2xl">
           Meet the visionaries, builders and practitioners who make up the
           future of software development.
         </p>
-        <p>
+        <br />
+        <p class="text-2xl">
           We'll have 100 attendees who work in senior roles across platform
           engineering, DevOps, and developer experience.
         </p>
@@ -39,11 +40,12 @@
       <div class="space-y-2">
         <h4 class="font-bold text-2xl">Why?</h4>
 
-        <p>
+        <p class="text-2xl">
           CDE Universe is small and curated. Connect with leading minds across
           the developer tool space.
         </p>
-        <p>
+        <br />
+        <p class="text-2xl">
           Learn best practices in cloud development, CDE adoption and emerging
           technologies that enable better software development.
         </p>
@@ -53,11 +55,10 @@
     <PrimaryButton text="Join the waitlist" />
 
     <div class="flex gap-4 items-center">
-      <div class="w-6 h-6">
+      <div class="w-8 h-8 mb-auto mt-1">
         <Twitter />
       </div>
-
-      <p class="text-xl font-bold">
+      <p class="text-3xl font-bold max-w-lg">
         Follow <a href="https://twitter.com/@cdeuniverse" target="_blank"
           >@cdeuniverse</a
         > on Twitter to stay updated
