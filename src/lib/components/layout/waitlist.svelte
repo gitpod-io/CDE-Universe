@@ -1,41 +1,49 @@
 <script>
   import PrimaryButton from "../library/primary-button.svelte";
+  import OpenGraph from "../library/open-graph.svelte";
 </script>
 
-<div class="flex flex-col items-start gap-10">
-  <h1 class="text-7xl md:text-8xl font-normal">Partners</h1>
+<OpenGraph
+  data={{
+    title: "Join the waitlist",
+    description: "Join the waitlist for CDE Universe 2023",
+  }}
+/>
 
-  <p class="text-xl">Apply below for a ticket to CDE Universe 2023.</p>
+<div class="flex flex-col items-start gap-10 ">
+  <h1 class="text-7xl md:text-8xl font-normal mx-auto">Join the waitlist</h1>
 
-  <form class="grid grid-cols-2 gap-10">
+  <p class="text-xl mx-auto">Apply below for a ticket to CDE Universe 2023.</p>
+
+  <form class="grid grid-cols-2 gap-10 max-w-xl mx-auto">
     <label>
-      Full Name
+      Full Name*
       <input type="text" />
     </label>
 
     <label>
-      Work e-mail
+      Work e-mail*
       <input type="text" />
     </label>
 
     <label>
-      Company website
+      Company website*
       <input type="text" />
     </label>
 
     <label>
-      Role
+      Role*
       <select>
         <option value="SOMETHING">Role</option>
       </select>
     </label>
 
     <label class="col-span-2">
-      Why do you want to join?
+      What do you want to learn?*
       <textarea rows="6" />
     </label>
 
-    <p class="col-span-2 text-sm">
+    <p class="col-span-2 text-xs">
       By submitting this form, I confirm that I acknowledge the collection and
       processing of personal data by CDE universe, as further described in the
       <a href="/privacy">Privacy Policy</a>.
