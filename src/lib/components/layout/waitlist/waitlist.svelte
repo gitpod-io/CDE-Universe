@@ -2,13 +2,14 @@
   import type { ActionData } from "../../../../routes/join/$types";
   import PrimaryButton from "../../library/primary-button.svelte";
   import OpenGraph from "../../library/open-graph.svelte";
+  import { jobRoles, JOB_ROLE_OTHER } from "$lib/data";
   import FieldError from "./field-error.svelte";
   import { enhance } from "$app/forms";
-  import { jobRoles } from "$lib/data";
 
   export let form: ActionData;
 
   let disabled = false;
+  let role: string | undefined = undefined;
 </script>
 
 <OpenGraph
@@ -57,13 +58,17 @@
     <label>
       Role*
 
-      <select {disabled} name="role" value={undefined}>
+      <select {disabled} name="role" bind:value={role}>
         <option value={undefined} disabled>Please select one</option>
 
         {#each jobRoles as role}
           <option value={role.value}>{role.label}</option>
         {/each}
       </select>
+
+      {#if role == JOB_ROLE_OTHER}
+        <input {disabled} name="role" type="text" />
+      {/if}
 
       <FieldError error={form?.fieldErrors?.role} />
     </label>
