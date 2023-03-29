@@ -7,7 +7,7 @@ export const speakers: Speaker[] = [
     title: "Staff Software Engineer at Slack",
     twitter: "sylvestor88",
     mastodon: "https://fosstodon.org/@gitpod",
-    linkedin: "https://www.linkedin.com/company/gitpod",
+    linkedin: "https://www.linkedin.com/in/sylvestor88",
     github: "gitpod",
   },
   {
