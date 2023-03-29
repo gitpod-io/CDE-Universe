@@ -80,7 +80,11 @@
       <a href="/privacy">Privacy Policy</a>.
     </p>
 
-    <div>
+    {#if form?.error}
+      <p class="text-red-500 col-span-2">{form?.error}</p>
+    {/if}
+
+    <div class="col-span-2  ">
       <PrimaryButton element="button" {disabled} text="Submit" />
     </div>
   </form>

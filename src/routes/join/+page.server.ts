@@ -1,4 +1,5 @@
 import { jobRoles } from "$lib/data";
+import { saveToSpreadsheet } from "$lib/utils/spreadsheet.server";
 import { fail } from "@sveltejs/kit";
 import { z } from "zod";
 
@@ -51,7 +52,17 @@ export const actions = {
     }
 
     try {
-      // TODO send the data to storage here
+      await saveToSpreadsheet({
+        sheetTitle: "CDE Universe 2023 Waitlist",
+        data: {
+          name: result.data.name,
+          email: result.data.email,
+          companyWebsite: result.data.website,
+          jobRole: result.data.role,
+          message: result.data.question,
+          timeStamp: new Date().toISOString(),
+        },
+      });
     } catch (error) {
       // If there is an error return it
       return fail(400, {
