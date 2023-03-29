@@ -1,6 +1,7 @@
 <script>
   import SecondaryButton from "../library/secondary-button.svelte";
   import GitpodLight from "../svgs/gitpod-light.svelte";
+  import Twitter from "../svgs/twitter.svelte";
 </script>
 
 <footer
@@ -9,8 +10,14 @@
   <div
     class="w-full flex flex-col items-center text-center md:items-start md:text-left gap-6 mt-4"
   >
-    <div class="w-28">
-      <GitpodLight />
+    <div class="w-full flex items-center justify-between">
+      <div class="w-28">
+        <GitpodLight />
+      </div>
+
+      <a href="https://twitter.com/gitpod" class="w-6 hover:opacity-50">
+        <Twitter />
+      </a>
     </div>
 
     <h1 class="text-3xl font-bold">Organized by Gitpod</h1>
