@@ -1,4 +1,4 @@
-<div class="mt-x-large hero relative w-fit mx-auto">
+<div class="mt-x-large hero relative w-fit mx-auto text-center md:text-left">
   <h1 class="text-6xl font-extrabold">
     CDE <span class="font-light">universe</span>
   </h1>
