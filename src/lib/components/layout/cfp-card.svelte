@@ -4,7 +4,7 @@
 
 <div class="mt-x-large md:mt-xxx-large" id="cfp">
   <div
-    class="bg-blue rounded-xl shadow-lg py-20 px-8 w-full mx-auto relative overflow-clip z-[-2]"
+    class="bg-blue rounded-xl shadow-lg py-20 px-8 w-full mx-auto relative overflow-clip z-0"
   >
     <div
       class="mx-auto w-fit flex flex-col gap-9 items-center sm:items-start text-center sm:text-left"
