@@ -4,10 +4,12 @@
   import Pebblebed from "../svgs/pebblebed.svelte";
 </script>
 
-<div class="flex flex-col gap-10">
-  <h1 class="text-8xl font-normal">Partners</h1>
+<div class="flex flex-col gap-10 text-center md:text-left">
+  <h1 class="text-7xl md:text-8xl font-normal">Partners</h1>
 
-  <div class="flex items-center gap-8 grayscale">
+  <div
+    class="flex items-center gap-8 grayscale justify-center md:justify-start"
+  >
     <div class="w-36"><GitpodLight /></div>
     <div class="w-36"><Pebblebed /></div>
   </div>
@@ -17,7 +19,7 @@
     It's free for participants.
   </p>
 
-  <div class="flex items-center gap-4">
+  <div class="flex items-center gap-4 justify-center md:justify-start">
     <PrimaryButton text="Become a partner" />
     <PrimaryButton lineStyle isDisabled text="View Partner Program" />
   </div>
