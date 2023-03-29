@@ -9,9 +9,11 @@
 </script>
 
 <div class="flex flex-col gap-14">
-  <h1 class="text-8xl font-normal">Speakers</h1>
+  <h1 class="text-7xl text-center md:text-left md:text-8xl font-normal">
+    Speakers
+  </h1>
 
-  <div class="flex gap-x-24 gap-y-12 flex-wrap">
+  <div class="flex gap-x-24 gap-y-12 flex-wrap justify-center md:justify-start">
     {#each speakers as speaker}
       <div class="w-56 mb-4">
         <div class="rounded-xl bg-blue w-fit p-2 mb-3">
