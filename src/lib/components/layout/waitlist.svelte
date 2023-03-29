@@ -35,6 +35,8 @@
     <label>
       Role*
       <select>
+        <option value={undefined} disabled>Please select one</option>
+
         {#each jobRoles as role}
           <option value={role.value}>{role.label}</option>
         {/each}
