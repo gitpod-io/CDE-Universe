@@ -8,9 +8,9 @@ export const speakers: Speaker[] = [
     name: "Sylvestor George",
     title: "Staff Software Engineer at Slack",
     twitter: "sylvestor88",
-    mastodon: "https://fosstodon.org/@gitpod",
+    // mastodon: "https://fosstodon.org/@gitpod",
     linkedin: "https://www.linkedin.com/in/sylvestor88",
-    github: "gitpod",
+    // github: "gitpod",
   },
   {
     image: "/images/speakers/slyvestor-george.webp",
