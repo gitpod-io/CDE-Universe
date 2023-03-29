@@ -1,5 +1,5 @@
+import { addToWaitlist } from "$lib/utils/spreadsheet.server";
 import { jobRoles } from "$lib/data";
-import { saveToSpreadsheet } from "$lib/utils/spreadsheet.server";
 import { fail } from "@sveltejs/kit";
 import { z } from "zod";
 
@@ -52,16 +52,12 @@ export const actions = {
     }
 
     try {
-      await saveToSpreadsheet({
-        sheetTitle: "CDE Universe 2023 Waitlist",
-        data: {
-          name: result.data.name,
-          email: result.data.email,
-          companyWebsite: result.data.website,
-          jobRole: result.data.role,
-          message: result.data.question,
-          timeStamp: new Date().toISOString(),
-        },
+      await addToWaitlist({
+        name: result.data.name,
+        email: result.data.email,
+        companyWebsite: result.data.website,
+        jobRole: result.data.role,
+        message: result.data.question,
       });
     } catch (error) {
       // If there is an error return it
