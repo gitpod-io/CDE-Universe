@@ -1,6 +1,8 @@
 <script>
   import ComingSoon from "$lib/components/layout/coming-soon.svelte";
+  import Speakers from "$lib/components/layout/speakers.svelte";
   import OpenGraph from "$lib/components/library/open-graph.svelte";
+  import { speakers } from "$lib/data";
 </script>
 
 <OpenGraph
@@ -15,3 +17,4 @@
 />
 
 <ComingSoon />
+<!-- <Speakers {speakers} /> -->
