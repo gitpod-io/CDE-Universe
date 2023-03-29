@@ -8,62 +8,67 @@
   export let speakers: Speaker[];
 </script>
 
-<div class="flex flex-col gap-14">
-  <h1 class="text-7xl text-center md:text-left md:text-8xl font-normal">
-    Speakers
-  </h1>
+<div class="mt-x-large md:mt-xxx-large" id="speakers">
+  <div class="flex flex-col gap-14">
+    <h1 class="flex text-7xl w-11/12 md:text-8xl font-normal mx-auto">
+      Speakers
+    </h1>
 
-  <div class="flex gap-x-24 gap-y-12 flex-wrap justify-center md:justify-start">
-    {#each speakers as speaker}
-      <div class="w-56 mb-4">
-        <div class="rounded-xl bg-blue w-fit p-2 mb-3">
-          <img
-            class="rounded-lg"
-            src={speaker.image}
-            alt="{speaker.name}'s pfp"
-          />
-        </div>
+    <div
+      class="flex gap-x-20 gap-y-12 flex-wrap justify-center md:justify-start w-11/12 max-w-6xl mx-auto items-center"
+    >
+      {#each speakers as speaker}
+        <div class="w-56 mb-4">
+          <div class="rounded-xl bg-blue w-fit p-2 mb-3">
+            <img
+              class="rounded-lg hover:bg-gradient-to-b
+              "
+              src={speaker.image}
+              alt="{speaker.name}'s picture"
+            />
+          </div>
 
-        <div class="ml-2">
-          <h4 class="font-bold text-xl">{speaker.name}</h4>
-          <p>{speaker.title}</p>
+          <div class="ml-2">
+            <h4 class="font-bold text-xl">{speaker.name}</h4>
+            <p>{speaker.title}</p>
 
-          <div class="flex gap-3 items-center mt-2">
-            {#if speaker.twitter}
-              <a
-                href="https://twitter.com/{speaker.twitter}"
-                target="_blank"
-                class="social-link"
-              >
-                <Twitter fill="#EF9D83" />
-              </a>
-            {/if}
+            <div class="flex gap-3 items-center mt-2">
+              {#if speaker.twitter}
+                <a
+                  href="https://twitter.com/{speaker.twitter}"
+                  target="_blank"
+                  class="social-link"
+                >
+                  <Twitter fill="#EF9D83" />
+                </a>
+              {/if}
 
-            {#if speaker.mastodon}
-              <a href={speaker.mastodon} target="_blank" class="social-link">
-                <Mastodon fill="#EF9D83" />
-              </a>
-            {/if}
+              {#if speaker.mastodon}
+                <a href={speaker.mastodon} target="_blank" class="social-link">
+                  <Mastodon fill="#EF9D83" />
+                </a>
+              {/if}
 
-            {#if speaker.linkedin}
-              <a href={speaker.linkedin} target="_blank" class="social-link">
-                <Linkedin fill="#EF9D83" />
-              </a>
-            {/if}
+              {#if speaker.linkedin}
+                <a href={speaker.linkedin} target="_blank" class="social-link">
+                  <Linkedin fill="#EF9D83" />
+                </a>
+              {/if}
 
-            {#if speaker.github}
-              <a
-                href="https://github.com/{speaker.github}"
-                target="_blank"
-                class="social-link"
-              >
-                <Github fill="#EF9D83" />
-              </a>
-            {/if}
+              {#if speaker.github}
+                <a
+                  href="https://github.com/{speaker.github}"
+                  target="_blank"
+                  class="social-link"
+                >
+                  <Github fill="#EF9D83" />
+                </a>
+              {/if}
+            </div>
           </div>
         </div>
-      </div>
-    {/each}
+      {/each}
+    </div>
   </div>
 </div>
 

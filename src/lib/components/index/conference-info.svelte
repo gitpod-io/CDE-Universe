@@ -2,8 +2,8 @@
   import PrimaryButton from "$lib/components/library/primary-button.svelte";
 </script>
 
-<div class="mt-x-large md:mt-xxx-large ">
-  <div class="max-w-5xl">
+<div class="mt-x-large md:mt-xxx-large" id="info">
+  <div class="max-w-4xl">
     <h1 class="text-8xl font-normal ">
       A conference about <span class="text-rose"
         >the future of software development</span

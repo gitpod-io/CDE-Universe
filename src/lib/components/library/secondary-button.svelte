@@ -12,7 +12,7 @@
 <svelte:element
   this={element}
   class="rounded-xl no-underline px-5 py-1.5 text-sm font-bold {isDisabled
-    ? 'bg-bg btn-hover-border'
+    ? 'bg-bg btn-hover-border outline hover:outline-4'
     : 'text-bg bg-headlines hover:bg-rose'} 
 }   {className}"
   class:disabled={`${isDisabled} opacity-50 cursor-not-allowed`}
@@ -23,12 +23,3 @@
 >
   {@html text}
 </svelte:element>
-
-<style lang="postcss">
-  .btn-hover-border {
-    @apply outline border-solid;
-  }
-  .btn-hover-border:hover {
-    @apply outline-[3px];
-  }
-</style>
