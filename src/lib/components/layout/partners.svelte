@@ -4,7 +4,7 @@
   import Pebblebed from "../svgs/pebblebed.svelte";
 </script>
 
-<div class="mt-x-large md:mt-xxx-large" id="partners">
+<div class="mt-xxx-large" id="partners">
   <div class="flex flex-col gap-10 text-center md:text-left">
     <h1 class="text-7xl md:text-8xl font-normal">Partners</h1>
 
