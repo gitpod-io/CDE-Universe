@@ -3,7 +3,7 @@
   import Twitter from "../svgs/twitter.svelte";
 </script>
 
-<div class="mt-x-large md:mt-xxx-large" id="join">
+<div class="mt-x-large md:mt-96" id="join">
   <div class="flex flex-col gap-20 items-center">
     <div class="relative overflow-visible">
       <h1
@@ -14,7 +14,7 @@
 
       <img
         style="top: 50%; left: 50%; transform: translate(-50%, -65%)"
-        class="absolute w-screen min-w-[100vw] z-[-10] "
+        class="absolute w-screen min-w-[100vw] z-[-10]"
         src="/images/ring-line.webp"
         alt="ring line"
       />
