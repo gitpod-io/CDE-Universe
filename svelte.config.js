@@ -16,8 +16,10 @@ const config = {
     adapter: adapter({
       split: true,
     }),
-    files: {
-      lib: "src/lib",
+
+    csrf: {
+      // Don't check origin in dev
+      checkOrigin: process.env.NODE_ENV != "development",
     },
   },
 };
