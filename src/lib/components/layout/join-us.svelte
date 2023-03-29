@@ -3,7 +3,7 @@
   import Twitter from "../svgs/twitter.svelte";
 </script>
 
-<div class="my-xxx-large" id="join">
+<div class="mb-xx-large mt-64" id="join">
   <div class="flex flex-col gap-20 items-center">
     <div class="relative overflow-visible">
       <h1
