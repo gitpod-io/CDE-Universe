@@ -22,7 +22,7 @@
 
     <div class="flex items-center gap-4 justify-center md:justify-start">
       <PrimaryButton text="Become a partner" />
-      <PrimaryButton isDisabled={true} text="View Partner Program" />
+      <PrimaryButton style="line" text="View Partner Program" />
     </div>
   </div>
 </div>

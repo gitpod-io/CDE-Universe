@@ -5,13 +5,15 @@
   export let text = "";
   export let disabled = false;
   export let element: "a" | "button" = "a";
+  export let style: "fill" | "line" = "fill";
   let className = "";
   export { className as class };
 </script>
 
 <svelte:element
   this={element}
-  class="rounded-xl no-underline px-6 py-2 text-sm font-bold border-2 text-bg bg-headlines hover:bg-rose hover:border-rose disabled:opacity-50 disabled:cursor-not-allowed {className}"
+  class="rounded-xl no-underline px-6 py-2 text-sm font-bold border-2 hover:border-rose disabled:opacity-50 disabled:cursor-not-allowed
+  {style == 'fill' ? 'bg-headlines hover:bg-rose text-bg' : ''} {className}"
   {disabled}
   {target}
   {href}
