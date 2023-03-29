@@ -55,7 +55,7 @@
   </form>
 </div>
 
-<style>
+<style lang="postcss">
   label {
     @apply flex flex-col gap-2;
   }
