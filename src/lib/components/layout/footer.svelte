@@ -4,7 +4,7 @@
 </script>
 
 <footer
-  class="bg-blue rounded-xl shadow-lg py-4 px-8 w-11/12 max-w-7xl mt-[100px] md:mt-[200px] mb-8 mx-auto relative overflow-clip z-0"
+  class="bg-blue rounded-xl shadow-lg py-4 px-8 w-11/12 max-w-7xl mt-x-large md:mt-xxx-large mb-8 mx-auto relative overflow-clip z-0"
 >
   <div
     class="w-full flex flex-col items-center text-center md:items-start md:text-left gap-6 mt-4"

@@ -37,6 +37,7 @@ const config = {
         404: "var(--gradient-404)",
       },
       spacing: {
+        "xxx-large": "var(--xxx-large)",
         "xx-large": "var(--xx-large)",
         "x-large": "var(--x-large)",
         large: "var(--large)",

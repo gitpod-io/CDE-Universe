@@ -2,6 +2,7 @@
   import Speakers from "$lib/components/layout/speakers.svelte";
   import OpenGraph from "$lib/components/library/open-graph.svelte";
   import Hero from "$lib/components/index/hero.svelte";
+  import ConferenceInfo from "$lib/components/index/conference-info.svelte";
   import { speakers } from "$lib/data";
 </script>
 
@@ -17,4 +18,5 @@
 />
 
 <Hero />
+<ConferenceInfo />
 <!-- <Speakers {speakers} /> -->
