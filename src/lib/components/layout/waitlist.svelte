@@ -1,6 +1,7 @@
-<script>
+<script lang="ts">
   import PrimaryButton from "../library/primary-button.svelte";
   import OpenGraph from "../library/open-graph.svelte";
+  import { jobRoles } from "$lib/data";
 </script>
 
 <OpenGraph
@@ -34,7 +35,9 @@
     <label>
       Role*
       <select>
-        <option value="SOMETHING">Role</option>
+        {#each jobRoles as role}
+          <option value={role.value}>{role.label}</option>
+        {/each}
       </select>
     </label>
 

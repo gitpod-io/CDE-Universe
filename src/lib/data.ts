@@ -1,5 +1,6 @@
 import type { Speaker } from "./types/speakers";
 import type { FAQ } from "./types/faq";
+import type { JobRoles } from "./types/job-roles";
 
 export const speakers: Speaker[] = [
   {
@@ -105,4 +106,23 @@ export const faqs: FAQ[] = [
     description:
       "No, this is an in-person event. Recordings will be up on our YouTube channel after the event.",
   },
+];
+
+/**
+ * Job Roles
+ * @see https://github.com/gitpod-io/gitpod/blob/main/components/dashboard/src/onboarding/job-roles.ts
+ *
+ */
+export const JOB_ROLE_OTHER = "other";
+
+export const jobRoles: JobRoles[] = [
+  { value: "", label: "Please select one" },
+  { value: "software-eng", label: "Software Engineering" },
+  { value: "data", label: "Data / Analytics" },
+  { value: "academics", label: "Academia (Student, Researcher)" },
+  { value: "enabling", label: "Platform or Developer Experience" },
+  { value: "team-lead", label: "A Team Lead or Function Lead role" },
+  { value: "devrel", label: "DevRel" },
+  { value: "product-design", label: "Product" },
+  { value: JOB_ROLE_OTHER, label: "Other" },
 ];
