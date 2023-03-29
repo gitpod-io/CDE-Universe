@@ -15,7 +15,7 @@
   class="rounded-xl border-2 no-underline px-6 py-2 text-sm font-bold {isDisabled ||
   lineStyle
     ? 'bg-bg hover:bg-headlines hover:text-bg'
-    : 'text-bg bg-headlines hover:bg-rose'}
+    : 'text-bg bg-headlines hover:bg-rose hover:border-rose'}
   }   {className}"
   class:disabled={`${isDisabled} opacity-50 cursor-not-allowed`}
   {target}
