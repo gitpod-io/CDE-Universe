@@ -156,8 +156,10 @@
 
   input[type="text"],
   input[type="number"],
+  input[type="email"],
+  input[type="url"],
   textarea,
   select {
-    @apply bg-bg rounded-lg border-2 border-rose;
+    @apply bg-bg rounded-lg border-2 border-rose disabled:opacity-50 disabled:cursor-not-allowed;
   }
 }
