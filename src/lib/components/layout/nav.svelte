@@ -17,8 +17,7 @@
   >
     <CDEUniverse />
     <div class="hidden items-center gap-x-small lg:flex">
-      <!-- TODO: Update URL when ready -->
-      <SecondaryButton href="/" text="Join waitlist" isDisabled={false} />
+      <SecondaryButton href="/join" text="Join waitlist" isDisabled={false} />
     </div>
   </div>
 </nav>

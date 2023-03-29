@@ -52,7 +52,7 @@
       </div>
     </div>
 
-    <PrimaryButton text="Join the waitlist" />
+    <PrimaryButton href="/join" text="Join the waitlist" />
 
     <div class="flex gap-4 items-center">
       <div class="w-8 h-8 mb-auto mt-1">

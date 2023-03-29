@@ -72,7 +72,7 @@
   </div>
 </div>
 
-<style>
+<style lang="postcss">
   .social-link {
     @apply w-5 h-5 block;
   }

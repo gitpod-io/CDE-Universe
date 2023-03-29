@@ -153,4 +153,11 @@
   .text-large {
     @apply text-p-x-large leading-[33.6px];
   }
+
+  input[type="text"],
+  input[type="number"],
+  textarea,
+  select {
+    @apply bg-bg rounded-lg border-2 border-rose;
+  }
 }
