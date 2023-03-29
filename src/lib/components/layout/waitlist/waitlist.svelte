@@ -70,7 +70,7 @@
 
     <label class="col-span-2">
       What do you want to learn?*
-      <textarea {disabled} name="learn" rows="6" />
+      <textarea {disabled} name="question" rows="6" />
       <FieldError error={form?.fieldErrors?.question} />
     </label>
 
