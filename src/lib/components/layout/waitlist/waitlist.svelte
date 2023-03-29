@@ -39,19 +39,19 @@
   >
     <label>
       Full Name*
-      <input {disabled} name="name" type="text" />
+      <input required {disabled} name="name" type="text" />
       <FieldError error={form?.fieldErrors?.name} />
     </label>
 
     <label>
       Work e-mail*
-      <input {disabled} name="email" type="email" />
+      <input required {disabled} name="email" type="email" />
       <FieldError error={form?.fieldErrors?.email} />
     </label>
 
     <label>
       Company website*
-      <input {disabled} name="website" type="url" />
+      <input required {disabled} name="website" type="url" />
       <FieldError error={form?.fieldErrors?.website} />
     </label>
 
@@ -67,7 +67,7 @@
       </select>
 
       {#if role == JOB_ROLE_OTHER}
-        <input {disabled} name="role" type="text" />
+        <input {disabled} required name="role" type="text" />
       {/if}
 
       <FieldError error={form?.fieldErrors?.role} />
@@ -75,7 +75,7 @@
 
     <label class="col-span-2">
       What do you want to learn?*
-      <textarea {disabled} name="question" rows="6" />
+      <textarea required {disabled} name="question" rows="6" />
       <FieldError error={form?.fieldErrors?.question} />
     </label>
 
