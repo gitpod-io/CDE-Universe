@@ -1,0 +1,24 @@
+<script>
+  import PrimaryButton from "../library/primary-button.svelte";
+  import GitpodLight from "../svgs/gitpod-light.svelte";
+  import Pebblebed from "../svgs/pebblebed.svelte";
+</script>
+
+<div class="flex flex-col gap-10">
+  <h1 class="text-8xl font-normal">Partners</h1>
+
+  <div class="flex items-center gap-8 grayscale">
+    <div class="w-36"><GitpodLight /></div>
+    <div class="w-36"><Pebblebed /></div>
+  </div>
+
+  <p class="text-xl">
+    CDE Universe is supported by ecosystem partners.<br />
+    It's free for participants.
+  </p>
+
+  <div class="flex items-center gap-4">
+    <PrimaryButton text="Become a partner" />
+    <PrimaryButton lineStyle isDisabled text="View Partner Program" />
+  </div>
+</div>
