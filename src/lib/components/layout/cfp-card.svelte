@@ -7,7 +7,7 @@
     class="bg-blue rounded-xl shadow-lg py-20 px-8 w-full mx-auto relative overflow-clip z-0"
   >
     <div
-      class="mx-auto w-fit flex flex-col gap-9 items-start md:items-center  text-left md:text-center"
+      class="mx-auto w-fit flex flex-col gap-9 items-start md:items-center text-left md:text-center"
     >
       <h1 class="text-5xl md:text-6xl font-normal md:font-medium">
         CFP is open

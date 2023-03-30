@@ -6,6 +6,7 @@
   :root {
     --dark-black: #070707;
     --black: #1e130f;
+    --black-opacity-90: #1e130f90;
     --grey: #c2c2c2;
     --grey-light: #bfbfbf;
     --grey-slight: #f5f4f4;
@@ -55,7 +56,7 @@
     --bg: var(--black);
     --headlinerose: var(--rose);
     --box: var(--dark-black);
-    --nav: var(--black-alpha);
+    --nav: var(--black-opacity-90);
   }
 
   *,
