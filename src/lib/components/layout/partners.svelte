@@ -5,12 +5,10 @@
 </script>
 
 <div class="mt-xxx-large" id="partners">
-  <div class="flex flex-col gap-10 text-center md:text-left">
-    <h1 class="text-7xl md:text-8xl font-normal">Partners</h1>
+  <div class="flex flex-col gap-10 text-left">
+    <h1 class="text-7xl md:text-8xl font-normal text-headlines">Partners</h1>
 
-    <div
-      class="flex items-center gap-8 grayscale justify-center md:justify-start"
-    >
+    <div class="flex items-center gap-8 grayscale justify-start">
       <div class="w-36"><GitpodLight /></div>
       <div class="w-36"><Pebblebed /></div>
     </div>
@@ -20,7 +18,9 @@
       It's free for participants.
     </p>
 
-    <div class="flex items-center gap-4 justify-center md:justify-start">
+    <div
+      class="flex flex-col md:flex-row items-start md:items-center gap-4 justify-start"
+    >
       <PrimaryButton text="Become a partner" />
       <PrimaryButton style="line" text="View Partner Program" />
     </div>

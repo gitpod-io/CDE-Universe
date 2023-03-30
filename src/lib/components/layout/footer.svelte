@@ -4,55 +4,65 @@
   import Twitter from "../svgs/twitter.svelte";
 </script>
 
-<footer
-  class="bg-blue rounded-xl shadow-lg py-4 px-8 w-11/12 max-w-7xl mt-x-large md:mt-xxx-large mb-8 mx-auto relative overflow-clip z-0"
->
-  <div
-    class="w-full flex flex-col items-center text-center md:items-start md:text-left gap-6 mt-4"
+<div class="mt-[120px] md:mt-[200px]">
+  <footer
+    class="bg-blue rounded-3xl shadow-lg py-4 px-8 w-11/12 max-w-7xl  mb-8 mx-auto relative overflow-clip z-0"
   >
-    <div class="w-full flex items-center justify-between">
-      <div class="w-28">
-        <GitpodLight />
+    <div class="w-full flex flex-col items-start text-left gap-4 mt-4">
+      <div class="w-full flex items-center justify-between">
+        <div class="w-28">
+          <GitpodLight />
+        </div>
+
+        <a href="https://twitter.com/gitpod" class="w-6 hover:opacity-50">
+          <Twitter />
+        </a>
       </div>
 
-      <a href="https://twitter.com/gitpod" class="w-6 hover:opacity-50">
-        <Twitter />
-      </a>
+      <div class="text-xl md:text-3xl font-bold text-headlines mt-4">
+        Organized by Gitpod
+      </div>
+
+      <p class="text-p-small md:text-p-medium max-w-md text-white font-normal">
+        Ship software faster with secure cloud development environments.
+      </p>
+
+      <!-- TODO: Update submit proposal URL -->
+      <SecondaryButton
+        text="More about Gitpod"
+        href="https://www.gitpod.io"
+        class="md:mt-8"
+      />
     </div>
 
-    <h1 class="text-3xl font-bold">Organized by Gitpod</h1>
-
-    <p class="text-p-x-large max-w-md text-white font-normal">
-      Ship software faster with secure cloud development environments.
-    </p>
-
-    <!-- TODO: Update submit proposal URL -->
-    <SecondaryButton text="More about Gitpod" href="https://www.gitpod.io" />
-  </div>
-
-  <ul class="flex gap-4 flex-wrap justify-center mt-4 mb-2">
-    <li>
-      <a class="text-xs" href="/imprint">Imprint</a>
-    </li>
-    <li>
-      <a class="text-xs" href="/privacy">Privacy Policy</a>
-    </li>
-    <li>
-      <a
-        rel="noreferrer"
-        target="_blank"
-        class="text-xs"
-        href="https://github.com/gitpod-io/CDE-Universe">Source Code</a
-      >
-    </li>
-    <li>
-      <a class="text-xs" href="/code-of-conduct">Code of Conduct</a>
-    </li>
-  </ul>
-  <img
-    src="/images/ring.webp"
-    alt="ring"
-    draggable={false}
-    class="absolute top-32 left-32 rotate-[-22deg] z-[-1] min-w-[800px] select-none scale-125"
-  />
-</footer>
+    <ul
+      class="flex gap-x-4 md:gap-y-1 flex-wrap md:justify-center mt-16 md:mt-8"
+    >
+      <li>
+        <a class="text-xs text-headlines" href="/imprint">Imprint</a>
+      </li>
+      <li>
+        <a class="text-xs text-headlines" href="/privacy">Privacy Policy</a>
+      </li>
+      <li>
+        <a
+          rel="noreferrer"
+          target="_blank"
+          class="text-xs text-headlines"
+          href="https://github.com/gitpod-io/CDE-Universe">Source Code</a
+        >
+      </li>
+      <li>
+        <a class="text-xs text-headlines" href="/code-of-conduct"
+          >Code of Conduct</a
+        >
+      </li>
+    </ul>
+    <img
+      src="/images/ring.webp"
+      alt="ring"
+      draggable={false}
+      class="absolute top-32 left-32 rotate-[-22deg] z-[-1] min-w-[800px] select-none scale-125"
+    />
+  </footer>
+</div>
