@@ -14,7 +14,7 @@
 
       <img
         style="top: 50%; left: 50%; transform: translate(-50%, -65%)"
-        class="absolute w-screen min-w-[100vw] z-[-10]"
+        class="absolute w-screen min-w-[100vw] z-[-10] "
         src="/images/ring-line.webp"
         alt="ring line"
       />
