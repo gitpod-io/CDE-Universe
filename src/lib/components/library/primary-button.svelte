@@ -12,10 +12,10 @@
 
 <svelte:element
   this={element}
-  class="rounded-xl no-underline px-6 py-2 text-sm font-bold disabled:opacity-50 disabled:cursor-not-allowed
+  class="rounded-2xl no-underline px-6 py-2 text-sm font-bold disabled:opacity-50 disabled:cursor-not-allowed
   {style == 'fill'
-    ? 'bg-headlines hover:bg-rose text-bg border-2 hover:border-rose'
-    : 'ring-headlines ring-1 hover:ring-[3px]'} {className}"
+    ? 'bg-headlines hover:bg-bg text-bg hover:text-headlines border-4 border-headlines hover:border-headlines'
+    : 'border-4 border-rose bg-bg hover:bg-rose text-headlines hover:text-bg'} {className}"
   {disabled}
   {target}
   {href}

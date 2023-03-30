@@ -18,7 +18,11 @@
     <CDEUniverse />
 
     <div class="hidden items-center gap-x-small lg:flex">
-      <SecondaryButton href="/join" text="Join waitlist" isDisabled={false} />
+      <SecondaryButton
+        href="/join"
+        text="Join the waitlist"
+        isDisabled={false}
+      />
     </div>
     <div class="lg:hidden items-center gap-x-small flex">
       <SecondaryButton href="/join" text="Join" isDisabled={false} />

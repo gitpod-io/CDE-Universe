@@ -1,10 +1,10 @@
 <script lang="ts">
   import type { ActionData } from "../../../../routes/join/$types";
-  import PrimaryButton from "../../library/primary-button.svelte";
   import OpenGraph from "../../library/open-graph.svelte";
   import { jobRoles, JOB_ROLE_OTHER } from "$lib/data";
   import FieldError from "./field-error.svelte";
   import { enhance } from "$app/forms";
+  import SecondaryButton from "$lib/components/library/secondary-button.svelte";
 
   export let form: ActionData;
 
@@ -96,7 +96,7 @@
     {/if}
 
     <div class="col-span-2">
-      <PrimaryButton element="button" {disabled} text="Submit" />
+      <SecondaryButton element="button" {disabled} text="Submit" />
     </div>
   </form>
 </div>

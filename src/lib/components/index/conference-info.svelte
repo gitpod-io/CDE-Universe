@@ -1,5 +1,5 @@
 <script>
-  import PrimaryButton from "$lib/components/library/primary-button.svelte";
+  import SecondaryButton from "$lib/components/library/secondary-button.svelte";
 </script>
 
 <div class="mt-x-large text-left md:mt-xxx-large" id="info">
@@ -19,5 +19,5 @@
     the software development experience.
   </p>
 
-  <PrimaryButton href="/join" text="Join the waitlist" />
+  <SecondaryButton href="/join" text="Join the waitlist" />
 </div>
