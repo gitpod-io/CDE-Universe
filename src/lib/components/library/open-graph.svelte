@@ -5,8 +5,7 @@
   const type = "website";
   const {
     description,
-    // TODO: add image to `/static` and use it here .
-    image = "/favicon.png",
+    image = "/og.webp",
     title,
     keywords = "",
     norobots = false,
@@ -23,16 +22,18 @@
     <meta name="robots" content="noindex" />
   {/if}
 
-  <!-- https://ogp.me -->
+  <!-- Opengraph Card -->
   <meta property="og:image" content="https://cdeuniverse.com{image}" />
   <meta property="og:description" content={description} />
   <meta property="og:title" content={title} />
   <meta property="og:type" content={type} />
   <meta property="og:url" content={url} />
 
-  <!-- https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup -->
-  <!-- <meta name="twitter:card" content="summary" />
-      <meta name="twitter:site" content="@gitpod" />
-      <meta name="twitter:creator" content="@gitpod" />
-      <meta name="twitter:image" content="https://cdeuniverse.com/{imageTwitter}" /> -->
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@cdeuniverse" />
+  <meta name="twitter:creator" content="@cdeuniverse" />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content="https://cdeuniverse.com{image}" />
 </svelte:head>

@@ -3,11 +3,11 @@
   import Twitter from "../svgs/twitter.svelte";
 </script>
 
-<div class="mb-xx-large mt-64" id="join">
-  <div class="flex flex-col gap-20 items-center">
+<div class="mt-64" id="join">
+  <div class="flex flex-col gap-20 items-start md:items-center">
     <div class="relative overflow-visible">
       <h1
-        class="font-bold text-8xl text-center md:text-left md:text-[200px] lg:text-[280px] xl:text-[380px]"
+        class="font-bold text-headlines text-8xl text-center md:text-left md:text-[200px] lg:text-[280px] xl:text-[380px]"
       >
         Join Us
       </h1>
@@ -21,7 +21,7 @@
     </div>
 
     <div
-      class="grid-rows-2 grid text-center md:text-left md:grid-rows-1 md:grid-cols-2 gap-8 mx-auto max-w-4xl"
+      class="grid-rows-2 grid text-left md:grid-rows-1 md:grid-cols-2 gap-8 mx-auto max-w-4xl"
     >
       <div class="space-y-2">
         <h4 class="font-bold text-2xl">Who?</h4>
@@ -55,12 +55,14 @@
     <PrimaryButton href="/join" text="Join the waitlist" />
 
     <div class="flex gap-4 items-center">
-      <div class="w-8 h-8 mb-auto mt-1">
+      <div class="w-16 h-16 mb-auto mt-1">
         <Twitter />
       </div>
-      <p class="text-3xl font-bold max-w-lg">
-        Follow <a href="https://twitter.com/@cdeuniverse" target="_blank"
-          >@cdeuniverse</a
+      <p class="text-xl md:text-3xl font-bold max-w-lg">
+        Follow <a
+          href="https://twitter.com/@cdeuniverse"
+          target="_blank"
+          class="text-headlines">@cdeuniverse</a
         > on Twitter to stay updated
       </p>
     </div>

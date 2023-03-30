@@ -7,7 +7,10 @@
 
 <div class="flex min-h-screen flex-col">
   <Nav />
-  <Container element="main" class="pt-xx-small sm:pt-x-small md:pt-small">
+  <Container
+    element="main"
+    class="pt-xx-small sm:pt-x-small md:pt-small w-11/12 mx-auto"
+  >
     <slot />
   </Container>
   <Footer />

@@ -10,8 +10,11 @@
 
 <div class="mt-xx-large md:mt-xxx-large" id="speakers">
   <div class="flex flex-col gap-14 items-center md:items-start">
-    <h1 class="flex text-7xl md:text-8xl font-normal">Speakers</h1>
-
+    <h1
+      class="flex text-7xl md:text-8xl font-normal md:w-11/12 max-w-6xl mx-auto "
+    >
+      Speakers
+    </h1>
     <div
       class="flex gap-x-20 gap-y-12 flex-wrap justify-center md:justify-start w-11/12 max-w-6xl mx-auto items-stretch"
     >
