@@ -13,7 +13,7 @@
   data={{
     // TODO: #6 Update Opengraph data.
     title:
-      "CDE Universe - Cloud Development Environment Conference 2023 | Gitpod ",
+      "Join us at CDE Universe - Cloud Development Environment Conference 2023 | Gitpod",
     description:
       "Experience the latest advancements in cloud development environments at CDE Universe, the first conference of its kind in the world. Hosted by Gitpod in 2023, CDE Universe brings together experts, thought leaders, and enthusiasts from around the globe to explore the future of cloud development. Join us for engaging discussions, insightful talks, and hands-on workshops that will help you master the CDE universe. Register now and be a part of the most anticipated event in the world of cloud development.",
     keywords:
