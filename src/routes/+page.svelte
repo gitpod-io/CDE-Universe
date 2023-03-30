@@ -11,11 +11,9 @@
 
 <OpenGraph
   data={{
-    // TODO: #6 Update Opengraph data.
-    title:
-      "Join us at CDE Universe - Cloud Development Environment Conference 2023 | Gitpod",
+    title: "CDE Universe 2023 - Cloud Development Conference by Gitpod",
     description:
-      "Experience the latest advancements in cloud development environments at CDE Universe, the first conference of its kind in the world. Hosted by Gitpod in 2023, CDE Universe brings together experts, thought leaders, and enthusiasts from around the globe to explore the future of cloud development. Join us for engaging discussions, insightful talks, and hands-on workshops that will help you master the CDE universe. Register now and be a part of the most anticipated event in the world of cloud development.",
+      "Join platform and DX teams that are building and implementing cloud development environments at CDE Universe in San Francisco on June 1, 2023.",
     keywords:
       "cde, cloud development environment, devx, developer experience, devx tools, devx conference, gitpod, gitpod conference, gitpod cde, gitpod devx, gitpod devops, gitpod devx tools, gitpod devops tools, gitpod cde conference, gitpod cde tools, gitpod cde universe, gitpod cde universe 2023, gitpod cde universe conference, gitpod cde universe",
   }}
