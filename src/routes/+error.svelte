@@ -14,7 +14,9 @@
         404
       </h1>
     </div>
-    <p class="mb-x-small">You just hit a route that doesn't exist</p>
+    <p class="text-md md:text-xl max-w-lg mb-x-small">
+      You just hit a route that doesn't exist
+    </p>
     <PrimaryButton href="/" text="Back to safety" />
   </div>
 {/if}
