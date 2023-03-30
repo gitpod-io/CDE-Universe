@@ -36,7 +36,9 @@ export async function addToWaitlist(data: WaitlistData) {
   const existingKeys: string[] = rows.map((row) => row._rawData[2]);
 
   if (existingKeys.includes(data.email)) {
-    throw new Error("Email already signed up");
+    throw new Error(
+      "Your email is already in the waitlist. Just lean back, you will hear from us."
+    );
   }
 
   await sheet.addRow({
