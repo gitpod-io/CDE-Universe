@@ -13,7 +13,7 @@
 >
   <div
     class:bg-box={$showMobileMenu}
-    class="flex flex-wrap justify-between px-4 py-4 transition-none lg:px-small mx-auto w-full md:w-11/12"
+    class="mt-2 md:mt-4 flex flex-wrap justify-between px-4 py-4 transition-none lg:px-small mx-auto w-full md:w-11/12"
   >
     <CDEUniverse />
 
@@ -24,7 +24,7 @@
         isDisabled={false}
       />
     </div>
-    <div class="lg:hidden items-center gap-x-small flex">
+    <div class="lg:hidden items-center  flex">
       <SecondaryButton href="/join" text="Join" isDisabled={false} />
     </div>
   </div>
@@ -32,7 +32,7 @@
 
 <style lang="postcss">
   .scrolled-out {
-    @apply border-b border-sub bg-nav;
-    backdrop-filter: blur(2px);
+    @apply border-b border-sub bg-nav border-opacity-10;
+    backdrop-filter: saturate(0.5) blur(5px);
   }
 </style>
