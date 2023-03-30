@@ -10,6 +10,6 @@
   </p>
   <PrimaryButton
     href="https://www.gitpod.io/cde"
-    text="Learn more about CDEs"
+    text="Gitpod's 8 Principles of CDEs"
   />
 </div>
