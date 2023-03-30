@@ -9,11 +9,11 @@
 <svelte:window bind:scrollY={scroll} />
 <nav
   class:scrolled-out={scroll > 10}
-  class="sticky top-0 z-20 mx-auto w-full border-b border-t-0 border-solid border-transparent bg-bg"
+  class="sticky top-0 z-20 mx-auto w-full border-b border-t-0 border-solid border-transparent "
 >
   <div
     class:bg-box={$showMobileMenu}
-    class="mt-2 md:mt-4 flex flex-wrap justify-between px-4 py-4 transition-none lg:px-small mx-auto w-full md:w-11/12"
+    class=" mt-2 md:mt-4 flex flex-wrap justify-between px-4 py-4 transition-none lg:px-small mx-auto w-full md:w-11/12"
   >
     <CDEUniverse />
 
@@ -24,7 +24,7 @@
         isDisabled={false}
       />
     </div>
-    <div class="lg:hidden items-center  flex">
+    <div class="lg:hidden items-center flex">
       <SecondaryButton href="/join" text="Join" isDisabled={false} />
     </div>
   </div>
