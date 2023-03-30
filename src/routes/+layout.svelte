@@ -2,8 +2,6 @@
   import Nav from "$lib/components/layout/nav.svelte";
   import Container from "$lib/components/layout/container.svelte";
   import Footer from "$lib/components/layout/footer.svelte";
-  import { page } from "$app/stores";
-  import Error from "./+error.svelte";
   import "../app.css";
 </script>
 
@@ -17,7 +15,3 @@
   </Container>
   <Footer />
 </div>
-
-{#if $page.status === 404}
-  <Error />
-{/if}
