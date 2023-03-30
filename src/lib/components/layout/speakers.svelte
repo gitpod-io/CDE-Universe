@@ -3,7 +3,7 @@
   import Linkedin from "../svgs/linkedin.svelte";
   import Mastodon from "../svgs/mastodon.svelte";
   import Twitter from "../svgs/twitter.svelte";
-  import Github from "../svgs/github.svelte";
+  import GitHub from "../svgs/github.svelte";
 
   export let speakers: Speaker[];
 </script>
@@ -40,7 +40,7 @@
                   target="_blank"
                   class="social-link"
                 >
-                  <Twitter fill="#EF9D83" />
+                  <Twitter fill="#EF9D83" class="social-link" />
                 </a>
               {/if}
 
@@ -62,7 +62,7 @@
                   target="_blank"
                   class="social-link"
                 >
-                  <Github fill="#EF9D83" />
+                  <GitHub fill="#EF9D83" />
                 </a>
               {/if}
             </div>

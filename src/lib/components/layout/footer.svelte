@@ -14,7 +14,7 @@
           <GitpodLight />
         </div>
 
-        <a href="https://twitter.com/gitpod" class="w-6 hover:opacity-50">
+        <a href="https://twitter.com/gitpod" class="w-6 hover:opacity-30">
           <Twitter />
         </a>
       </div>

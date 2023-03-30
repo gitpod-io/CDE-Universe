@@ -1,5 +1,7 @@
 <script lang="ts">
   export let fill = "#f7f8f8";
+  let clazz = "";
+  export { clazz as class };
 </script>
 
 <svg
@@ -7,6 +9,7 @@
   height="100%"
   viewBox="0 0 31 26"
   {fill}
+  class={clazz}
   xmlns="http://www.w3.org/2000/svg"
 >
   <title> Twitter </title>
