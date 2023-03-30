@@ -59,10 +59,6 @@ export const actions = {
         message: result.data.question,
       });
     } catch (error) {
-      if (alreadySignedUp) {
-        throw redirect(307, "/join/already-joined");
-      }
-
       // If there is an error return it
       return fail(400, {
         error:
@@ -72,6 +68,10 @@ export const actions = {
       });
     }
 
-    throw redirect(307, "/join/success");
+    if (alreadySignedUp) {
+      throw redirect(307, "/join/already-joined");
+    } else {
+      throw redirect(307, "/join/success");
+    }
   },
 };
