@@ -1,4 +1,4 @@
-import { addToWaitlist } from "$lib/utils/spreadsheet.server";
+import { addToWaitlist, alreadySignedUp } from "$lib/utils/spreadsheet.server";
 import { fail, redirect } from "@sveltejs/kit";
 import { z } from "zod";
 
@@ -59,7 +59,7 @@ export const actions = {
         message: result.data.question,
       });
     } catch (error) {
-      if (!result.success) {
+      if (alreadySignedUp) {
         throw redirect(307, "/join/already-joined");
       }
 

@@ -4,7 +4,13 @@ import {
   FEEDBACK_GOOGLE_PRIVATE_KEY_BASE64,
   FEEDBACK_GOOGLE_SERVICE_ACCOUNT_EMAIL,
 } from "$env/static/private";
-import { redirect } from "@sveltejs/kit";
+
+export const alreadySignedUp = {
+  status: 307,
+  headers: {
+    location: "/join/already-joined",
+  },
+};
 
 interface WaitlistData {
   name: string;
@@ -37,7 +43,8 @@ export async function addToWaitlist(data: WaitlistData) {
   const existingKeys: string[] = rows.map((row) => row._rawData[2]);
 
   if (existingKeys.includes(data.email)) {
-    throw redirect(307, "/join/already-joined");
+    // throw redirect(307, "/join/already-joined");
+    alreadySignedUp;
   }
 
   await sheet.addRow({
