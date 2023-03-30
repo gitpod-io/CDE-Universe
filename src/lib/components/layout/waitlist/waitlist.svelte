@@ -51,7 +51,7 @@
 
     <label>
       Company website*
-      <input required {disabled} name="website" type="url" />
+      <input required {disabled} name="website" type="url" value="https://" />
       <FieldError error={form?.fieldErrors?.website} />
     </label>
 
@@ -67,7 +67,13 @@
       </select>
 
       {#if role == JOB_ROLE_OTHER}
-        <input {disabled} required name="role" type="text" />
+        <input
+          {disabled}
+          required
+          name="role"
+          type="text"
+          placeholder="Specify your role"
+        />
       {/if}
 
       <FieldError error={form?.fieldErrors?.role} />
@@ -86,10 +92,10 @@
     </p>
 
     {#if form?.error}
-      <p class="text-red-500 col-span-2">{form?.error}</p>
+      <p class="text-rose col-span-2">{form?.error}</p>
     {/if}
 
-    <div class="col-span-2  ">
+    <div class="col-span-2">
       <PrimaryButton element="button" {disabled} text="Submit" />
     </div>
   </form>
