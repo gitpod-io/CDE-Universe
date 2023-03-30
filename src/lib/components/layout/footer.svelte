@@ -4,9 +4,9 @@
   import Twitter from "../svgs/twitter.svelte";
 </script>
 
-<div class="mt-[120px] md:mt-[200px]">
+<div class="mt-auto">
   <footer
-    class="bg-blue rounded-3xl shadow-lg py-4 px-8 w-11/12 max-w-7xl  mb-8 mx-auto relative overflow-clip z-0"
+    class="mt-[120px] md:mt-[200px] bg-blue rounded-3xl shadow-lg py-4 px-8 w-11/12 max-w-7xl  mb-8 mx-auto relative overflow-clip z-0"
   >
     <div class="w-full flex flex-col items-start text-left gap-4 mt-4">
       <div class="w-full flex items-center justify-between">
