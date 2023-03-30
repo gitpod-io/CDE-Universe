@@ -1,5 +1,4 @@
 import { addToWaitlist } from "$lib/utils/spreadsheet.server";
-import { jobRoles } from "$lib/data";
 import { fail, redirect } from "@sveltejs/kit";
 import { z } from "zod";
 
