@@ -5,12 +5,7 @@ import {
   FEEDBACK_GOOGLE_SERVICE_ACCOUNT_EMAIL,
 } from "$env/static/private";
 
-export const alreadySignedUp = {
-  status: 307,
-  headers: {
-    location: "/join/already-joined",
-  },
-};
+export let alreadySignedUp = false;
 
 interface WaitlistData {
   name: string;
@@ -44,7 +39,7 @@ export async function addToWaitlist(data: WaitlistData) {
 
   if (existingKeys.includes(data.email)) {
     // throw redirect(307, "/join/already-joined");
-    alreadySignedUp;
+    return (alreadySignedUp = true);
   }
 
   await sheet.addRow({
