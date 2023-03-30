@@ -13,11 +13,15 @@
 >
   <div
     class:bg-box={$showMobileMenu}
-    class="flex flex-wrap justify-between px-4 py-4 transition-none lg:px-small mx-auto w-11/12"
+    class="flex flex-wrap justify-between px-4 py-4 transition-none lg:px-small mx-auto w-full md:w-11/12"
   >
     <CDEUniverse />
+
     <div class="hidden items-center gap-x-small lg:flex">
       <SecondaryButton href="/join" text="Join waitlist" isDisabled={false} />
+    </div>
+    <div class="lg:hidden items-center gap-x-small flex">
+      <SecondaryButton href="/join" text="Join" isDisabled={false} />
     </div>
   </div>
 </nav>
