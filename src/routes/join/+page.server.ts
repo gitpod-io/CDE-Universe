@@ -59,6 +59,10 @@ export const actions = {
         message: result.data.question,
       });
     } catch (error) {
+      if (!result.success) {
+        throw redirect(307, "/join/already-joined");
+      }
+
       // If there is an error return it
       return fail(400, {
         error:

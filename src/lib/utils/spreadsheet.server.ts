@@ -37,8 +37,7 @@ export async function addToWaitlist(data: WaitlistData) {
   const existingKeys: string[] = rows.map((row) => row._rawData[2]);
 
   if (existingKeys.includes(data.email)) {
-    redirect(307, "/join/already-joined");
-    return;
+    throw redirect(307, "/join/already-joined");
   }
 
   await sheet.addRow({
