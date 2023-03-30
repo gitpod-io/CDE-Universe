@@ -62,7 +62,9 @@ export const actions = {
     } catch (error) {
       // If there is an error return it
       return fail(400, {
-        error: (error as any)?.message || "Failed to save",
+        error:
+          (error as any)?.message ||
+          "Something went wrong. Please try again later.",
         success: false,
       });
     }
