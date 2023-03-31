@@ -59,7 +59,7 @@
       </li>
     </ul>
     <img
-      src="/images/ring.webp"
+      src="/images/ring-small.webp"
       alt="ring"
       draggable={false}
       class="absolute top-32 left-32 rotate-[-22deg] z-[-1] min-w-[800px] select-none scale-125"
