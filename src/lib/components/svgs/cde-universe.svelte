@@ -1,6 +1,6 @@
 <a
   href="/"
-  class="flex flex-wrap w-full max-w-[248px] no-underline items-center"
+  class="flex flex-wrap w-full max-w-[248px]  no-underline items-center"
 >
-  <img src="/navbar-logo.webp" alt="CDE Universe logo" />
+  <img src="/navbar-logo.webp" alt="CDE Universe logo" class="w-9/12" />
 </a>

@@ -13,7 +13,7 @@
 >
   <div
     class:bg-box={$showMobileMenu}
-    class="relative mt-2 md:mt-4 flex flex-wrap justify-between px-4 md:px-large py-4 transition-none w-full mx-auto"
+    class="relative flex flex-wrap justify-between px-4 md:px-x-small py-4 transition-none w-full mx-auto"
   >
     <CDEUniverse />
 
@@ -32,7 +32,7 @@
 
 <style lang="postcss">
   .scrolled-out {
-    @apply border-b border-sub bg-nav bg-opacity-80;
-    backdrop-filter: saturate(0.5) blur(5px);
+    @apply border-b border-sub bg-nav;
+    backdrop-filter: blur(1px);
   }
 </style>
