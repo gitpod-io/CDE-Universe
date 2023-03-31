@@ -30,7 +30,7 @@
 
           <div class="ml-2">
             <h4 class="font-bold text-xl">{speaker.name}</h4>
-            <p>{speaker.title}</p>
+            <p>{@html speaker.title}</p>
 
             <div class="flex gap-3 items-center mt-2">
               {#if speaker.twitter}
@@ -39,19 +39,19 @@
                   target="_blank"
                   class="social-link"
                 >
-                  <Twitter fill="#EF9D83" class="social-link" />
+                  <Twitter class="fill-[#EF9D83] hover:fill-[#ffc0be]" />
                 </a>
               {/if}
 
               {#if speaker.mastodon}
                 <a href={speaker.mastodon} target="_blank" class="social-link">
-                  <Mastodon fill="#EF9D83" />
+                  <Mastodon class="fill-[#EF9D83] fill:bg-[#ffc0be]" />
                 </a>
               {/if}
 
               {#if speaker.linkedin}
                 <a href={speaker.linkedin} target="_blank" class="social-link">
-                  <Linkedin fill="#EF9D83" />
+                  <Linkedin class="fill-[#EF9D83] hover:fill-[#ffc0be]" />
                 </a>
               {/if}
 
@@ -61,7 +61,7 @@
                   target="_blank"
                   class="social-link"
                 >
-                  <GitHub fill="#EF9D83" />
+                  <GitHub class="fill-[#EF9D83] hover:fill-[#ffc0be]" />
                 </a>
               {/if}
             </div>
@@ -75,9 +75,5 @@
 <style lang="postcss">
   .social-link {
     @apply w-5 h-5 block;
-  }
-
-  .social-link:hover {
-    @apply opacity-30;
   }
 </style>
