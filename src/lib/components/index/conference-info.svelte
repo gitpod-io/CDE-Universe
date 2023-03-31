@@ -3,16 +3,16 @@
 </script>
 
 <div class="mt-x-large text-left md:mt-xxx-large" id="info">
-  <div class="max-w-4xl">
+  <div class="max-w-5xl">
     <h1
       class="text-6xl sm:text-6xl md:text-8xl md:!leading-[6.875rem] font-normal "
     >
-      A conference about
+      A conference about <br />
       <span class="text-rose">the future of software development</span>
     </h1>
   </div>
 
-  <p class="text-xl md:text-2xl mt-large max-w-xl mx-auto md:mx-0 mb-8">
+  <p class="text-xl md:text-2xl mt-large max-w-xl mb-8">
     CDE universe is a single track, two day conference with 100 participants.
     <br /><br />
     Join in on conversation around building and implementing the tools that improve
