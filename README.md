@@ -4,8 +4,6 @@
 
 > This repository contains the website will be hosted on [cdeuniverse.com](https://cdeuniverse.com/)
 
-> **Warning**: Temporarily website is hosted on [cde-universe-kumquat.netlify.app](https://cde-universe-kumquat.netlify.app/). This will be replaced by the final website.
-
 Contributing is as easy as starting a new workspace:
 
 [![Open in Gitpod](https://www.gitpod.io/svg/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/gitpod-io/CDE-Universe)
