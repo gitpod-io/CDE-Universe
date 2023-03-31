@@ -21,7 +21,10 @@
         Submit a proposal until April 30, 2023
       </p>
 
-      <PrimaryButton text="Submit Proposal" />
+      <PrimaryButton
+        text="Submit Proposal"
+        href="https://www.papercall.io/cde-universe"
+      />
     </div>
 
     <img
