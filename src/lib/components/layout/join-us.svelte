@@ -56,7 +56,7 @@
 
     <div class="flex gap-4 items-center">
       <div class="w-16 h-16 mb-auto mt-1">
-        <Twitter />
+        <Twitter fill="#C2C2C2" />
       </div>
       <p class="text-xl md:text-3xl font-bold max-w-lg">
         Follow <a

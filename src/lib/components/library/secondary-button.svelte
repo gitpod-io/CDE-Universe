@@ -14,7 +14,7 @@
   this={element}
   class="rounded-xl no-underline px-3.5 py-1.5 text-sm font-bold disabled:opacity-50 disabled:cursor-not-allowed
   {style == 'fill'
-    ? 'bg-headlines hover:bg-bg text-bg border-2 border-headlines hover:border-headlines hover:text-headlines'
+    ? 'bg-headlines hover:bg-transparent text-bg border-2 border-headlines hover:border-headlines hover:text-headlines'
     : 'ring-headlines ring-1 hover:ring-[3px]'} {className}"
   {disabled}
   {target}
