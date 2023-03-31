@@ -7,7 +7,7 @@
   <div class="flex flex-col gap-20 items-start md:items-center">
     <div class="relative overflow-visible">
       <h1
-        class="font-bold text-headlines text-center md:text-left text-8xl md:text-[200px] xl:text-[380px]"
+        class="font-bold text-headlines text-center md:text-left text-8xl md:text-[200px] xl:text-[360px]"
       >
         Join us
       </h1>
