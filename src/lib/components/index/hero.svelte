@@ -1,11 +1,15 @@
 <div
   class="mt-x-large relative w-11/12 md:w-fit mx-auto justify-between text-left md:text-left md:mb-[400px]"
 >
-  <h1 class="text-6xl font-extrabold">
+  <h1 class="text-5xl md:text-6xl font-extrabold md:ml-36">
     CDE <span class="font-light">universe</span>
   </h1>
-  <div class="mt-4 text-3xl">June 1 and 2</div>
-  <div class="mt-1 font-medium text-rose text-3xl">
+  <div class="mt-4 text-xl md:text-[28px] md:leading-[2.5rem] md:ml-36">
+    June 1 and 2
+  </div>
+  <div
+    class="mt-1 font-medium text-rose text-xl md:text-[28px] md:leading-[2.5rem] md:ml-36"
+  >
     <div>In-Person, Pebblebed</div>
     <div>San Francisco, CA</div>
   </div>
@@ -13,7 +17,7 @@
     src="/images/primary-ellipse.webp"
     alt="CDE Ellipse"
     draggable={false}
-    class="hidden md:flex max-w-4xl -z-10 select-none w-[85vw] transfrom scale-[2.12] absolute translate-x-[100%] translate-y-[-180%] rotate-[-6deg] md:transform md:translate-x-0 md:translate-y-[-80%] md:scale-150"
+    class="hidden md:flex max-w-4xl -z-10 select-none w-[85vw] transfrom scale-[2.12] absolute translate-x-[100%] translate-y-[-180%] rotate-[-6deg] md:transform md:translate-x-[25%] md:translate-y-[-95%] md:scale-[2.10]"
   />
   <img
     style="top: -20%; left: 30%; transform: translate(-20%, -50%)"
