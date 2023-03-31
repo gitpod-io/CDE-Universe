@@ -2,7 +2,7 @@
   import PrimaryButton from "../library/primary-button.svelte";
 </script>
 
-<div class="mt-xxx-large" id="cfp">
+<div class="mt-xx-large md:mt-xxx-large" id="cfp">
   <div
     class="bg-blue rounded-xl shadow-lg py-20 px-8 w-full mx-auto relative overflow-clip z-0"
   >

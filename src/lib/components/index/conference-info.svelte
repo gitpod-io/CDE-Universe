@@ -2,7 +2,7 @@
   import SecondaryButton from "$lib/components/library/secondary-button.svelte";
 </script>
 
-<div class="mt-x-large text-left md:mt-xxx-large" id="info">
+<div class="mt-xx-large md:mt-xxx-large text-left" id="info">
   <div class="max-w-5xl">
     <h1
       class="text-6xl sm:text-6xl md:text-8xl md:!leading-[6.875rem] font-normal "

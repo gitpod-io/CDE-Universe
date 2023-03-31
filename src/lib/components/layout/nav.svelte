@@ -20,15 +20,15 @@
   >
     <CDEUniverse />
 
-    <div class="hidden items-center gap-x-small lg:flex">
+    <div class="hidden items-center gap-x-small sm:flex">
       <SecondaryButton
         href="/join"
         text="Join the waitlist"
         isDisabled={false}
       />
     </div>
-    <div class="lg:hidden items-center  flex">
-      <SecondaryButton href="/join" text="Join" isDisabled={false} />
+    <div class="sm:hidden items-center flex">
+      <SecondaryButton href="/join" text="Register" isDisabled={false} />
     </div>
   </div>
 </nav>

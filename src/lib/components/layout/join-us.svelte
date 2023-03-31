@@ -7,7 +7,7 @@
   <div class="flex flex-col gap-20 items-start md:items-center">
     <div class="relative overflow-visible">
       <h1
-        class="font-bold text-headlines text-center md:text-left text-8xl md:text-[200px] xl:text-[380px]"
+        class="font-bold text-headlines text-center md:text-left text-8xl md:text-[200px] xl:text-[360px]"
       >
         Join us
       </h1>
@@ -25,12 +25,12 @@
     >
       <div class="space-y-2">
         <h4 class="font-bold text-[20px] md:text-[28px] mb-2 md:mb-4">Who?</h4>
-        <p class="text-2xl">
+        <p class="text-lg md:text-2xl">
           Meet the visionaries, builders and practitioners who make up the
           future of software development.
         </p>
         <br />
-        <p class="text-2xl">
+        <p class="text-lg md:text-2xl">
           We'll have 100 attendees who work in senior roles across platform
           engineering, DevOps, and developer experience.
         </p>
@@ -38,12 +38,12 @@
       <div class="space-y-2">
         <h4 class="font-bold text-[20px] md:text-[28px] mb-2 md:mb-4">Why?</h4>
 
-        <p class="text-2xl">
+        <p class="text-lg md:text-2xl">
           CDE Universe is small and curated. Connect with leading minds across
           the developer tool space.
         </p>
         <br />
-        <p class="text-2xl">
+        <p class="text-lg md:text-2xl">
           Learn best practices in cloud development, CDE adoption and emerging
           technologies that enable better software development.
         </p>
@@ -53,10 +53,10 @@
     <PrimaryButton href="/join" text="Join the waitlist" />
 
     <div class="flex gap-4 items-center">
-      <div class="w-16 h-16 mb-auto mt-1">
+      <div class="w-[40px] h-[40px] mb-auto mt-1">
         <Twitter fill="#C2C2C2" />
       </div>
-      <p class="text-xl md:text-3xl font-bold max-w-lg">
+      <p class="text-xl md:text-[28px] md:leading-[2.5rem] font-bold max-w-lg">
         Follow <a
           href="https://twitter.com/@cdeuniverse"
           target="_blank"
