@@ -164,3 +164,22 @@
     @apply bg-bg rounded-lg border-2 border-rose disabled:opacity-50 disabled:cursor-not-allowed;
   }
 }
+
+/* CSS for custom Scrollbar */
+body::-webkit-scrollbar {
+  background-color: var(--black-opacity-90);
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: var(--black-opacity-90);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--headlines);
+  border-radius: 12px;
+}
+
+body::-webkit-scrollbar-button {
+  display: none;
+}
