@@ -13,6 +13,12 @@
     src="/images/primary-ellipse.webp"
     alt="CDE Ellipse"
     draggable={false}
-    class="max-w-4xl -z-10 select-none w-[85vw] transfrom scale-[2.12] absolute translate-x-[100%] translate-y-[-180%] rotate-[-6deg] md:transform md:translate-x-0 md:translate-y-[-80%] md:scale-150"
+    class="hidden md:flex max-w-4xl -z-10 select-none w-[85vw] transfrom scale-[2.12] absolute translate-x-[100%] translate-y-[-180%] rotate-[-6deg] md:transform md:translate-x-0 md:translate-y-[-80%] md:scale-150"
+  />
+  <img
+    style="top: -20%; left: 30%; transform: translate(-20%, -50%)"
+    class="flex md:hidden absolute w-screen min-w-[65vw] z-[-10] scale-150"
+    src="/images/primary-ellipse-mobile.webp"
+    alt="ring line"
   />
 </div>
