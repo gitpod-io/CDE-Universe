@@ -13,7 +13,7 @@
 >
   <div
     class:bg-box={$showMobileMenu}
-    class="relative flex flex-wrap justify-between px-4 md:px-x-small py-4 transition-none w-full mx-auto"
+    class="relative flex flex-wrap justify-between px-0 md:px-medium py-4 transition-none w-11/12 mx-auto"
   >
     <CDEUniverse />
 
