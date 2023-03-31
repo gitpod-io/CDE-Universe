@@ -19,6 +19,12 @@ export const speakers: Speaker[] = [
     linkedin: "https://www.linkedin.com/in/nmanoogian",
     github: "nmanoogian",
   },
+  {
+    image: "/images/speakers/new-speaker.webp",
+    name: "To be announced",
+    title:
+      "CFP is open.<br/> <a href='https://www.papercall.io/cde-universe'>Submit your proposal</a>",
+  },
 ];
 
 export const faqs: FAQ[] = [

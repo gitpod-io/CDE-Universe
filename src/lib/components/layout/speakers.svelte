@@ -20,9 +20,11 @@
     >
       {#each speakers as speaker}
         <div class="w-56 mb-4">
-          <div class="rounded-xl bg-blue w-fit p-2 mb-3">
+          <div class="rounded-xl bg-bg border-blue border-8   mb-3">
             <img
-              class="rounded-xl"
+              class="rounded-md"
+              width="100%"
+              height="100%"
               src={speaker.image}
               alt="{speaker.name}'s picture"
             />

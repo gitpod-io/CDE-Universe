@@ -22,7 +22,7 @@
       </p>
 
       <PrimaryButton
-        text="Submit Proposal"
+        text="Submit proposal"
         href="https://www.papercall.io/cde-universe"
       />
     </div>
