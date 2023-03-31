@@ -22,8 +22,7 @@
         <div class="w-56 mb-4">
           <div class="rounded-xl bg-blue w-fit p-2 mb-3">
             <img
-              class="rounded-lg hover:bg-gradient-to-b
-              "
+              class="rounded-xl"
               src={speaker.image}
               alt="{speaker.name}'s picture"
             />
