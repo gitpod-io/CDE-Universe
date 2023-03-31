@@ -10,7 +10,14 @@ export const speakers: Speaker[] = [
     twitter: "sylvestor88",
     // mastodon: "https://fosstodon.org/@gitpod",
     linkedin: "https://www.linkedin.com/in/sylvestor88",
-    // github: "gitpod",
+  },
+  {
+    image: "/images/speakers/nic-manoogian.webp",
+    name: "Nic Manoogian",
+    title: "Senior Software Developer at Doppler",
+    twitter: "nicmanoogian",
+    linkedin: "https://www.linkedin.com/in/nmanoogian",
+    github: "nmanoogian",
   },
 ];
 
