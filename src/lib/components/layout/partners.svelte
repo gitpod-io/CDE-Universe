@@ -21,8 +21,12 @@
     <div
       class="flex flex-col md:flex-row items-start md:items-center gap-4 justify-start"
     >
-      <PrimaryButton text="Become a partner" />
-      <PrimaryButton style="line" text="View Partner Program" />
+      <PrimaryButton text="Become a partner" href="mailto:pauline@gitpod.io" />
+      <PrimaryButton
+        style="line"
+        text="View Partner Program"
+        href="/docs/partners-program-CDEuniverse.pdf"
+      />
     </div>
   </div>
 </div>
