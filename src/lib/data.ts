@@ -14,7 +14,7 @@ export const speakers: Speaker[] = [
   {
     image: "/images/speakers/johannes.webp",
     name: "Johannes Landgraf",
-    title: "CEO & Co-founder of Gitpod",
+    title: "CEO & Co-Founder of Gitpod",
     twitter: "jolandgraf",
     github: "JohannesLandgraf",
     // mastodon: "https://fosstodon.org/@gitpod",
