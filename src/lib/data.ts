@@ -36,6 +36,12 @@ export const speakers: Speaker[] = [
     github: "nmanoogian",
   },
   {
+    image: "/images/speakers/soam-vasani.webp",
+    name: "Soam Vasani",
+    title: "Software Engineer at Stripe",
+    linkedin: "https://www.linkedin.com/in/soamvasani/",
+  },
+  {
     image: "/images/speakers/new-speaker.webp",
     name: "To be announced",
     title:
