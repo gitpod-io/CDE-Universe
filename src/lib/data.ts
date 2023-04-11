@@ -4,11 +4,27 @@ import type { JobRoles } from "./types/job-roles";
 
 export const speakers: Speaker[] = [
   {
+    image: "/images/speakers/kent-beck.webp",
+    name: "Kent Beck",
+    title: "Creator of Extreme Programming",
+    twitter: "KentBeck",
+    github: "KentBeck",
+    linkedin: "https://www.linkedin.com/in/kentbeck/",
+  },
+  {
+    image: "/images/speakers/johannes.webp",
+    name: "Johannes Landgraf",
+    title: "CEO & Co-Founder of Gitpod",
+    twitter: "jolandgraf",
+    github: "JohannesLandgraf",
+    // mastodon: "https://fosstodon.org/@gitpod",
+    linkedin: "https://www.linkedin.com/in/johanneslandgraf/",
+  },
+  {
     image: "/images/speakers/slyvestor-george.webp",
     name: "Sylvestor George",
     title: "Staff Software Engineer at Slack",
     twitter: "sylvestor88",
-    // mastodon: "https://fosstodon.org/@gitpod",
     linkedin: "https://www.linkedin.com/in/sylvestor88",
   },
   {
