@@ -6,7 +6,6 @@
   export let disabled = false;
   export let element: "a" | "button" = "a";
   export let style: "fill" | "line" = "fill";
-  export let cardCTA = false;
   let className = "";
   export { className as class };
 </script>

@@ -20,7 +20,7 @@
     >
       {#each speakers as speaker}
         <div class="w-56 mb-4">
-          <div class="rounded-xl bg-bg border-blue border-8   mb-3">
+          <div class="rounded-xl bg-bg border-blue border-8 mb-3">
             <img
               class="rounded-md"
               width="100%"
