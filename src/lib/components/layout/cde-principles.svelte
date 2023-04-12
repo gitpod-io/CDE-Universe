@@ -6,12 +6,15 @@
 
 <div class="mt-xx-large md:mt-xxx-large" id="principles">
   <div class="mb-small md:mb-medium">
-    <h2 class="text-center h2 mb-macro md:!mb-micr mx-auto">
-      Principles of CDEs
+    <h2
+      class="text-center text-7xl md:text-6xl mb-macro font-medium md:!mb-micr mx-auto"
+    >
+      To create a new developer experience
     </h2>
 
     <p class="text-large text-center mx-auto">
-      Cloud Development Environments value the following principles:
+      We're building cloud development environments (CDEs) with these principles
+      in mind:
     </p>
   </div>
   <ol
@@ -19,16 +22,14 @@
   >
     {#each PrincipleItems as item, i}
       <li class="break-inside-avoid flex w-10/12 mx-auto">
-        <div class="mr-xx-small font-bold text-blue h4">
+        <div class="mr-xx-small font-bold text-white h4">
           0{i + 1}
         </div>
         <div>
           <h4 class="!sm lg:!sm">
-            <span class="font-bold text-rose">{@html item.heading} </span><span
-              class="text-white"
-            >
-              {item.subHeading}</span
-            >
+            <span class="font-bold text-rose text-xl"
+              >{@html item.heading}
+            </span><span class="text-white text-xl"> {item.subHeading}</span>
           </h4>
           <p class="text-p-medium">{item.description}</p>
         </div>
