@@ -11,6 +11,8 @@ export const speakers: Speaker[] = [
     twitter: "KentBeck",
     github: "KentBeck",
     linkedin: "https://www.linkedin.com/in/kentbeck/",
+    imgTitle:
+      "Kent is a pioneer of software design patterns and methodologies. <a href='https://medium.com/@kentbeck_7670/cloud-development-environments-tame-complexity-by-reducing-state-4a154ea7959f'> Read his blog post on CDEs.</a>",
   },
   {
     image: "/images/speakers/johannes.webp",
@@ -20,6 +22,8 @@ export const speakers: Speaker[] = [
     github: "JohannesLandgraf",
     // mastodon: "https://fosstodon.org/@gitpod",
     linkedin: "https://www.linkedin.com/in/johanneslandgraf/",
+    imgTitle:
+      "Johannes co-founded Gitpod, a CDE used by 800k+ developers. <a href='https://www.gitpod.io/cde'> Read about Gitpod's vision for CDEs. </a>",
   },
   {
     image: "/images/speakers/slyvestor-george.webp",
@@ -27,6 +31,8 @@ export const speakers: Speaker[] = [
     title: "Staff Software Engineer at Slack",
     twitter: "sylvestor88",
     linkedin: "https://www.linkedin.com/in/sylvestor88",
+    imgTitle:
+      "Sylvestor is part of the Remote Development Environments project at Slack. <a href='https://slack.engineering/remote-development-at-slack/'> Read about Slack's CDE approach. </a>",
   },
   {
     image: "/images/speakers/nic-manoogian.webp",
@@ -35,12 +41,16 @@ export const speakers: Speaker[] = [
     twitter: "nicmanoogian",
     linkedin: "https://www.linkedin.com/in/nmanoogian",
     github: "nmanoogian",
+    imgTitle:
+      "Nic works at Doppler, a platform for managing secrets at scale. <a href='https://www.gitpod.io/blog/securely-manage-development-secrets-with-doppler-and-gitpod'> Read about Doppler for CDEs.</a>",
   },
   {
     image: "/images/speakers/soam-vasani.webp",
     name: "Soam Vasani",
     title: "Software Engineer at Stripe",
     linkedin: "https://www.linkedin.com/in/soamvasani/",
+    imgTitle:
+      "Soam is part of the Dev Environments team at Stripe. <a href='https://www.infoq.com/presentations/stripe-dev-env-infrastructure/'> Read about Stripe's CDE approach. </a>",
   },
   {
     image: "/images/speakers/new-speaker.webp",
