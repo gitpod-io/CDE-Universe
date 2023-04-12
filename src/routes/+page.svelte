@@ -6,7 +6,8 @@
   import CfpCard from "$lib/components/layout/cfp-card.svelte";
   import Partners from "$lib/components/layout/partners.svelte";
   import JoinUs from "$lib/components/layout/join-us.svelte";
-  import { speakers } from "$lib/data";
+  import CdePrinciples from "$lib/components/layout/cde-principles.svelte";
+  import { speakers, PrincipleItems } from "$lib/data";
 </script>
 
 <OpenGraph
@@ -21,6 +22,7 @@
 
 <Hero />
 <ConferenceInfo />
+<CdePrinciples {PrincipleItems} />
 <Speakers {speakers} />
 <CfpCard />
 <Partners />

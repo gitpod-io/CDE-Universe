@@ -11,7 +11,7 @@
 <div class="mt-xx-large md:mt-xxx-large" id="speakers">
   <div class="flex flex-col gap-14 items-center md:items-start">
     <h1
-      class="flex text-7xl md:text-8xl font-normal md:w-11/12 max-w-6xl mx-auto "
+      class="flex text-7xl md:text-8xl font-normal md:w-11/12 max-w-6xl mx-auto"
     >
       Speakers
     </h1>
