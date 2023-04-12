@@ -7,7 +7,7 @@
 <div class="mt-xx-large md:mt-xxx-large" id="principles">
   <div class="mb-small md:mb-medium">
     <h2
-      class="text-center text-7xl md:text-6xl mb-macro font-medium md:!mb-micr mx-auto"
+      class="text-center text-7xl md:text-6xl mb-macro font-medium mb-2 md:mb-4 mx-auto"
     >
       To create a new developer experience
     </h2>
@@ -26,7 +26,7 @@
           0{i + 1}
         </div>
         <div>
-          <h4 class="!sm lg:!sm">
+          <h4 class="!sm lg:!sm mb-1 md:mb-2">
             <span class="font-bold text-rose text-xl"
               >{@html item.heading}
             </span><span class="text-white text-xl"> {item.subHeading}</span>
