@@ -5,7 +5,7 @@
 <div class="mt-xx-large md:mt-xxx-large text-left" id="info">
   <div class="max-w-5xl">
     <h1
-      class="text-6xl sm:text-6xl md:text-8xl md:!leading-[6.875rem] font-normal "
+      class="text-6xl sm:text-6xl md:text-8xl md:!leading-[6.875rem] font-normal"
     >
       A conference about <br />
       <span class="text-rose">the future of software development</span>
