@@ -5,9 +5,9 @@
 </script>
 
 <div class="mt-xx-large md:mt-xxx-large" id="principles">
-  <div class="mb-small md:mb-medium">
+  <div class="mb-medium md:mb-x-large">
     <h2
-      class="text-center text-7xl md:text-6xl mb-macro font-medium mb-2 md:mb-4 mx-auto"
+      class="text-center text-7xl md:text-6xl mb-macro font-medium mb-2 md:mb-small mx-auto"
     >
       To create a new developer experience
     </h2>
