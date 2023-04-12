@@ -20,14 +20,17 @@
     >
       {#each speakers as speaker}
         <div class="w-56 mb-4">
-          <div class="rounded-xl bg-bg border-blue border-8 mb-3">
+          <div class="rounded-xl bg-bg border-blue border-8 mb-3 spkrsqr">
             <img
-              class="rounded-md"
+              class="rounded-md image"
               width="100%"
               height="100%"
               src={speaker.image}
               alt="{speaker.name}'s picture"
             />
+            <div class="middle w-44">
+              <div class="text">{@html speaker.imgTitle || speaker.title}</div>
+            </div>
           </div>
 
           <div class="ml-2">
@@ -77,5 +80,30 @@
 <style lang="postcss">
   .social-link {
     @apply w-5 h-5 block;
+  }
+
+  .spkrsqr:hover .middle {
+    opacity: 1;
+  }
+
+  .spkrsqr:hover .image {
+    opacity: 0.3;
+  }
+
+  .middle {
+    opacity: 0;
+    position: absolute;
+    text-align: start;
+    -webkit-transform: translate(10%, -150%);
+    -moz-transform: translate(10%, -150%);
+    transform: translate(10%, -150%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+
+  .text {
+    color: #fdfbfb;
+    font-size: 16px;
   }
 </style>

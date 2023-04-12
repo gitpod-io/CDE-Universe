@@ -10,6 +10,8 @@ export const speakers: Speaker[] = [
     twitter: "KentBeck",
     github: "KentBeck",
     linkedin: "https://www.linkedin.com/in/kentbeck/",
+    imgTitle:
+      "Kent Beck is software engineer & creator of extreme programming <a href='/join'> Join</a>",
   },
   {
     image: "/images/speakers/johannes.webp",
