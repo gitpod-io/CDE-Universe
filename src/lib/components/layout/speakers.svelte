@@ -94,9 +94,9 @@
     opacity: 0;
     position: absolute;
     text-align: start;
-    -webkit-transform: translate(10%, -150%);
-    -moz-transform: translate(10%, -150%);
-    transform: translate(10%, -150%);
+    -webkit-transform: translate(10%, -130%);
+    -moz-transform: translate(10%, -130%);
+    transform: translate(10%, -130%);
     -webkit-transition: all 0.3s ease-in-out 0s;
     -moz-transition: all 0.3s ease-in-out 0s;
     transition: all 0.3s ease-in-out 0s;
