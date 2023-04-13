@@ -12,7 +12,7 @@ export const speakers: Speaker[] = [
     github: "KentBeck",
     linkedin: "https://www.linkedin.com/in/kentbeck/",
     imgTitle:
-      "Kent is a pioneer of software design patterns and methodologies. <a href='https://medium.com/@kentbeck_7670/cloud-development-environments-tame-complexity-by-reducing-state-4a154ea7959f'> Read his blog post on CDEs.</a>",
+      "Kent is a pioneer of software design patterns and methodologies. <a href='https://medium.com/@kentbeck_7670/cloud-development-environments-tame-complexity-by-reducing-state-4a154ea7959f' target='_blank'> Read his blog post on CDEs.</a>",
   },
   {
     image: "/images/speakers/johannes.webp",
@@ -23,7 +23,7 @@ export const speakers: Speaker[] = [
     // mastodon: "https://fosstodon.org/@gitpod",
     linkedin: "https://www.linkedin.com/in/johanneslandgraf/",
     imgTitle:
-      "Johannes co-founded Gitpod, a CDE used by 800k+ developers. <a href='https://www.gitpod.io/cde'> Read about Gitpod's vision for CDEs. </a>",
+      "Johannes co-founded Gitpod, a CDE used by 800k+ developers. <a href='https://www.gitpod.io/cde' target='_blank'> Read about Gitpod's vision for CDEs. </a>",
   },
   {
     image: "/images/speakers/slyvestor-george.webp",
@@ -32,7 +32,7 @@ export const speakers: Speaker[] = [
     twitter: "sylvestor88",
     linkedin: "https://www.linkedin.com/in/sylvestor88",
     imgTitle:
-      "Sylvestor is part of the Remote Development Environments project at Slack. <a href='https://slack.engineering/remote-development-at-slack/'> Read about Slack's CDE approach. </a>",
+      "Sylvestor is part of the Remote Development Environments project at Slack. <a href='https://slack.engineering/remote-development-at-slack/' target='_blank'> Read about Slack's CDE approach. </a>",
   },
   {
     image: "/images/speakers/nic-manoogian.webp",
@@ -42,7 +42,7 @@ export const speakers: Speaker[] = [
     linkedin: "https://www.linkedin.com/in/nmanoogian",
     github: "nmanoogian",
     imgTitle:
-      "Nic works at Doppler, a platform for managing secrets at scale. <a href='https://www.gitpod.io/blog/securely-manage-development-secrets-with-doppler-and-gitpod'> Read about Doppler for CDEs.</a>",
+      "Nic works at Doppler, a platform for managing secrets at scale. <a href='https://www.gitpod.io/blog/securely-manage-development-secrets-with-doppler-and-gitpod' target='_blank'> Read about Doppler for CDEs.</a>",
   },
   {
     image: "/images/speakers/soam-vasani.webp",
@@ -50,7 +50,7 @@ export const speakers: Speaker[] = [
     title: "Software Engineer at Stripe",
     linkedin: "https://www.linkedin.com/in/soamvasani/",
     imgTitle:
-      "Soam is part of the Dev Environments team at Stripe. <a href='https://www.infoq.com/presentations/stripe-dev-env-infrastructure/'> Read about Stripe's CDE approach. </a>",
+      "Soam is part of the Dev Environments team at Stripe. <a href='https://www.infoq.com/presentations/stripe-dev-env-infrastructure/' target='_blank'> Read about Stripe's CDE approach. </a>",
   },
   {
     image: "/images/speakers/swyx.webp",
@@ -58,13 +58,21 @@ export const speakers: Speaker[] = [
     title: "Developer Experience Engineer",
     twitter: "swyx",
     imgTitle:
-      "Swyx is a DX engineer (Airbyte, Temporal, Netlify) and Tech writer. Read his post <a href='https://dx.tips/the-end-of-localhost'>The end of localhost.</a>",
+      "Swyx is a DX engineer (Airbyte, Temporal, Netlify) and Tech writer. Read his post <a href='https://dx.tips/the-end-of-localhost' target='_blank'>The end of localhost.</a>",
+  },
+  {
+    image: "/images/speakers/matas.webp",
+    name: "Matas Strukčinskas",
+    title: "Software Engineer II at Uber",
+    linkedin: "https://www.linkedin.com/in/matas-strukcinskas/",
+    imgTitle:
+      "Matas Strukčinskas is part of the Devpod team at Uber. <a href='https://www.uber.com/en-DE/blog/devpod-improving-developer-productivity-at-uber/' target='_blank'>Read about Uber’s CDE approach.</a>",
   },
   {
     image: "/images/speakers/new-speaker.webp",
     name: "To be announced",
     title:
-      "CFP is open.<br/> <a href='https://www.papercall.io/cde-universe'>Submit your proposal</a>",
+      "CFP is open.<br/> <a href='https://www.papercall.io/cde-universe' target='_blank'>Submit your proposal</a>",
   },
 ];
 
