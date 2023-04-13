@@ -55,9 +55,10 @@ export const speakers: Speaker[] = [
   {
     image: "/images/speakers/swyx.webp",
     name: "Swyx",
-    title: "Add speaker title/role-name here",
+    title: "Developer Experience Engineer",
     twitter: "swyx",
-    imgTitle: "Swyx is a DX engineer (Airbyte, Temporal, Netlify) and tech writer. Read his post <a href='https://dx.tips/the-end-of-localhost'> The end of localhost. </a>",
+    imgTitle:
+      "Swyx is a DX engineer (Airbyte, Temporal, Netlify) and Tech writer. Read his post <a href='https://dx.tips/the-end-of-localhost'>The end of localhost.</a>",
   },
   {
     image: "/images/speakers/new-speaker.webp",
