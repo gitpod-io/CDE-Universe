@@ -53,6 +53,13 @@ export const speakers: Speaker[] = [
       "Soam is part of the Dev Environments team at Stripe. <a href='https://www.infoq.com/presentations/stripe-dev-env-infrastructure/'> Read about Stripe's CDE approach. </a>",
   },
   {
+    image: "/images/speakers/swyx.webp",
+    name: "Swyx",
+    title: "Add speaker title/role-name here",
+    twitter: "swyx",
+    imgTitle: "Add some details here",
+  },
+  {
     image: "/images/speakers/new-speaker.webp",
     name: "To be announced",
     title:
