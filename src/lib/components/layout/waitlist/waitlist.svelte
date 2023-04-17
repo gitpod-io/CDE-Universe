@@ -26,7 +26,7 @@
 
   <form
     method="POST"
-    class="grid grid-cols-2 gap-10 max-w-xl mx-auto"
+    class="grid grid-cols-2 gap-4 md:gap-10 max-w-xl mx-auto"
     use:enhance={() => {
       disabled = true;
 

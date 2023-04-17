@@ -7,7 +7,7 @@
   export let form: ActionData;
 </script>
 
-<div class="max-w-5xl mx-auto space-y-36 pt-16 pb-36">
+<div class="max-w-5xl mx-auto space-y-36 pt-16 pb-20 md:pb-36">
   <Waitlist {form} />
   <Faqs {faqs} />
 </div>

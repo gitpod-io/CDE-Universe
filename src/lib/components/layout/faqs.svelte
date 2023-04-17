@@ -4,11 +4,11 @@
   export let faqs: FAQ[];
 </script>
 
-<div class="flex flex-col items-center space-y-8">
+<div class="flex flex-col items-left md:items-center space-y-8">
   <h1 class="font-bold text-4xl">FAQs</h1>
 
   <div
-    class="grid gap-x-12 md:gap-x-[120px] gap-y-12 grid-flow-row-dense grid-cols-2"
+    class="grid gap-x-12 md:gap-x-[120px] gap-y-12 grid-flow-row-dense grid-cols-1 md:grid-cols-2"
   >
     {#each faqs as faq}
       <div class="max-w-sm">
