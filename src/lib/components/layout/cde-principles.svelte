@@ -7,12 +7,12 @@
 <div class="mt-xx-large md:mt-xxx-large" id="principles">
   <div class="mb-medium md:mb-x-large">
     <h2
-      class="text-center text-7xl md:text-6xl mb-macro font-medium mb-2 md:mb-small mx-auto"
+      class="text-left text-7xl md:text-6xl mb-macro font-medium mb-2 md:mb-small md:w-11/12 max-w-6xl mx-auto"
     >
       To create a new developer experience
     </h2>
 
-    <p class="text-large text-center mx-auto">
+    <p class="text-large text-left md:w-11/12 max-w-6xl mx-auto">
       We're building cloud development environments (CDEs) with these principles
       in mind:
     </p>
