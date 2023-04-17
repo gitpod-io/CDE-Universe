@@ -59,7 +59,7 @@
       Role*
 
       <select {disabled} name="role" bind:value={role}>
-        <option value={undefined} disabled>Please select one</option>
+        <option value={undefined} disabled>Please select</option>
 
         {#each jobRoles as role}
           <option value={role.value}>{role.label}</option>
