@@ -77,6 +77,14 @@ export const speakers: Speaker[] = [
     imgTitle: "MC for CDE Universe",
   },
   {
+    image: "/images/speakers/kabir.webp",
+    name: "Kabir Sikand",
+    title: "Product Manager at Tailscale",
+    twitter: "kabirsikand",
+    imgTitle:
+      "Kabir Sikand works at Tailscale, he will give a glimpse of modern remote cloud development w/ <a href='https://tailscale.com/blog/tailscale-funnel-beta/' target='_blank'>Funnels</a>",
+  },
+  {
     image: "/images/speakers/new-speaker.webp",
     name: "To be announced",
     title:
