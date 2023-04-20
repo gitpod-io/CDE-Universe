@@ -75,7 +75,7 @@ export const speakers: Speaker[] = [
     twitter: "shelbscarps",
     github: "getsendy",
     imgTitle:
-      "Shelby will give a glimpse of the role of a cloud database within cloud-native development workflows.",
+      "Shelby will share the role of cloud database within cloud-native development workflows.",
   },
   {
     image: "/images/speakers/kabir.webp",
