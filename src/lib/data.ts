@@ -69,12 +69,13 @@ export const speakers: Speaker[] = [
       "Matas Strukčinskas is part of the Devpod team at Uber. <a href='https://www.uber.com/en-DE/blog/devpod-improving-developer-productivity-at-uber/' target='_blank'>Read about Uber’s CDE approach.</a>",
   },
   {
-    image: "/images/speakers/pauline.webp",
-    name: "Pauline Narvas",
-    title: "Head of Community at Gitpod",
-    twitter: "paulienuh",
-    linkedin: "https://www.linkedin.com/in/pnarvas",
-    imgTitle: "MC for CDE Universe",
+    image: "/images/speakers/shelby.webp",
+    name: "Shelby Carpenter",
+    title: "Senior Product Marketing Manager at MongoDB",
+    twitter: "shelbscarps",
+    github: "getsendy",
+    imgTitle:
+      "Shelby will share the role of cloud database within cloud-native development workflows.",
   },
   {
     image: "/images/speakers/kabir.webp",
@@ -83,6 +84,14 @@ export const speakers: Speaker[] = [
     twitter: "kabirsikand",
     imgTitle:
       "Kabir Sikand works at Tailscale, he will give a glimpse of modern remote cloud development w/ <a href='https://tailscale.com/blog/tailscale-funnel-beta/' target='_blank'>Funnels</a>",
+  },
+  {
+    image: "/images/speakers/pauline.webp",
+    name: "Pauline Narvas",
+    title: "Head of Community at Gitpod",
+    twitter: "paulienuh",
+    linkedin: "https://www.linkedin.com/in/pnarvas",
+    imgTitle: "MC for CDE Universe",
   },
   {
     image: "/images/speakers/new-speaker.webp",
