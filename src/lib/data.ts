@@ -35,14 +35,13 @@ export const speakers: Speaker[] = [
       "Sylvestor is part of the Remote Development Environments project at Slack. <a href='https://slack.engineering/remote-development-at-slack/' target='_blank'> Read about Slack's CDE approach. </a>",
   },
   {
-    image: "/images/speakers/nic-manoogian.webp",
-    name: "Nic Manoogian",
-    title: "Senior Software Developer at Doppler",
-    twitter: "nicmanoogian",
-    linkedin: "https://www.linkedin.com/in/nmanoogian",
-    github: "nmanoogian",
+    image: "/images/speakers/shelby.webp",
+    name: "Shelby Carpenter",
+    title: "Senior Product Marketing Manager at MongoDB",
+    twitter: "shelbscarps",
+    github: "getsendy",
     imgTitle:
-      "Nic works at Doppler, a platform for managing secrets at scale. <a href='https://www.gitpod.io/blog/securely-manage-development-secrets-with-doppler-and-gitpod' target='_blank'> Read about Doppler for CDEs.</a>",
+      "Shelby will share the role of cloud database within cloud-native development workflows.",
   },
   {
     image: "/images/speakers/soam-vasani.webp",
@@ -68,13 +67,15 @@ export const speakers: Speaker[] = [
     imgTitle:
       "Matas Strukčinskas is part of the Devpod team at Uber. <a href='https://www.uber.com/en-DE/blog/devpod-improving-developer-productivity-at-uber/' target='_blank'>Read about Uber’s CDE approach.</a>",
   },
-  {
-    image: "/images/speakers/pauline.webp",
-    name: "Pauline Narvas",
-    title: "Head of Community at Gitpod",
-    twitter: "paulienuh",
-    linkedin: "https://www.linkedin.com/in/pnarvas",
-    imgTitle: "MC for CDE Universe",
+   {
+    image: "/images/speakers/nic-manoogian.webp",
+    name: "Nic Manoogian",
+    title: "Senior Software Developer at Doppler",
+    twitter: "nicmanoogian",
+    linkedin: "https://www.linkedin.com/in/nmanoogian",
+    github: "nmanoogian",
+    imgTitle:
+      "Nic works at Doppler, a platform for managing secrets at scale. <a href='https://www.gitpod.io/blog/securely-manage-development-secrets-with-doppler-and-gitpod' target='_blank'> Read about Doppler for CDEs.</a>",
   },
   {
     image: "/images/speakers/kabir.webp",
@@ -83,6 +84,14 @@ export const speakers: Speaker[] = [
     twitter: "kabirsikand",
     imgTitle:
       "Kabir Sikand works at Tailscale, he will give a glimpse of modern remote cloud development w/ <a href='https://tailscale.com/blog/tailscale-funnel-beta/' target='_blank'>Funnels</a>",
+  },
+  {
+    image: "/images/speakers/pauline.webp",
+    name: "Pauline Narvas",
+    title: "Head of Community at Gitpod",
+    twitter: "paulienuh",
+    linkedin: "https://www.linkedin.com/in/pnarvas",
+    imgTitle: "MC for CDE Universe",
   },
   {
     image: "/images/speakers/new-speaker.webp",
