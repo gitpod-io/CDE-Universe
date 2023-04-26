@@ -41,7 +41,7 @@ export const speakers: Speaker[] = [
     twitter: "shelbscarps",
     github: "getsendy",
     imgTitle:
-      "Shelby will share the role of cloud database within cloud-native development workflows.",
+      "Shelby will discuss the role of cloud databases within cloud-native development workflows and CDEs.",
   },
   {
     image: "/images/speakers/soam-vasani.webp",
@@ -52,12 +52,12 @@ export const speakers: Speaker[] = [
       "Soam is part of the Dev Environments team at Stripe. <a href='https://www.infoq.com/presentations/stripe-dev-env-infrastructure/' target='_blank'> Read about Stripe's CDE approach. </a>",
   },
   {
-    image: "/images/speakers/swyx.webp",
-    name: "Swyx",
-    title: "Developer Experience Engineer",
-    twitter: "swyx",
+    image: "/images/speakers/misty.webp",
+    name: "Misty De Méo",
+    title: "Staff Production Engineer at Shopify",
+    mastodon: "https://digipres.club/@misty",
     imgTitle:
-      "Swyx is a DX engineer (Airbyte, Temporal, Netlify) and Tech writer. Read his post <a href='https://dx.tips/the-end-of-localhost' target='_blank'>The end of localhost.</a>",
+      "Misty introduces Isospin, the runtime environment used in Shopify's CDE. <a href='https://shopify.engineering/shopifys-cloud-development-journey' target='_blank'> Read about Shopify's CDE approach. </a>",
   },
   {
     image: "/images/speakers/matas.webp",
@@ -67,7 +67,7 @@ export const speakers: Speaker[] = [
     imgTitle:
       "Matas Strukčinskas is part of the Devpod team at Uber. <a href='https://www.uber.com/en-DE/blog/devpod-improving-developer-productivity-at-uber/' target='_blank'>Read about Uber’s CDE approach.</a>",
   },
-   {
+  {
     image: "/images/speakers/nic-manoogian.webp",
     name: "Nic Manoogian",
     title: "Senior Software Developer at Doppler",
@@ -83,7 +83,15 @@ export const speakers: Speaker[] = [
     title: "Product Manager at Tailscale",
     twitter: "kabirsikand",
     imgTitle:
-      "Kabir Sikand works at Tailscale, he will give a glimpse of modern remote cloud development w/ <a href='https://tailscale.com/blog/tailscale-funnel-beta/' target='_blank'>Funnels</a>",
+      "Kabir will give a glimpse at modern remote cloud development with <a href='https://tailscale.com/blog/tailscale-funnel-beta/' target='_blank'>Tailscale Funnels</a>",
+  },
+  {
+    image: "/images/speakers/swyx.webp",
+    name: "Swyx",
+    title: "Developer Experience Engineer",
+    twitter: "swyx",
+    imgTitle:
+      "Swyx is a DX engineer (Airbyte, Temporal, Netlify) and Tech writer. Read his post <a href='https://dx.tips/the-end-of-localhost' target='_blank'>The end of localhost.</a>",
   },
   {
     image: "/images/speakers/pauline.webp",
@@ -91,7 +99,7 @@ export const speakers: Speaker[] = [
     title: "Head of Community at Gitpod",
     twitter: "paulienuh",
     linkedin: "https://www.linkedin.com/in/pnarvas",
-    imgTitle: "MC for CDE Universe",
+    imgTitle: "Pauline is a community builder in the developer experience space. She will be the MC for CDE Universe.",
   },
   {
     image: "/images/speakers/new-speaker.webp",
