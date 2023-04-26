@@ -41,7 +41,7 @@ export const speakers: Speaker[] = [
     twitter: "shelbscarps",
     github: "getsendy",
     imgTitle:
-      "Shelby will share the role of cloud database within cloud-native development workflows.",
+      "Shelby will discuss the role of cloud databases within cloud-native development workflows and CDEs.",
   },
   {
     image: "/images/speakers/soam-vasani.webp",
@@ -57,7 +57,7 @@ export const speakers: Speaker[] = [
     title: "Staff Production Engineer at Shopify",
     mastodon: "https://digipres.club/@misty",
     imgTitle:
-      "Misty will talk about Shopify's in-house cloud development platform, Isospin.",
+      "Misty introduces Isospin, the runtime environment used in Shopify's CDE. <a href='https://shopify.engineering/shopifys-cloud-development-journey' target='_blank'> Read about Shopify's CDE approach. </a>",
   },
   {
     image: "/images/speakers/matas.webp",
@@ -83,7 +83,7 @@ export const speakers: Speaker[] = [
     title: "Product Manager at Tailscale",
     twitter: "kabirsikand",
     imgTitle:
-      "Kabir Sikand works at Tailscale, he will give a glimpse of modern remote cloud development w/ <a href='https://tailscale.com/blog/tailscale-funnel-beta/' target='_blank'>Funnels</a>",
+      "Kabir will give a glimpse at modern remote cloud development with <a href='https://tailscale.com/blog/tailscale-funnel-beta/' target='_blank'>Tailscale Funnels</a>",
   },
   {
     image: "/images/speakers/swyx.webp",
@@ -99,7 +99,7 @@ export const speakers: Speaker[] = [
     title: "Head of Community at Gitpod",
     twitter: "paulienuh",
     linkedin: "https://www.linkedin.com/in/pnarvas",
-    imgTitle: "MC for CDE Universe",
+    imgTitle: "Pauline is a community builder in the developer experience space. She will be the MC for CDE Universe.",
   },
   {
     image: "/images/speakers/new-speaker.webp",
