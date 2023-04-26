@@ -55,7 +55,7 @@ export const speakers: Speaker[] = [
     image: "/images/speakers/misty.webp",
     name: "Misty De Méo",
     title: "Staff Production Engineer at Shopify",
-    mastodon: "digipres.club/@misty",
+    mastodon: "https://digipres.club/@misty",
     imgTitle:
       "Misty will talk about Shopify's in-house cloud development platform, Isospin.",
   },
