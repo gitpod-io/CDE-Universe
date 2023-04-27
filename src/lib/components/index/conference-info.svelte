@@ -19,5 +19,8 @@
     the software development experience.
   </p>
 
-  <SecondaryButton href="/join" text="Join the waitlist" />
+  <SecondaryButton
+    href="https://www.eventbrite.co.uk/e/cde-universe-2023-cloud-development-conference-by-gitpod-tickets-626052498877"
+    text="Join the waitlist"
+  />
 </div>
