@@ -14,13 +14,13 @@
 
 <OpenGraph
   data={{
-    title: "Join the waitlist",
-    description: "Join the waitlist for CDE Universe 2023",
+    title: "Buy tickets",
+    description: "Buy tickets for CDE Universe 2023",
   }}
 />
 
 <div class="flex flex-col items-start gap-10 ">
-  <h1 class="text-7xl md:text-8xl font-normal mx-auto">Join the waitlist</h1>
+  <h1 class="text-7xl md:text-8xl font-normal mx-auto">Buy tickets</h1>
 
   <p class="text-xl mx-auto">Apply below for a ticket to CDE Universe 2023.</p>
 

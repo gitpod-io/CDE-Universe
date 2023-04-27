@@ -50,7 +50,7 @@
       </div>
     </div>
 
-    <PrimaryButton href="/join" text="Join the waitlist" />
+    <PrimaryButton href="/join" text="Buy tickets" />
 
     <div class="flex gap-4 items-center">
       <div class="w-[40px] h-[40px] mb-auto mt-1">

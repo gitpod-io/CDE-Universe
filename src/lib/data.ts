@@ -36,7 +36,8 @@ export const speakers: Speaker[] = [
     name: "Pamela Vagata",
     title: "Founding Partner at Pebblebed",
     linkedin: "https://www.linkedin.com/in/pamela-vagata-8396074",
-    imgTitle: "Pamela is a former AI Tech Lead at Stripe, now co-founder of Pebblebed. She will discuss Generative AI in CDEs.",
+    imgTitle:
+      "Pamela is a former AI Tech Lead at Stripe, now co-founder of Pebblebed. She will discuss Generative AI in CDEs.",
   },
   {
     image: "/images/speakers/matas.webp",
@@ -119,23 +120,24 @@ export const speakers: Speaker[] = [
 
 export const faqs: FAQ[] = [
   {
-    title: "Who will be invited to join?",
+    title: "Who will be at CDE Universe?",
     description:
       "CDE Universe is for anyone building and implementing for a better software development experience. Platform engineers, DevOps, and developer experience engineers, will all be in attendance.",
   },
   {
     title: "Why should I join?",
     description:
-      "CDE Universe is small and curated. Connect with leading minds across the developer tool space. Learn best practices in cloud development, CDE adoption and emerging technologies that enable better software development.",
+      "CDE Universe is small and curated. Connect with leading minds across the developer tool space. Meet the engineers who have built and implemented CDEs at their companies .",
   },
   {
-    title: "When will I hear back regarding attendance?",
+    title: "What's the price of a ticket?",
     description:
-      "Remaining tickets will be released on a weekly basis. You'll hear back about your application within 7 days.",
+      "Limited in-person tickets are available for $199 per ticket. If the cost of the ticket prevents you from attending CDE Universe, please send us a short message on Twitter",
   },
   {
-    title: "Is the conference free?",
-    description: "Yes, the event is free for participants.",
+    title: "What's included in the ticket?",
+    description:
+      "The ticket gives you access to the conference venue and all talks on both days of the event. Additionally, you will get drinks, snacks, and lunch.",
   },
   {
     title: "Will there be recordings?",

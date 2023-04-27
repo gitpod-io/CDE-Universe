@@ -22,13 +22,17 @@
 
     <div class="hidden items-center gap-x-small sm:flex">
       <SecondaryButton
-        href="/join"
-        text="Join the waitlist"
+        href="https://www.eventbrite.co.uk/e/cde-universe-2023-cloud-development-conference-by-gitpod-tickets-626052498877"
+        text="Buy tickets"
         isDisabled={false}
       />
     </div>
     <div class="sm:hidden items-center flex">
-      <SecondaryButton href="/join" text="Register" isDisabled={false} />
+      <SecondaryButton
+        href="https://www.eventbrite.co.uk/e/cde-universe-2023-cloud-development-conference-by-gitpod-tickets-626052498877"
+        text="Register"
+        isDisabled={false}
+      />
     </div>
   </div>
 </nav>

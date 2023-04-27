@@ -18,7 +18,7 @@
 
     <p class="text-xl">
       CDE Universe is supported by ecosystem partners.<br />
-      It's free for participants.
+      Get in touch to learn about partnership opportunities.
     </p>
 
     <div
