@@ -34,7 +34,7 @@ export const speakers: Speaker[] = [
   {
     image: "/images/speakers/pamela.webp",
     name: "Pamela Vagata",
-    title: "Founding Partner at Pebblebed",
+    title: "Founding Partner at Pebblebed & former AI Tech Lead at Stripe",
     linkedin: "https://www.linkedin.com/in/pamela-vagata-8396074",
     imgTitle: "Pamela will talk about Genreative AI & CDEs",
   },
