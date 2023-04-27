@@ -68,13 +68,11 @@ export const speakers: Speaker[] = [
   {
     image: "/images/speakers/johannes.webp",
     name: "Johannes Landgraf",
-    title: "CEO & Co-Founder of Gitpod",
-    twitter: "jolandgraf",
-    github: "JohannesLandgraf",
+    title: "CEO at Gitpod",
     // mastodon: "https://fosstodon.org/@gitpod",
     linkedin: "https://www.linkedin.com/in/johanneslandgraf/",
     imgTitle:
-      "Johannes co-founded Gitpod, a CDE used by 800k+ developers. <a href='https://www.gitpod.io/cde' target='_blank'> Read about Gitpod's vision for CDEs. </a>",
+      "Johannes is the CEO at Gitpod, a CDE used by 800k+ developers. <a href='https://www.gitpod.io/cde' target='_blank'> Read about Gitpod's vision for CDEs. </a>",
   },
   {
     image: "/images/speakers/kabir.webp",
