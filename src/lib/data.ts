@@ -36,7 +36,7 @@ export const speakers: Speaker[] = [
     name: "Pamela Vagata",
     title: "Founding Partner at Pebblebed",
     linkedin: "https://www.linkedin.com/in/pamela-vagata-8396074",
-    imgTitle: "Pamela will talk about Genreative AI & CDEs",
+    imgTitle: "Pamela is a former AI Tech Lead at Stripe, now co-founder of Pebblebed. She will discuss Generative AI in CDEs.",
   },
   {
     image: "/images/speakers/matas.webp",
