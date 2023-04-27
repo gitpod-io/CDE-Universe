@@ -15,15 +15,12 @@ export const speakers: Speaker[] = [
       "Kent is a pioneer of software design patterns and methodologies. <a href='https://medium.com/@kentbeck_7670/cloud-development-environments-tame-complexity-by-reducing-state-4a154ea7959f' target='_blank'> Read his blog post on CDEs.</a>",
   },
   {
-    image: "/images/speakers/johannes.webp",
-    name: "Johannes Landgraf",
-    title: "CEO & Co-Founder of Gitpod",
-    twitter: "jolandgraf",
-    github: "JohannesLandgraf",
-    // mastodon: "https://fosstodon.org/@gitpod",
-    linkedin: "https://www.linkedin.com/in/johanneslandgraf/",
+    image: "/images/speakers/misty.webp",
+    name: "Misty De Méo",
+    title: "Staff Production Engineer at Shopify",
+    mastodon: "https://digipres.club/@misty",
     imgTitle:
-      "Johannes co-founded Gitpod, a CDE used by 800k+ developers. <a href='https://www.gitpod.io/cde' target='_blank'> Read about Gitpod's vision for CDEs. </a>",
+      "Misty introduces Isospin, the runtime environment used in Shopify's CDE. <a href='https://shopify.engineering/shopifys-cloud-development-journey' target='_blank'> Read about Shopify's CDE approach. </a>",
   },
   {
     image: "/images/speakers/slyvestor-george.webp",
@@ -35,29 +32,11 @@ export const speakers: Speaker[] = [
       "Sylvestor is part of the Remote Development Environments project at Slack. <a href='https://slack.engineering/remote-development-at-slack/' target='_blank'> Read about Slack's CDE approach. </a>",
   },
   {
-    image: "/images/speakers/shelby.webp",
-    name: "Shelby Carpenter",
-    title: "Senior Product Marketing Manager at MongoDB",
-    twitter: "shelbscarps",
-    github: "getsendy",
-    imgTitle:
-      "Shelby will discuss the role of cloud databases within cloud-native development workflows and CDEs.",
-  },
-  {
-    image: "/images/speakers/soam-vasani.webp",
-    name: "Soam Vasani",
-    title: "Software Engineer at Stripe",
-    linkedin: "https://www.linkedin.com/in/soamvasani/",
-    imgTitle:
-      "Soam is part of the Dev Environments team at Stripe. <a href='https://www.infoq.com/presentations/stripe-dev-env-infrastructure/' target='_blank'> Read about Stripe's CDE approach. </a>",
-  },
-  {
-    image: "/images/speakers/misty.webp",
-    name: "Misty De Méo",
-    title: "Staff Production Engineer at Shopify",
-    mastodon: "https://digipres.club/@misty",
-    imgTitle:
-      "Misty introduces Isospin, the runtime environment used in Shopify's CDE. <a href='https://shopify.engineering/shopifys-cloud-development-journey' target='_blank'> Read about Shopify's CDE approach. </a>",
+    image: "/images/speakers/pamela.webp",
+    name: "Pamela Vagata",
+    title: "Founding Partner at Pebblebed",
+    linkedin: "https://www.linkedin.com/in/pamela-vagata-8396074",
+    imgTitle: "Pamela will talk about Genreative AI & CDEs",
   },
   {
     image: "/images/speakers/matas.webp",
@@ -76,6 +55,25 @@ export const speakers: Speaker[] = [
     github: "nmanoogian",
     imgTitle:
       "Nic works at Doppler, a platform for managing secrets at scale. <a href='https://www.gitpod.io/blog/securely-manage-development-secrets-with-doppler-and-gitpod' target='_blank'> Read about Doppler for CDEs.</a>",
+  },
+  {
+    image: "/images/speakers/soam-vasani.webp",
+    name: "Soam Vasani",
+    title: "Software Engineer at Stripe",
+    linkedin: "https://www.linkedin.com/in/soamvasani/",
+    imgTitle:
+      "Soam is part of the Dev Environments team at Stripe. <a href='https://www.infoq.com/presentations/stripe-dev-env-infrastructure/' target='_blank'> Read about Stripe's CDE approach. </a>",
+  },
+  {
+    image: "/images/speakers/johannes.webp",
+    name: "Johannes Landgraf",
+    title: "CEO & Co-Founder of Gitpod",
+    twitter: "jolandgraf",
+    github: "JohannesLandgraf",
+    // mastodon: "https://fosstodon.org/@gitpod",
+    linkedin: "https://www.linkedin.com/in/johanneslandgraf/",
+    imgTitle:
+      "Johannes co-founded Gitpod, a CDE used by 800k+ developers. <a href='https://www.gitpod.io/cde' target='_blank'> Read about Gitpod's vision for CDEs. </a>",
   },
   {
     image: "/images/speakers/kabir.webp",
@@ -99,7 +97,17 @@ export const speakers: Speaker[] = [
     title: "Head of Community at Gitpod",
     twitter: "paulienuh",
     linkedin: "https://www.linkedin.com/in/pnarvas",
-    imgTitle: "Pauline is a community builder in the developer experience space. She will be the MC for CDE Universe.",
+    imgTitle:
+      "Pauline is a community builder in the developer experience space. She will be the MC for CDE Universe.",
+  },
+  {
+    image: "/images/speakers/shelby.webp",
+    name: "Shelby Carpenter",
+    title: "Senior Product Marketing Manager at MongoDB",
+    twitter: "shelbscarps",
+    github: "getsendy",
+    imgTitle:
+      "Shelby will discuss the role of cloud databases within cloud-native development workflows and CDEs.",
   },
   {
     image: "/images/speakers/new-speaker.webp",
