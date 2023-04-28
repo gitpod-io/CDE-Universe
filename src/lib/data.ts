@@ -70,6 +70,7 @@ export const speakers: Speaker[] = [
     name: "Johannes Landgraf",
     title: "CEO at Gitpod",
     // mastodon: "https://fosstodon.org/@gitpod",
+    twitter: "jolandgraf",
     linkedin: "https://www.linkedin.com/in/johanneslandgraf/",
     imgTitle:
       "Johannes is the CEO at Gitpod, a CDE used by 800k+ developers. <a href='https://www.gitpod.io/cde' target='_blank'> Read about Gitpod's vision for CDEs. </a>",
@@ -91,13 +92,13 @@ export const speakers: Speaker[] = [
       "Swyx is a DX engineer (Airbyte, Temporal, Netlify) and Tech writer. Read his post <a href='https://dx.tips/the-end-of-localhost' target='_blank'>The end of localhost.</a>",
   },
   {
-    image: "/images/speakers/pauline.webp",
-    name: "Pauline Narvas",
-    title: "Head of Community at Gitpod",
-    twitter: "paulienuh",
-    linkedin: "https://www.linkedin.com/in/pnarvas",
+    image: "/images/speakers/nathan.webp",
+    name: "Nathan Sobo",
+    title: "Founder at Zed Industries",
+    linkedin: "https://www.linkedin.com/in/nathan-sobo-92b46720/",
+    twitter: "nathansobo",
     imgTitle:
-      "Pauline is a community builder in the developer experience space. She will be the MC for CDE Universe.",
+      "Nathan is the creator of Atom, now building Zed, a multi-player code editor. <a href='https://www.youtube.com/watch?v=wXT73bBr83s' target='_blank'>Watch Nathan's DevX Conf talk on Zed. </a>",
   },
   {
     image: "/images/speakers/shelby.webp",
@@ -107,6 +108,15 @@ export const speakers: Speaker[] = [
     github: "getsendy",
     imgTitle:
       "Shelby will discuss the role of cloud databases within cloud-native development workflows and CDEs.",
+  },
+  {
+    image: "/images/speakers/pauline.webp",
+    name: "Pauline Narvas",
+    title: "Head of Community at Gitpod",
+    twitter: "paulienuh",
+    linkedin: "https://www.linkedin.com/in/pnarvas",
+    imgTitle:
+      "Pauline is a community builder in the developer experience space. She will be the MC for CDE Universe.",
   },
   {
     image: "/images/speakers/new-speaker.webp",
