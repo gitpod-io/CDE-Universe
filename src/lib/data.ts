@@ -91,13 +91,11 @@ export const speakers: Speaker[] = [
       "Swyx is a DX engineer (Airbyte, Temporal, Netlify) and Tech writer. Read his post <a href='https://dx.tips/the-end-of-localhost' target='_blank'>The end of localhost.</a>",
   },
   {
-    image: "/images/speakers/pauline.webp",
-    name: "Pauline Narvas",
-    title: "Head of Community at Gitpod",
-    twitter: "paulienuh",
-    linkedin: "https://www.linkedin.com/in/pnarvas",
-    imgTitle:
-      "Pauline is a community builder in the developer experience space. She will be the MC for CDE Universe.",
+    image: "/images/speakers/nathan.webp",
+    name: "Nathan Sobo",
+    title: "Founder at Zed Industries",
+    twitter: "nathansobo",
+    imgTitle: "",
   },
   {
     image: "/images/speakers/shelby.webp",
@@ -107,6 +105,15 @@ export const speakers: Speaker[] = [
     github: "getsendy",
     imgTitle:
       "Shelby will discuss the role of cloud databases within cloud-native development workflows and CDEs.",
+  },
+  {
+    image: "/images/speakers/pauline.webp",
+    name: "Pauline Narvas",
+    title: "Head of Community at Gitpod",
+    twitter: "paulienuh",
+    linkedin: "https://www.linkedin.com/in/pnarvas",
+    imgTitle:
+      "Pauline is a community builder in the developer experience space. She will be the MC for CDE Universe.",
   },
   {
     image: "/images/speakers/new-speaker.webp",
