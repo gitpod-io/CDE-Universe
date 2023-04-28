@@ -70,6 +70,7 @@ export const speakers: Speaker[] = [
     name: "Johannes Landgraf",
     title: "CEO at Gitpod",
     // mastodon: "https://fosstodon.org/@gitpod",
+    twitter: "jolandgraf",
     linkedin: "https://www.linkedin.com/in/johanneslandgraf/",
     imgTitle:
       "Johannes is the CEO at Gitpod, a CDE used by 800k+ developers. <a href='https://www.gitpod.io/cde' target='_blank'> Read about Gitpod's vision for CDEs. </a>",
@@ -94,8 +95,10 @@ export const speakers: Speaker[] = [
     image: "/images/speakers/nathan.webp",
     name: "Nathan Sobo",
     title: "Founder at Zed Industries",
+    linkedin: "https://www.linkedin.com/in/nathan-sobo-92b46720/",
     twitter: "nathansobo",
-    imgTitle: "",
+    imgTitle:
+      "Nathan is the creator of Atom, now building Zed, a multi-player code editor. <a href='https://www.youtube.com/watch?v=wXT73bBr83s' target='_blank'>Watch Nathan's DevX Conf talk on Zed. </a>",
   },
   {
     image: "/images/speakers/shelby.webp",
