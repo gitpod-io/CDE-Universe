@@ -31,7 +31,7 @@
       <PrimaryButton
         style="line"
         text="View Partner Program"
-        href="/docs/partners-program-CDEuniverse.pdf"
+        href="/docs/partner-program-cde-universe.pdf"
       />
     </div>
   </div>
