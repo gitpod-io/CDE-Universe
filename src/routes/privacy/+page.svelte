@@ -13,8 +13,8 @@
   <h1 class="h2 mb-small text-left">Privacy Policy</h1>
   <h2 class="text-h4 !mb-xx-small">Introduction</h2>
   <p>
-    This Privacy Policy for DevX Conf website (www.devxconf.org) applies to
-    Gitpod GmbH (hereinafter referred to as "Gitpod", "we" or "us").
+    This Privacy Policy for the CDE universe website (www.cdeuniverse.com)
+    applies to Gitpod GmbH (hereinafter referred to as "Gitpod", "we" or "us").
     <br /> <br />
     Gitpod respects the privacy of its customers, partners and visitors to its Website.We
     are committed to protecting the personal information that you share with us.
