@@ -101,6 +101,15 @@
     therefore, encourage you only to post information that you are sure you want
     to be accessible to anyone.
   </p>
+  <h3 class="text-lg">Data Transfer outside the EU</h3>
+  <p>
+    In course of data processing by us data may be transferred to third
+    countries, i.e. countries outside the EU. This may happen via implementation
+    of third party providers such as cloud services and external service
+    partners which process data on our behalf. Where this occurs we have proper
+    safeguards in place to ensure the data is secured at an equivalent level to
+    as if it had never left the EU.
+  </p>
   <h3 class="text-lg">Social Media Features</h3>
   <p>
     Our Website and Services include social media buttons (“Features”) which
