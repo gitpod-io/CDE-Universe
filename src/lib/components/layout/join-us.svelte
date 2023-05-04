@@ -50,7 +50,10 @@
       </div>
     </div>
 
-    <PrimaryButton href="/join" text="Buy tickets" />
+    <PrimaryButton
+      href="https://www.eventbrite.co.uk/e/cde-universe-2023-cloud-development-conference-by-gitpod-tickets-626052498877"
+      text="Buy tickets"
+    />
 
     <div class="flex gap-4 items-center">
       <div class="w-[40px] h-[40px] mb-auto mt-1">
