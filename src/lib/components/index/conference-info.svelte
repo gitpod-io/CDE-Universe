@@ -13,7 +13,7 @@
   </div>
 
   <p class="text-xl md:text-2xl mt-large max-w-xl mb-8">
-    CDE Universe is a single track, two day conference with 100 participants.
+    CDE Universe is a single track, two day conference organized by Gitpod.
     <br /><br />
     Join in on conversation around building and implementing the tools that improve
     the software development experience.
