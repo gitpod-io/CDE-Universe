@@ -219,16 +219,16 @@
     children under the age of eighteen (18). Gitpod reserves the right to
     request proof of age. If Gitpod noted that personal data from children under
     the age of eighteen (18) were collected, Gitpod will delete that information
-    promptly. Please contact <a href="mailto:contact@devxconf.org"
-      >contact@devxconf.org</a
+    promptly. Please contact <a href="mailto:contact@cdeuniverse.com"
+      >contact@cdeuniverse.com</a
     > if you have reasons to suspect that Gitpod collected such information.
   </p>
   <h2 class="text-lg !mb-xx-small mt-small">GOT ANY QUESTIONS?</h2>
   <p>
     We are committed to protecting your privacy. If you have any questions (or
     comments) concerning this Privacy Policy, you are more than welcome to send
-    us an email to the following address: <a href="mailto:contact@devxconf.org"
-      >contact@devxconf.org</a
+    us an email to the following address: <a
+      href="mailto:contact@cdeuniverse.com">contact@cdeuniverse.com</a
     > and we will make an effort to reply within a reasonable timeframe.
   </p>
 </div>
