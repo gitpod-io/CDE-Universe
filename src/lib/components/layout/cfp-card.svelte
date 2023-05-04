@@ -9,19 +9,15 @@
     <div
       class="mx-auto w-fit flex flex-col gap-9 items-start md:items-start text-left"
     >
-      <h1 class="text-5xl md:text-6xl font-normal md:font-medium">
-        CFP is open
-      </h1>
+      <h1 class="text-5xl md:text-6xl font-normal md:font-medium">Be there</h1>
 
-      <p class="text-p-large md:text-p-x-large max-w-md text-left">
-        Interested in speaking at CDE Universe?
-        <br /><br />
-        Submit a proposal until April 30, 2023
+      <p class="text-p-large md:text-p-x-large max-w-sm text-left">
+        Attend CDE Universe in-person on June 1/2 2023 in San Francisco, CA.
       </p>
 
       <PrimaryButton
-        text="Submit proposal"
-        href="https://www.papercall.io/cde-universe"
+        text="Buy tickets"
+        href="https://www.eventbrite.co.uk/e/cde-universe-2023-cloud-development-conference-by-gitpod-tickets-626052498877"
       />
     </div>
 
