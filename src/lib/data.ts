@@ -118,12 +118,6 @@ export const speakers: Speaker[] = [
     imgTitle:
       "Pauline is a community builder in the developer experience space. She will be the MC for CDE Universe.",
   },
-  {
-    image: "/images/speakers/new-speaker.webp",
-    name: "To be announced",
-    title:
-      "CFP is open.<br/> <a href='https://www.papercall.io/cde-universe' target='_blank'>Submit your proposal</a>",
-  },
 ];
 
 export const faqs: FAQ[] = [
