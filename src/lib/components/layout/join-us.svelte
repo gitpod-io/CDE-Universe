@@ -31,8 +31,8 @@
         </p>
         <br />
         <p class="text-lg md:text-2xl">
-          We'll have 100 attendees who work in senior roles across platform
-          engineering, DevOps, and developer experience.
+          We'll have 100 attendees who work in roles like platform engineering,
+          DevOps, and developer experience.
         </p>
       </div>
       <div class="space-y-2">
