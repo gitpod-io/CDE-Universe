@@ -19,6 +19,7 @@ export const speakers: Speaker[] = [
     name: "Misty De Méo",
     title: "Staff Production Engineer at Shopify",
     mastodon: "https://digipres.club/@misty",
+    github: "mistydemeo",
     imgTitle:
       "Misty introduces Isospin, the runtime environment used in Shopify's CDE. <a href='https://shopify.engineering/shopifys-cloud-development-journey' target='_blank'> Read about Shopify's CDE approach. </a>",
   },
