@@ -17,8 +17,7 @@
     </div>
 
     <p class="text-xl">
-      CDE Universe is supported by ecosystem partners.<br />
-      Get in touch to learn about partnership opportunities.
+      CDE Universe is supported by ecosystem partners.
     </p>
   </div>
 </div>
