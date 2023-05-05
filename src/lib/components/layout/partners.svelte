@@ -20,19 +20,5 @@
       CDE Universe is supported by ecosystem partners.<br />
       Get in touch to learn about partnership opportunities.
     </p>
-
-    <div
-      class="flex flex-col md:flex-row items-start md:items-center gap-4 justify-start"
-    >
-      <PrimaryButton
-        text="Become a partner"
-        href="mailto:contact@cdeuniverse.com"
-      />
-      <PrimaryButton
-        style="line"
-        text="View Partner Program"
-        href="/docs/partner-program-cde-universe.pdf"
-      />
-    </div>
   </div>
 </div>
