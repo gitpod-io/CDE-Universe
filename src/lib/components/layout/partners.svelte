@@ -17,7 +17,8 @@
     </div>
 
     <p class="text-xl">
-      CDE Universe is supported by ecosystem partners.
+      CDE Universe is supported by ecosystem partners. <br /> Reach out to michael@gitpod.io
+      if you'd like to get involved.
     </p>
   </div>
 </div>
