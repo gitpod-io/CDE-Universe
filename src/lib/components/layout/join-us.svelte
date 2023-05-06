@@ -26,20 +26,20 @@
       <div class="space-y-2">
         <h4 class="font-bold text-[20px] md:text-[28px] mb-2 md:mb-4">Who?</h4>
         <p class="text-lg md:text-2xl">
-          Meet the visionaries, builders and practitioners who make up the
+          Meet the visionaries, builders, and practitioners who make up the
           future of software development.
         </p>
         <br />
         <p class="text-lg md:text-2xl">
-          We'll have 100 attendees who work in roles like platform engineering,
-          DevOps, and developer experience.
+          We'll have attendees who work in roles like platform engineering,
+          DevOps, and developer experience as well as engineering leadership.
         </p>
       </div>
       <div class="space-y-2">
         <h4 class="font-bold text-[20px] md:text-[28px] mb-2 md:mb-4">Why?</h4>
 
         <p class="text-lg md:text-2xl">
-          CDE Universe is small and curated. Connect with leading minds across
+          CDE Universe is small and curated. Connect with curious minds across
           the developer tool space.
         </p>
         <br />
