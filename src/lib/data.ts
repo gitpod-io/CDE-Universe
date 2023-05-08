@@ -49,14 +49,13 @@ export const speakers: Speaker[] = [
       "Matas Strukčinskas is part of the Devpod team at Uber. <a href='https://www.uber.com/en-DE/blog/devpod-improving-developer-productivity-at-uber/' target='_blank'>Read about Uber’s CDE approach.</a>",
   },
   {
-    image: "/images/speakers/nic-manoogian.webp",
-    name: "Nic Manoogian",
-    title: "Senior Software Developer at Doppler",
-    twitter: "nicmanoogian",
-    linkedin: "https://www.linkedin.com/in/nmanoogian",
-    github: "nmanoogian",
+    image: "/images/speakers/mike.webp",
+    name: "Mike Brevoort",
+    title: "Chief Product Officer at Gitpod",
+    twitter: "mbrevoort",
+    linkedin: "https://www.linkedin.com/in/mikebrevoort",
     imgTitle:
-      "Nic works at Doppler, a platform for managing secrets at scale. <a href='https://www.gitpod.io/blog/securely-manage-development-secrets-with-doppler-and-gitpod' target='_blank'> Read about Doppler for CDEs.</a>",
+      "Conference introduction sharing our vision for CDEs, extensibility and a vibrant ecosystem.",
   },
   {
     image: "/images/speakers/soam-vasani.webp",
@@ -85,12 +84,14 @@ export const speakers: Speaker[] = [
       "Kabir will give a glimpse at modern remote cloud development with <a href='https://tailscale.com/blog/tailscale-funnel-beta/' target='_blank'>Tailscale Funnels</a>",
   },
   {
-    image: "/images/speakers/swyx.webp",
-    name: "Swyx",
-    title: "Developer Experience Engineer",
-    twitter: "swyx",
+    image: "/images/speakers/nic-manoogian.webp",
+    name: "Nic Manoogian",
+    title: "Senior Software Developer at Doppler",
+    twitter: "nicmanoogian",
+    linkedin: "https://www.linkedin.com/in/nmanoogian",
+    github: "nmanoogian",
     imgTitle:
-      "Swyx is a DX engineer (Airbyte, Temporal, Netlify) and Tech writer. Read his post <a href='https://dx.tips/the-end-of-localhost' target='_blank'>The end of localhost.</a>",
+      "Nic works at Doppler, a platform for managing secrets at scale. <a href='https://www.gitpod.io/blog/securely-manage-development-secrets-with-doppler-and-gitpod' target='_blank'> Read about Doppler for CDEs.</a>",
   },
   {
     image: "/images/speakers/nathan.webp",
@@ -102,13 +103,12 @@ export const speakers: Speaker[] = [
       "Nathan is the creator of Atom, now building Zed, a multi-player code editor. <a href='https://www.youtube.com/watch?v=wXT73bBr83s' target='_blank'>Watch Nathan's DevX Conf talk on Zed. </a>",
   },
   {
-    image: "/images/speakers/shelby.webp",
-    name: "Shelby Carpenter",
-    title: "Senior Product Marketing Manager at MongoDB",
-    twitter: "shelbscarps",
-    github: "getsendy",
+    image: "/images/speakers/swyx.webp",
+    name: "Swyx",
+    title: "Developer Experience Engineer",
+    twitter: "swyx",
     imgTitle:
-      "Shelby will discuss the role of cloud databases within cloud-native development workflows and CDEs.",
+      "Swyx is a DX engineer (Airbyte, Temporal, Netlify) and Tech writer. Read his post <a href='https://dx.tips/the-end-of-localhost' target='_blank'>The end of localhost.</a>",
   },
   {
     image: "/images/speakers/pauline.webp",
@@ -118,6 +118,15 @@ export const speakers: Speaker[] = [
     linkedin: "https://www.linkedin.com/in/pnarvas",
     imgTitle:
       "Pauline is a community builder in the developer experience space. She will be the MC for CDE Universe.",
+  },
+  {
+    image: "/images/speakers/shelby.webp",
+    name: "Shelby Carpenter",
+    title: "Senior Product Marketing Manager at MongoDB",
+    twitter: "shelbscarps",
+    github: "getsendy",
+    imgTitle:
+      "Shelby will discuss the role of cloud databases within cloud-native development workflows and CDEs.",
   },
 ];
 
