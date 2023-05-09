@@ -15,13 +15,12 @@ export const speakers: Speaker[] = [
       "Kent is a pioneer of software design patterns and methodologies. <a href='https://medium.com/@kentbeck_7670/cloud-development-environments-tame-complexity-by-reducing-state-4a154ea7959f' target='_blank'> Read his blog post on CDEs.</a>",
   },
   {
-    image: "/images/speakers/misty.webp",
-    name: "Misty De Méo",
-    title: "Staff Production Engineer at Shopify",
-    mastodon: "https://digipres.club/@misty",
-    github: "mistydemeo",
+    image: "/images/speakers/olga.webp",
+    name: "Olga Pilipenco",
+    title: "Senior Production Engineer at Shopify",
+    linkedin: "https://www.linkedin.com/in/olgapilipenco",
     imgTitle:
-      "Misty introduces Isospin, the runtime environment used in Shopify's CDE. <a href='https://shopify.engineering/shopifys-cloud-development-journey' target='_blank'> Read about Shopify's CDE approach. </a>",
+      "Olga introduces Isospin, the runtime environment used in Shopify's CDE. <a href='https://shopify.engineering/shopifys-cloud-development-journey' target='_blank'> Read about Shopify's CDE approach</a>.",
   },
   {
     image: "/images/speakers/slyvestor-george.webp",
