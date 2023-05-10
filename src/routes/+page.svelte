@@ -1,13 +1,14 @@
 <script>
-  import Speakers from "$lib/components/layout/speakers.svelte";
-  import OpenGraph from "$lib/components/library/open-graph.svelte";
-  import Hero from "$lib/components/index/hero.svelte";
   import ConferenceInfo from "$lib/components/index/conference-info.svelte";
-  import CfpCard from "$lib/components/layout/cfp-card.svelte";
-  import Partners from "$lib/components/layout/partners.svelte";
-  import JoinUs from "$lib/components/layout/join-us.svelte";
   import CdePrinciples from "$lib/components/layout/cde-principles.svelte";
+  import OpenGraph from "$lib/components/library/open-graph.svelte";
+  import Speakers from "$lib/components/layout/speakers.svelte";
+  import Partners from "$lib/components/layout/partners.svelte";
+  import CfpCard from "$lib/components/layout/cfp-card.svelte";
+  import Content from "$lib/components/layout/content.svelte";
+  import JoinUs from "$lib/components/layout/join-us.svelte";
   import { speakers, PrincipleItems } from "$lib/data";
+  import Hero from "$lib/components/index/hero.svelte";
 </script>
 
 <OpenGraph
@@ -24,6 +25,7 @@
 <ConferenceInfo />
 <CdePrinciples {PrincipleItems} />
 <Speakers {speakers} />
+<Content />
 <CfpCard />
 <Partners />
 <JoinUs />
