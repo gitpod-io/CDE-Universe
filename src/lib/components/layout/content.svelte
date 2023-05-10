@@ -1,5 +1,4 @@
 <script lang="ts">
-  import PrimaryButton from "../library/primary-button.svelte";
   const items = [
     "AI code assistants",
     "CDE adoption journeys",
@@ -19,7 +18,7 @@
 
     <p class="text-xl">What topics can you expect?</p>
 
-    <div class="flex flex-wrap gap-4">
+    <div class="flex flex-wrap gap-4 w-3/4">
       {#each items as item}
         <p
           class="border-blue border-2 m-0 rounded-xl px-4 py-2 font-medium text-white"
