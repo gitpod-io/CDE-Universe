@@ -133,33 +133,39 @@ export const speakers: Speaker[] = [
 
 export const faqs: FAQ[] = [
   {
-    title: "Who will be at CDE Universe?",
+    title: "What is a CDE?",
     description:
-      "CDE Universe is for anyone building and implementing for a better software development experience. Platform engineers, DevOps, and developer experience engineers, will all be in attendance.",
+      "CDE is short for Cloud Development Environment.\n\nCDEs are on-demand development environments that are pre-configured with all tools, libraries, and dependencies needed to write and review code. They can be easily duplicated and shared across teams.",
   },
   {
-    title: "Why should I join?",
+    title: "What is CDE Universe?",
     description:
-      "CDE Universe is small and curated. Connect with leading minds across the developer tool space. Meet the engineers who have built and implemented CDEs at their companies .",
+      "It is a two-day, single-track conference organized by Gitpod.\n\nCDE Universe features the leading minds of the ecosystem on how to use cloud-native developer tools to improve our collective developer experience.",
   },
   {
-    title: "What's the price of a ticket?",
+    title: "Who should attend?",
     description:
-      "Limited in-person tickets are available for $199 per ticket. If the cost of the ticket prevents you from attending CDE Universe, please send us a short message on Twitter",
+      "We'll have attendees who work in roles like platform engineering, DevOps, and developer experience as well as engineering leadership.\n\nEveryone interested in improving the developer experience of their team is welcome.",
   },
   {
-    title: "What's included in the ticket?",
+    title: "What if I cannot take two days off from work?",
     description:
-      "The ticket gives you access to the conference venue and all talks on both days of the event. Additionally, you will get drinks, snacks, and lunch.",
+      "The event is designed to give you time to work on both Thursday and Friday.\n\nOn Thursday, we'll start at 2 PM and run until 9 PM. On Friday, the event will be organized like a long “Lunch & Learn”, going from 11 AM to 4 PM.",
+  },
+  {
+    title: "What is included in the ticket?",
+    description:
+      "The ticket includes access to the event on both days including all talks and workshops.\n\nIt also includes drinks and refreshments, as well as a dinner (Thursday) and lunch (Friday).",
+  },
+  {
+    title: "Who is behind CDE Universe?",
+    description:
+      "The conference is organized by the team at Gitpod - the developer platform for on-demand cloud development environments to create software faster and more securely.",
   },
   {
     title: "Will there be recordings?",
-    description: "Yes, talks will be recorded.",
-  },
-  {
-    title: "Can I attend virtually as well?",
     description:
-      "No, this is an in-person event. Recordings will be up on our YouTube channel after the event.",
+      "Yes, talks will be recorded and up on our YouTube channel after the event.",
   },
 ];
 
