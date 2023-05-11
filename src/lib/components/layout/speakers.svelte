@@ -8,23 +8,31 @@
   export let speakers: Speaker[];
 </script>
 
-<div class="mt-xx-large md:mt-xxx-large" id="speakers">
+<div
+  class="mt-xx-large md:mt-xxx-large md:w-11/12 max-w-6xl mx-auto"
+  id="speakers"
+>
   <div class="flex flex-col gap-14 items-center md:items-start">
-    <h1
-      class="flex text-7xl md:text-8xl font-normal md:w-11/12 max-w-6xl mx-auto"
-    >
-      Speakers
-    </h1>
+    <div class="space-y-8">
+      <h1 class="flex text-7xl md:text-8xl font-normal">Speakers</h1>
+
+      <p>
+        To view the full agenda, check out our <a href="#">🗓️ Event Schedule</a>
+      </p>
+    </div>
+
     <div
-      class="flex gap-x-20 gap-y-12 flex-wrap justify-center md:justify-start w-11/12 max-w-6xl mx-auto items-stretch"
+      class="flex gap-x-20 gap-y-12 flex-wrap justify-center md:justify-start max-w-6xl mx-auto items-stretch"
     >
       {#each speakers as speaker}
-        <div class="w-56 mb-4">
+        <div class="w-56 mb-4" class:w-72={speaker.large}>
           <div
-            class="rounded-xl bg-bg border-blue border-8 mb-3 spkrsqr relative"
+            class="rounded-xl bg-blue border-blue border-8 mb-3 spkrsqr relative"
+            class:border-rose={speaker.large}
+            class:bg-rose={speaker.large}
           >
             <img
-              class="rounded-md image"
+              class="rounded-xl image"
               width="100%"
               height="100%"
               src={speaker.image}

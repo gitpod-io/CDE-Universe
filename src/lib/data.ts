@@ -5,6 +5,35 @@ import type { PrincipleListItem } from "./types/principles";
 
 export const speakers: Speaker[] = [
   {
+    image: "/images/speakers/pamela.webp",
+    name: "Pamela Vagata",
+    title: "Founding Partner at Pebblebed",
+    linkedin: "https://www.linkedin.com/in/pamela-vagata-8396074",
+    imgTitle:
+      "Pamela is a former AI Tech Lead at Stripe, now co-founder of Pebblebed. She will discuss Generative AI in CDEs.",
+    large: true,
+  },
+  {
+    image: "/images/speakers/johannes.webp",
+    name: "Johannes Landgraf",
+    title: "CEO at Gitpod",
+    // mastodon: "https://fosstodon.org/@gitpod",
+    twitter: "jolandgraf",
+    linkedin: "https://www.linkedin.com/in/johanneslandgraf/",
+    imgTitle:
+      "Johannes is the CEO at Gitpod, a CDE used by 800k+ developers. <a href='https://www.gitpod.io/cde' target='_blank'> Read about Gitpod's vision for CDEs. </a>",
+    large: true,
+  },
+  {
+    image: "/images/speakers/olga.webp",
+    name: "Olga Pilipenco",
+    title: "Senior Production Engineer at Shopify",
+    linkedin: "https://www.linkedin.com/in/olgapilipenco",
+    imgTitle:
+      "Olga introduces Isospin, the runtime environment used in Shopify's CDE. <a href='https://shopify.engineering/shopifys-cloud-development-journey' target='_blank'> Read about Shopify's CDE approach</a>.",
+    large: true,
+  },
+  {
     image: "/images/speakers/kent-beck.webp",
     name: "Kent Beck",
     title: "Creator of Extreme Programming",
@@ -15,14 +44,6 @@ export const speakers: Speaker[] = [
       "Kent is a pioneer of software design patterns and methodologies. <a href='https://medium.com/@kentbeck_7670/cloud-development-environments-tame-complexity-by-reducing-state-4a154ea7959f' target='_blank'> Read his blog post on CDEs.</a>",
   },
   {
-    image: "/images/speakers/olga.webp",
-    name: "Olga Pilipenco",
-    title: "Senior Production Engineer at Shopify",
-    linkedin: "https://www.linkedin.com/in/olgapilipenco",
-    imgTitle:
-      "Olga introduces Isospin, the runtime environment used in Shopify's CDE. <a href='https://shopify.engineering/shopifys-cloud-development-journey' target='_blank'> Read about Shopify's CDE approach</a>.",
-  },
-  {
     image: "/images/speakers/slyvestor-george.webp",
     name: "Sylvestor George",
     title: "Staff Software Engineer at Slack",
@@ -30,14 +51,6 @@ export const speakers: Speaker[] = [
     linkedin: "https://www.linkedin.com/in/sylvestor88",
     imgTitle:
       "Sylvestor is part of the Remote Development Environments project at Slack. <a href='https://slack.engineering/remote-development-at-slack/' target='_blank'> Read about Slack's CDE approach. </a>",
-  },
-  {
-    image: "/images/speakers/pamela.webp",
-    name: "Pamela Vagata",
-    title: "Founding Partner at Pebblebed",
-    linkedin: "https://www.linkedin.com/in/pamela-vagata-8396074",
-    imgTitle:
-      "Pamela is a former AI Tech Lead at Stripe, now co-founder of Pebblebed. She will discuss Generative AI in CDEs.",
   },
   {
     image: "/images/speakers/matas.webp",
@@ -63,16 +76,6 @@ export const speakers: Speaker[] = [
     linkedin: "https://www.linkedin.com/in/soamvasani/",
     imgTitle:
       "Soam is part of the Dev Environments team at Stripe. <a href='https://www.infoq.com/presentations/stripe-dev-env-infrastructure/' target='_blank'> Read about Stripe's CDE approach. </a>",
-  },
-  {
-    image: "/images/speakers/johannes.webp",
-    name: "Johannes Landgraf",
-    title: "CEO at Gitpod",
-    // mastodon: "https://fosstodon.org/@gitpod",
-    twitter: "jolandgraf",
-    linkedin: "https://www.linkedin.com/in/johanneslandgraf/",
-    imgTitle:
-      "Johannes is the CEO at Gitpod, a CDE used by 800k+ developers. <a href='https://www.gitpod.io/cde' target='_blank'> Read about Gitpod's vision for CDEs. </a>",
   },
   {
     image: "/images/speakers/kabir.webp",
