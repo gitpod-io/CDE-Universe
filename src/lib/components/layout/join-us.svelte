@@ -47,7 +47,7 @@
         text="Buy tickets"
       />
 
-      <PrimaryButton style="line" href="#" text="Read FAQ" />
+      <PrimaryButton style="line" href="/faq" text="Read FAQ" />
     </div>
 
     <div class="flex gap-4 items-center">
