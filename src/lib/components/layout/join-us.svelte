@@ -26,34 +26,29 @@
       <div class="space-y-2">
         <h4 class="font-bold text-[20px] md:text-[28px] mb-2 md:mb-4">Who?</h4>
         <p class="text-lg md:text-2xl">
-          Meet the visionaries, builders, and practitioners who make up the
-          future of software development.
-        </p>
-        <br />
-        <p class="text-lg md:text-2xl">
-          We'll have attendees who work in roles like platform engineering,
-          DevOps, and developer experience as well as engineering leadership.
+          Meet dev tool founders, platform engineers, engineering leaders, and
+          anyone curious about developer experience.
         </p>
       </div>
       <div class="space-y-2">
         <h4 class="font-bold text-[20px] md:text-[28px] mb-2 md:mb-4">Why?</h4>
 
         <p class="text-lg md:text-2xl">
-          CDE Universe is small and curated. Connect with curious minds across
-          the developer tool space.
-        </p>
-        <br />
-        <p class="text-lg md:text-2xl">
-          Learn best practices in cloud development, CDE adoption and emerging
-          technologies that enable better software development.
+          CDE Universe provides an opportunity to learn, discuss, and connect in
+          a small setting. Meet the people who have built the tools you use
+          everyday.
         </p>
       </div>
     </div>
 
-    <PrimaryButton
-      href="https://www.eventbrite.co.uk/e/cde-universe-2023-cloud-development-conference-by-gitpod-tickets-626052498877"
-      text="Buy tickets"
-    />
+    <div class="space-x-2">
+      <PrimaryButton
+        href="https://www.eventbrite.co.uk/e/cde-universe-2023-cloud-development-conference-by-gitpod-tickets-626052498877"
+        text="Buy tickets"
+      />
+
+      <PrimaryButton style="line" href="#" text="Read FAQ" />
+    </div>
 
     <div class="flex gap-4 items-center">
       <div class="w-[40px] h-[40px] mb-auto mt-1">
