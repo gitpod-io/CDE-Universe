@@ -1,7 +1,6 @@
+import type { JobRoles } from "./types/job-roles";
 import type { Speaker } from "./types/speakers";
 import type { FAQ } from "./types/faq";
-import type { JobRoles } from "./types/job-roles";
-import type { PrincipleListItem } from "./types/principles";
 
 export const speakers: Speaker[] = [
   {
@@ -180,47 +179,4 @@ export const jobRoles: JobRoles[] = [
   { value: "devrel", label: "DevRel" },
   { value: "product-design", label: "Product" },
   { value: JOB_ROLE_OTHER, label: "Other" },
-];
-
-export const PrincipleItems: PrincipleListItem[] = [
-  {
-    description: "A fresh disposable development environment for every task.",
-    heading: "Ephemeral",
-    subHeading: "over long lived",
-  },
-  {
-    description: "Consistently replicable without manual intervention.",
-    heading: "Reproducible",
-    subHeading: "over cobbled together",
-  },
-  {
-    description: "With minimal friction and difficulty.",
-    heading: "Effortless",
-    subHeading: "over arduous",
-  },
-  {
-    description: "Instantaneously obtainable, seemingly infinite.",
-    heading: "Abundant",
-    subHeading: "over scarce",
-  },
-  {
-    description: "Isolated and self-sufficient.",
-    heading: "Independent",
-    subHeading: "over tangled",
-  },
-  {
-    description: "Supports the most expansive development activities.",
-    heading: "Powerful",
-    subHeading: "over constrained",
-  },
-  {
-    description: "Lowers the barrier to software development.",
-    heading: "Equitable",
-    subHeading: "over requiring specialized skills",
-  },
-  {
-    description: "Enables collaboration across time, space and practice.",
-    heading: "Collaborative",
-    subHeading: "over solitary",
-  },
 ];
