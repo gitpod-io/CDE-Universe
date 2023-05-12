@@ -24,12 +24,13 @@ export const speakers: Speaker[] = [
     large: true,
   },
   {
-    image: "/images/speakers/olga.webp",
-    name: "Olga Pilipenco",
-    title: "Senior Production Engineer at Shopify",
-    linkedin: "https://www.linkedin.com/in/olgapilipenco",
+    image: "/images/speakers/beyang.webp",
+    name: "Beyang Liu",
+    title: "CTO & Co-Founder Sourcegraph",
+    twitter: "beyang",
+    linkedin: "https://www.linkedin.com/in/beyang-liu/",
     imgTitle:
-      "Olga introduces Isospin, the runtime environment used in Shopify's CDE. <a href='https://shopify.engineering/shopifys-cloud-development-journey' target='_blank'> Read about Shopify's CDE approach</a>.",
+      "Beyang co-founded Sourcegraph and will share his take on LLM-backed coding assistants. <a href='https://about.sourcegraph.com/blog/cheating-is-all-you-need' target='_blank'>Read more</a>.",
     large: true,
   },
   {
@@ -43,13 +44,12 @@ export const speakers: Speaker[] = [
       "Kent is a pioneer of software design patterns and methodologies. <a href='https://medium.com/@kentbeck_7670/cloud-development-environments-tame-complexity-by-reducing-state-4a154ea7959f' target='_blank'> Read his blog post on CDEs.</a>",
   },
   {
-    image: "/images/speakers/shelby.webp",
-    name: "Shelby Carpenter",
-    title: "Senior Product Marketing Manager at MongoDB",
-    twitter: "shelbscarps",
-    github: "getsendy",
+    image: "/images/speakers/olga.webp",
+    name: "Olga Pilipenco",
+    title: "Senior Production Engineer at Shopify",
+    linkedin: "https://www.linkedin.com/in/olgapilipenco",
     imgTitle:
-      "Shelby will discuss the role of cloud databases within cloud-first development workflows and CDEs.",
+      "Olga introduces Isospin, the runtime environment used in Shopify's CDE. <a href='https://shopify.engineering/shopifys-cloud-development-journey' target='_blank'> Read about Shopify's CDE approach</a>.",
   },
   {
     image: "/images/speakers/nathan.webp",
@@ -87,6 +87,15 @@ export const speakers: Speaker[] = [
       "Sylvestor is part of the Remote Development Environments project at Slack. <a href='https://slack.engineering/remote-development-at-slack/' target='_blank'> Read about Slack's CDE approach. </a>",
   },
   {
+    image: "/images/speakers/shelby.webp",
+    name: "Shelby Carpenter",
+    title: "Senior Product Marketing Manager at MongoDB",
+    twitter: "shelbscarps",
+    github: "getsendy",
+    imgTitle:
+      "Shelby will discuss the role of cloud databases within cloud-first development workflows and CDEs.",
+  },
+  {
     image: "/images/speakers/soam-vasani.webp",
     name: "Soam Vasani",
     title: "Software Engineer at Stripe",
@@ -103,14 +112,6 @@ export const speakers: Speaker[] = [
       "Kabir will give a glimpse at modern remote cloud development with <a href='https://tailscale.com/blog/tailscale-funnel-beta/' target='_blank'>Tailscale Funnels</a>",
   },
   {
-    image: "/images/speakers/matas.webp",
-    name: "Matas Strukčinskas",
-    title: "Software Engineer II at Uber",
-    linkedin: "https://www.linkedin.com/in/matas-strukcinskas/",
-    imgTitle:
-      "Matas Strukčinskas is part of the Devpod team at Uber. <a href='https://www.uber.com/en-DE/blog/devpod-improving-developer-productivity-at-uber/' target='_blank'>Read about Uber’s CDE approach.</a>",
-  },
-  {
     image: "/images/speakers/nic-manoogian.webp",
     name: "Nic Manoogian",
     title: "Senior Software Developer at Doppler",
@@ -119,6 +120,14 @@ export const speakers: Speaker[] = [
     github: "nmanoogian",
     imgTitle:
       "Nic works at Doppler, a platform for managing secrets at scale. <a href='https://www.gitpod.io/blog/securely-manage-development-secrets-with-doppler-and-gitpod' target='_blank'> Read about Doppler for CDEs.</a>",
+  },
+  {
+    image: "/images/speakers/matas.webp",
+    name: "Matas Strukčinskas",
+    title: "Software Engineer II at Uber",
+    linkedin: "https://www.linkedin.com/in/matas-strukcinskas/",
+    imgTitle:
+      "Matas Strukčinskas is part of the Devpod team at Uber. <a href='https://www.uber.com/en-DE/blog/devpod-improving-developer-productivity-at-uber/' target='_blank'>Read about Uber’s CDE approach.</a>",
   },
   {
     image: "/images/speakers/pauline.webp",
