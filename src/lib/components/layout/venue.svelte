@@ -17,7 +17,7 @@
   <h1 class="text-7xl md:text-8xl font-normal text-headlines">The venue</h1>
 
   <img
-    class="translate-y-40 mx-auto w-80 h-52 md:h-full object-cover rounded-3xl"
+    class="translate-y-40 mx-auto w-80 h-52 md:h-full object-cover rounded-3xl hidden md:block"
     src="/images/venue/cde-universe-banner.webp"
     alt="Venue"
   />
