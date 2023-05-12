@@ -44,7 +44,9 @@
   />
 </div>
 
-<p class="text-left md:text-center max-w-2xl mx-auto text-xl mt-16">
-  Gitpod's conference for you to learn about cloud-first developer tools and
-  build connections with the developer community.
-</p>
+<div class="w-11/12 md:w-10/12 mx-auto">
+  <p class="max-w-xs text-2xl mt-16">
+    Gitpod's conference for you to learn about cloud-first developer tools and
+    build connections with the developer community.
+  </p>
+</div>
