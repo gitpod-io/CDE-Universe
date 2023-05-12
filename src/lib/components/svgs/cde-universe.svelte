@@ -1,6 +1,6 @@
 <a
   href="/"
-  class="flex flex-wrap w-full max-w-[185px] md:max-w-[248px] no-underline items-center"
+  class="flex flex-wrap w-full max-w-[170px] md:max-w-[248px] no-underline items-center"
 >
   <img
     src="/navbar-logo.webp"

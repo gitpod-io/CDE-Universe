@@ -24,7 +24,7 @@
     <div class="mt-6">
       <PrimaryButton
         href="https://www.eventbrite.co.uk/e/cde-universe-2023-cloud-development-conference-by-gitpod-tickets-626052498877"
-        text="Buy ticket"
+        text="Buy tickets"
       />
     </div>
   </div>
