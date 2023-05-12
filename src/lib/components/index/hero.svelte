@@ -3,7 +3,7 @@
 </script>
 
 <div
-  class="mt-x-large relative w-11/12 md:w-fit mx-auto justify-between text-left md:text-left md:mb-[420px]"
+  class="mt-x-large relative w-11/12 md:w-fit mx-auto justify-between text-left md:mb-[420px]"
 >
   <div class="md:ml-36">
     <h1 class="text-5xl md:text-6xl font-extrabold">
@@ -44,7 +44,7 @@
   />
 </div>
 
-<p class="text-center max-w-2xl mx-auto text-xl mt-16">
+<p class="text-left md:text-center max-w-2xl mx-auto text-xl mt-16">
   Gitpod's conference for you to learn about cloud-native developer tools and
   build connections with the DevX community.
 </p>
