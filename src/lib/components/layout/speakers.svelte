@@ -17,7 +17,11 @@
       <h1 class="flex text-7xl md:text-8xl font-normal">Speakers</h1>
 
       <p>
-        To view the full agenda, check out our <a href="#">🗓️ Event Schedule</a>
+        To view the full agenda, check out our <a
+          href="https://gitpod.notion.site/CDE-Universe-2023-Agenda-e410e877d7f745af9934a2a0e90f4467"
+          target="_blank"
+          class="text-headlines">🗓️ Event Schedule</a
+        >
       </p>
     </div>
 
@@ -25,7 +29,7 @@
       class="flex gap-x-20 gap-y-12 flex-wrap justify-center md:justify-start max-w-6xl mx-auto items-stretch"
     >
       {#each speakers as speaker}
-        <div class="w-56 mb-4" class:w-72={speaker.large}>
+        <div class="w-56 mb-4" class:w-80={speaker.large}>
           <div
             class="rounded-xl bg-blue border-blue border-8 mb-3 spkrsqr relative"
             class:border-rose={speaker.large}
