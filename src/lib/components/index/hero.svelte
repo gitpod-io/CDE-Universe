@@ -3,7 +3,7 @@
 </script>
 
 <div
-  class="mt-x-large relative w-11/12 md:w-fit mx-auto justify-between text-left md:mb-[420px]"
+  class="mt-x-large relative w-11/12 md:w-fit mx-auto justify-between text-left md:mb-[360px]"
 >
   <div class="md:ml-36">
     <h1 class="text-5xl md:text-6xl font-extrabold">
@@ -45,7 +45,7 @@
 </div>
 
 <div class="w-11/12 md:w-10/12 mx-auto">
-  <p class="max-w-xs text-2xl mt-16">
+  <p class="max-w-xs text-2xl">
     Gitpod's conference for you to learn about cloud-first developer tools and
     build connections with the developer community.
   </p>

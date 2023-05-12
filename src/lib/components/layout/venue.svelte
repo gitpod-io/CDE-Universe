@@ -13,7 +13,7 @@
   ];
 </script>
 
-<div class="mt-xx-large md:mt-xxx-large max-w-7xl w-11/12 mx-auto space-y-10">
+<div class="mt-xx-large md:mt-xxx-large max-w-7xl w-11/12 mx-auto space-y-2">
   <h1 class="text-7xl md:text-8xl font-normal text-headlines">The venue</h1>
 
   <img
@@ -43,7 +43,7 @@
     />
   </div>
 
-  <div class="flex flex-wrap gap-8">
+  <div class="flex flex-wrap gap-8 pt-4 md:pt-8">
     {#each details as { title, description }}
       <div class="max-w-sm">
         <h4 class="font-bold text-xl mb-2 md:mb-4">{title}</h4>
