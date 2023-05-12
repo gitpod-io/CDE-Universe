@@ -21,9 +21,9 @@
 />
 
 <Hero />
+<About />
 <ConferenceInfo />
 <Speakers {speakers} />
-<About />
 <AttendCta />
 <Partners />
 <JoinUs />

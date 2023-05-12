@@ -50,7 +50,7 @@
       <PrimaryButton style="line" href="/faq" text="Read FAQ" />
     </div>
 
-    <div class="flex gap-4 items-center">
+    <div class="flex gap-4 items-center mt-12">
       <div class="w-[40px] h-[40px] mb-auto mt-1">
         <Twitter fill="#C2C2C2" />
       </div>
