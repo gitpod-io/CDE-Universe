@@ -4,7 +4,7 @@
   import AttendCta from "$lib/components/layout/attend-cta.svelte";
   import Speakers from "$lib/components/layout/speakers.svelte";
   import Partners from "$lib/components/layout/partners.svelte";
-  import Content from "$lib/components/layout/content.svelte";
+  import About from "$lib/components/layout/about.svelte";
   import JoinUs from "$lib/components/layout/join-us.svelte";
   import Hero from "$lib/components/index/hero.svelte";
   import { speakers } from "$lib/data";
@@ -23,7 +23,7 @@
 <Hero />
 <ConferenceInfo />
 <Speakers {speakers} />
-<Content />
+<About />
 <AttendCta />
 <Partners />
 <JoinUs />
