@@ -2,12 +2,12 @@
   import PrimaryButton from "../library/primary-button.svelte";
 
   const items = [
-    "CDE adoption journeys",
-    "AI code assistants",
+    "CDE Adoption Journeys",
+    "AI Code Assistants",
     "Next-Gen Editors",
-    "Ephemeral databases",
+    "Ephemeral Databases",
     "Generative AI",
-    "Secure remote access",
+    "Secure Remote Access",
     "Secrets Management",
     "Developer Productivity",
   ];

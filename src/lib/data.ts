@@ -6,7 +6,7 @@ export const speakers: Speaker[] = [
   {
     image: "/images/speakers/pamela.webp",
     name: "Pamela Vagata",
-    title: "Founding Partner at Pebblebed",
+    title: "Former AI Tech Lead at Stripe",
     linkedin: "https://www.linkedin.com/in/pamela-vagata-8396074",
     imgTitle:
       "Pamela is a former AI Tech Lead at Stripe, now co-founder of Pebblebed. She will discuss Generative AI in CDEs.",
@@ -15,7 +15,7 @@ export const speakers: Speaker[] = [
   {
     image: "/images/speakers/johannes.webp",
     name: "Johannes Landgraf",
-    title: "CEO at Gitpod",
+    title: "CEO & Co-Founder at Gitpod",
     // mastodon: "https://fosstodon.org/@gitpod",
     twitter: "jolandgraf",
     linkedin: "https://www.linkedin.com/in/johanneslandgraf/",
@@ -43,56 +43,13 @@ export const speakers: Speaker[] = [
       "Kent is a pioneer of software design patterns and methodologies. <a href='https://medium.com/@kentbeck_7670/cloud-development-environments-tame-complexity-by-reducing-state-4a154ea7959f' target='_blank'> Read his blog post on CDEs.</a>",
   },
   {
-    image: "/images/speakers/slyvestor-george.webp",
-    name: "Sylvestor George",
-    title: "Staff Software Engineer at Slack",
-    twitter: "sylvestor88",
-    linkedin: "https://www.linkedin.com/in/sylvestor88",
+    image: "/images/speakers/shelby.webp",
+    name: "Shelby Carpenter",
+    title: "Senior Product Marketing Manager at MongoDB",
+    twitter: "shelbscarps",
+    github: "getsendy",
     imgTitle:
-      "Sylvestor is part of the Remote Development Environments project at Slack. <a href='https://slack.engineering/remote-development-at-slack/' target='_blank'> Read about Slack's CDE approach. </a>",
-  },
-  {
-    image: "/images/speakers/matas.webp",
-    name: "Matas Strukčinskas",
-    title: "Software Engineer II at Uber",
-    linkedin: "https://www.linkedin.com/in/matas-strukcinskas/",
-    imgTitle:
-      "Matas Strukčinskas is part of the Devpod team at Uber. <a href='https://www.uber.com/en-DE/blog/devpod-improving-developer-productivity-at-uber/' target='_blank'>Read about Uber’s CDE approach.</a>",
-  },
-  {
-    image: "/images/speakers/mike.webp",
-    name: "Mike Brevoort",
-    title: "Chief Product Officer at Gitpod",
-    twitter: "mbrevoort",
-    linkedin: "https://www.linkedin.com/in/mikebrevoort",
-    imgTitle:
-      "Conference introduction sharing our vision for CDEs, extensibility and a vibrant ecosystem.",
-  },
-  {
-    image: "/images/speakers/soam-vasani.webp",
-    name: "Soam Vasani",
-    title: "Software Engineer at Stripe",
-    linkedin: "https://www.linkedin.com/in/soamvasani/",
-    imgTitle:
-      "Soam is part of the Dev Environments team at Stripe. <a href='https://www.infoq.com/presentations/stripe-dev-env-infrastructure/' target='_blank'> Read about Stripe's CDE approach. </a>",
-  },
-  {
-    image: "/images/speakers/kabir.webp",
-    name: "Kabir Sikand",
-    title: "Product Manager at Tailscale",
-    twitter: "kabirsikand",
-    imgTitle:
-      "Kabir will give a glimpse at modern remote cloud development with <a href='https://tailscale.com/blog/tailscale-funnel-beta/' target='_blank'>Tailscale Funnels</a>",
-  },
-  {
-    image: "/images/speakers/nic-manoogian.webp",
-    name: "Nic Manoogian",
-    title: "Senior Software Developer at Doppler",
-    twitter: "nicmanoogian",
-    linkedin: "https://www.linkedin.com/in/nmanoogian",
-    github: "nmanoogian",
-    imgTitle:
-      "Nic works at Doppler, a platform for managing secrets at scale. <a href='https://www.gitpod.io/blog/securely-manage-development-secrets-with-doppler-and-gitpod' target='_blank'> Read about Doppler for CDEs.</a>",
+      "Shelby will discuss the role of cloud databases within cloud-first development workflows and CDEs.",
   },
   {
     image: "/images/speakers/nathan.webp",
@@ -112,6 +69,58 @@ export const speakers: Speaker[] = [
       "Swyx is a DX engineer (Airbyte, Temporal, Netlify) and Tech writer. Read his post <a href='https://dx.tips/the-end-of-localhost' target='_blank'>The end of localhost.</a>",
   },
   {
+    image: "/images/speakers/mike.webp",
+    name: "Mike Brevoort",
+    title: "Chief Product Officer at Gitpod",
+    twitter: "mbrevoort",
+    linkedin: "https://www.linkedin.com/in/mikebrevoort",
+    imgTitle:
+      "Conference introduction sharing our vision for CDEs, extensibility and a vibrant ecosystem.",
+  },
+  {
+    image: "/images/speakers/slyvestor-george.webp",
+    name: "Sylvestor George",
+    title: "Staff Software Engineer at Slack",
+    twitter: "sylvestor88",
+    linkedin: "https://www.linkedin.com/in/sylvestor88",
+    imgTitle:
+      "Sylvestor is part of the Remote Development Environments project at Slack. <a href='https://slack.engineering/remote-development-at-slack/' target='_blank'> Read about Slack's CDE approach. </a>",
+  },
+  {
+    image: "/images/speakers/soam-vasani.webp",
+    name: "Soam Vasani",
+    title: "Software Engineer at Stripe",
+    linkedin: "https://www.linkedin.com/in/soamvasani/",
+    imgTitle:
+      "Soam is part of the Dev Environments team at Stripe. <a href='https://www.infoq.com/presentations/stripe-dev-env-infrastructure/' target='_blank'> Read about Stripe's CDE approach. </a>",
+  },
+  {
+    image: "/images/speakers/kabir.webp",
+    name: "Kabir Sikand",
+    title: "Product Manager at Tailscale",
+    twitter: "kabirsikand",
+    imgTitle:
+      "Kabir will give a glimpse at modern remote cloud development with <a href='https://tailscale.com/blog/tailscale-funnel-beta/' target='_blank'>Tailscale Funnels</a>",
+  },
+  {
+    image: "/images/speakers/matas.webp",
+    name: "Matas Strukčinskas",
+    title: "Software Engineer II at Uber",
+    linkedin: "https://www.linkedin.com/in/matas-strukcinskas/",
+    imgTitle:
+      "Matas Strukčinskas is part of the Devpod team at Uber. <a href='https://www.uber.com/en-DE/blog/devpod-improving-developer-productivity-at-uber/' target='_blank'>Read about Uber’s CDE approach.</a>",
+  },
+  {
+    image: "/images/speakers/nic-manoogian.webp",
+    name: "Nic Manoogian",
+    title: "Senior Software Developer at Doppler",
+    twitter: "nicmanoogian",
+    linkedin: "https://www.linkedin.com/in/nmanoogian",
+    github: "nmanoogian",
+    imgTitle:
+      "Nic works at Doppler, a platform for managing secrets at scale. <a href='https://www.gitpod.io/blog/securely-manage-development-secrets-with-doppler-and-gitpod' target='_blank'> Read about Doppler for CDEs.</a>",
+  },
+  {
     image: "/images/speakers/pauline.webp",
     name: "Pauline Narvas",
     title: "Head of Community at Gitpod",
@@ -119,15 +128,6 @@ export const speakers: Speaker[] = [
     linkedin: "https://www.linkedin.com/in/pnarvas",
     imgTitle:
       "Pauline is a community builder in the developer experience space. She will be the MC for CDE Universe.",
-  },
-  {
-    image: "/images/speakers/shelby.webp",
-    name: "Shelby Carpenter",
-    title: "Senior Product Marketing Manager at MongoDB",
-    twitter: "shelbscarps",
-    github: "getsendy",
-    imgTitle:
-      "Shelby will discuss the role of cloud databases within cloud-native development workflows and CDEs.",
   },
 ];
 
@@ -140,7 +140,7 @@ export const faqs: FAQ[] = [
   {
     title: "What is CDE Universe?",
     description:
-      "It is a two-day, single-track conference organized by Gitpod.\n\nCDE Universe features the leading minds of the ecosystem on how to use cloud-native developer tools to improve our collective developer experience.",
+      "It is a two-day, single-track conference organized by Gitpod.\n\nCDE Universe features the leading minds of the ecosystem on how to use cloud-first developer tools to improve our collective developer experience.",
   },
   {
     title: "Who should attend?",

@@ -17,7 +17,7 @@
     <div
       class="mt-1 font-medium text-rose text-xl md:text-[28px] md:leading-[2.5rem]"
     >
-      <div>In-Person, Pebblebed</div>
+      <div>Pebblebed</div>
       <div>San Francisco, CA</div>
     </div>
 
@@ -45,6 +45,6 @@
 </div>
 
 <p class="text-left md:text-center max-w-2xl mx-auto text-xl mt-16">
-  Gitpod's conference for you to learn about cloud-native developer tools and
-  build connections with the DevX community.
+  Gitpod's conference for you to learn about cloud-first developer tools and
+  build connections with the developer community.
 </p>

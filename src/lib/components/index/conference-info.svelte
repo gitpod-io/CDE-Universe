@@ -14,7 +14,7 @@
 
   <p class="text-xl md:text-2xl mt-large max-w-xl mb-8">
     We can't wait to meet you at CDE Universe!<br /><br />
-    Join us on June 1 (2PM-9PM) and June 2 (11AM-3PM) to exchange ideas about the
+    Join us on June 1 (2PM-9PM) and June 2 (11AM-4PM) to exchange ideas about the
     tools and practices that enable a better developer experience.
   </p>
 
