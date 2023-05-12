@@ -9,10 +9,12 @@
     <div
       class="mx-auto w-fit flex flex-col gap-9 items-start md:items-start text-left"
     >
-      <h1 class="text-5xl md:text-6xl font-normal md:font-medium">Be there</h1>
+      <h1 class="text-5xl md:text-6xl font-normal md:font-medium">
+        Be part of it
+      </h1>
 
       <p class="text-p-large md:text-p-x-large max-w-sm text-left">
-        Attend CDE Universe in-person on June 1/2 2023 in San Francisco, CA.
+        The DevX community comes together at CDE Universe. Join us!
       </p>
 
       <PrimaryButton

@@ -1,9 +1,38 @@
+import type { JobRoles } from "./types/job-roles";
 import type { Speaker } from "./types/speakers";
 import type { FAQ } from "./types/faq";
-import type { JobRoles } from "./types/job-roles";
-import type { PrincipleListItem } from "./types/principles";
 
 export const speakers: Speaker[] = [
+  {
+    image: "/images/speakers/pamela.webp",
+    name: "Pamela Vagata",
+    title: "Former AI Tech Lead at Stripe",
+    linkedin: "https://www.linkedin.com/in/pamela-vagata-8396074",
+    imgTitle:
+      "Pamela is a former AI Tech Lead at Stripe, now co-founder of Pebblebed. She will discuss Generative AI in CDEs.",
+    large: true,
+  },
+  {
+    image: "/images/speakers/johannes.webp",
+    name: "Johannes Landgraf",
+    title: "CEO & Co-Founder at Gitpod",
+    // mastodon: "https://fosstodon.org/@gitpod",
+    twitter: "jolandgraf",
+    linkedin: "https://www.linkedin.com/in/johanneslandgraf/",
+    imgTitle:
+      "Johannes is the CEO at Gitpod, a CDE used by 800k+ developers. <a href='https://www.gitpod.io/cde' target='_blank'> Read about Gitpod's vision for CDEs. </a>",
+    large: true,
+  },
+  {
+    image: "/images/speakers/beyang.webp",
+    name: "Beyang Liu",
+    title: "CTO & Co-Founder Sourcegraph",
+    twitter: "beyang",
+    linkedin: "https://www.linkedin.com/in/beyang-liu/",
+    imgTitle:
+      "Beyang co-founded Sourcegraph and will share his take on LLM-backed coding assistants. <a href='https://about.sourcegraph.com/blog/cheating-is-all-you-need' target='_blank'>Read more</a>.",
+    large: true,
+  },
   {
     image: "/images/speakers/kent-beck.webp",
     name: "Kent Beck",
@@ -23,29 +52,21 @@ export const speakers: Speaker[] = [
       "Olga introduces Isospin, the runtime environment used in Shopify's CDE. <a href='https://shopify.engineering/shopifys-cloud-development-journey' target='_blank'> Read about Shopify's CDE approach</a>.",
   },
   {
-    image: "/images/speakers/slyvestor-george.webp",
-    name: "Sylvestor George",
-    title: "Staff Software Engineer at Slack",
-    twitter: "sylvestor88",
-    linkedin: "https://www.linkedin.com/in/sylvestor88",
+    image: "/images/speakers/nathan.webp",
+    name: "Nathan Sobo",
+    title: "Founder at Zed Industries",
+    linkedin: "https://www.linkedin.com/in/nathan-sobo-92b46720/",
+    twitter: "nathansobo",
     imgTitle:
-      "Sylvestor is part of the Remote Development Environments project at Slack. <a href='https://slack.engineering/remote-development-at-slack/' target='_blank'> Read about Slack's CDE approach. </a>",
+      "Nathan is the creator of Atom, now building Zed, a multi-player code editor. <a href='https://www.youtube.com/watch?v=wXT73bBr83s' target='_blank'>Watch Nathan's DevX Conf talk on Zed. </a>",
   },
   {
-    image: "/images/speakers/pamela.webp",
-    name: "Pamela Vagata",
-    title: "Founding Partner at Pebblebed",
-    linkedin: "https://www.linkedin.com/in/pamela-vagata-8396074",
+    image: "/images/speakers/swyx.webp",
+    name: "Swyx",
+    title: "Developer Experience Engineer",
+    twitter: "swyx",
     imgTitle:
-      "Pamela is a former AI Tech Lead at Stripe, now co-founder of Pebblebed. She will discuss Generative AI in CDEs.",
-  },
-  {
-    image: "/images/speakers/matas.webp",
-    name: "Matas Strukčinskas",
-    title: "Software Engineer II at Uber",
-    linkedin: "https://www.linkedin.com/in/matas-strukcinskas/",
-    imgTitle:
-      "Matas Strukčinskas is part of the Devpod team at Uber. <a href='https://www.uber.com/en-DE/blog/devpod-improving-developer-productivity-at-uber/' target='_blank'>Read about Uber’s CDE approach.</a>",
+      "Swyx is a DX engineer (Airbyte, Temporal, Netlify) and Tech writer. Read his post <a href='https://dx.tips/the-end-of-localhost' target='_blank'>The end of localhost.</a>",
   },
   {
     image: "/images/speakers/mike.webp",
@@ -57,22 +78,30 @@ export const speakers: Speaker[] = [
       "Conference introduction sharing our vision for CDEs, extensibility and a vibrant ecosystem.",
   },
   {
+    image: "/images/speakers/slyvestor-george.webp",
+    name: "Sylvestor George",
+    title: "Staff Software Engineer at Slack",
+    twitter: "sylvestor88",
+    linkedin: "https://www.linkedin.com/in/sylvestor88",
+    imgTitle:
+      "Sylvestor is part of the Remote Development Environments project at Slack. <a href='https://slack.engineering/remote-development-at-slack/' target='_blank'> Read about Slack's CDE approach. </a>",
+  },
+  {
+    image: "/images/speakers/shelby.webp",
+    name: "Shelby Carpenter",
+    title: "Senior Product Marketing Manager at MongoDB",
+    twitter: "shelbscarps",
+    github: "getsendy",
+    imgTitle:
+      "Shelby will discuss the role of cloud databases within cloud-first development workflows and CDEs.",
+  },
+  {
     image: "/images/speakers/soam-vasani.webp",
     name: "Soam Vasani",
     title: "Software Engineer at Stripe",
     linkedin: "https://www.linkedin.com/in/soamvasani/",
     imgTitle:
       "Soam is part of the Dev Environments team at Stripe. <a href='https://www.infoq.com/presentations/stripe-dev-env-infrastructure/' target='_blank'> Read about Stripe's CDE approach. </a>",
-  },
-  {
-    image: "/images/speakers/johannes.webp",
-    name: "Johannes Landgraf",
-    title: "CEO at Gitpod",
-    // mastodon: "https://fosstodon.org/@gitpod",
-    twitter: "jolandgraf",
-    linkedin: "https://www.linkedin.com/in/johanneslandgraf/",
-    imgTitle:
-      "Johannes is the CEO at Gitpod, a CDE used by 800k+ developers. <a href='https://www.gitpod.io/cde' target='_blank'> Read about Gitpod's vision for CDEs. </a>",
   },
   {
     image: "/images/speakers/kabir.webp",
@@ -93,21 +122,12 @@ export const speakers: Speaker[] = [
       "Nic works at Doppler, a platform for managing secrets at scale. <a href='https://www.gitpod.io/blog/securely-manage-development-secrets-with-doppler-and-gitpod' target='_blank'> Read about Doppler for CDEs.</a>",
   },
   {
-    image: "/images/speakers/nathan.webp",
-    name: "Nathan Sobo",
-    title: "Founder at Zed Industries",
-    linkedin: "https://www.linkedin.com/in/nathan-sobo-92b46720/",
-    twitter: "nathansobo",
+    image: "/images/speakers/matas.webp",
+    name: "Matas Strukčinskas",
+    title: "Software Engineer II at Uber",
+    linkedin: "https://www.linkedin.com/in/matas-strukcinskas/",
     imgTitle:
-      "Nathan is the creator of Atom, now building Zed, a multi-player code editor. <a href='https://www.youtube.com/watch?v=wXT73bBr83s' target='_blank'>Watch Nathan's DevX Conf talk on Zed. </a>",
-  },
-  {
-    image: "/images/speakers/swyx.webp",
-    name: "Swyx",
-    title: "Developer Experience Engineer",
-    twitter: "swyx",
-    imgTitle:
-      "Swyx is a DX engineer (Airbyte, Temporal, Netlify) and Tech writer. Read his post <a href='https://dx.tips/the-end-of-localhost' target='_blank'>The end of localhost.</a>",
+      "Matas Strukčinskas is part of the Devpod team at Uber. <a href='https://www.uber.com/en-DE/blog/devpod-improving-developer-productivity-at-uber/' target='_blank'>Read about Uber’s CDE approach.</a>",
   },
   {
     image: "/images/speakers/pauline.webp",
@@ -118,46 +138,43 @@ export const speakers: Speaker[] = [
     imgTitle:
       "Pauline is a community builder in the developer experience space. She will be the MC for CDE Universe.",
   },
-  {
-    image: "/images/speakers/shelby.webp",
-    name: "Shelby Carpenter",
-    title: "Senior Product Marketing Manager at MongoDB",
-    twitter: "shelbscarps",
-    github: "getsendy",
-    imgTitle:
-      "Shelby will discuss the role of cloud databases within cloud-native development workflows and CDEs.",
-  },
 ];
 
 export const faqs: FAQ[] = [
   {
-    title: "Who will be at CDE Universe?",
+    title: "What is a CDE?",
     description:
-      "CDE Universe is for anyone building and implementing for a better software development experience. Platform engineers, DevOps, and developer experience engineers, will all be in attendance.",
+      "CDE is short for Cloud Development Environment.\n\nCDEs are on-demand development environments that are pre-configured with all tools, libraries, and dependencies needed to write and review code. They can be easily duplicated and shared across teams.",
   },
   {
-    title: "Why should I join?",
+    title: "What is CDE Universe?",
     description:
-      "CDE Universe is small and curated. Connect with leading minds across the developer tool space. Meet the engineers who have built and implemented CDEs at their companies .",
+      "It is a two-day, single-track conference organized by Gitpod.\n\nCDE Universe features the leading minds of the ecosystem on how to use cloud-first developer tools to improve our collective developer experience.",
   },
   {
-    title: "What's the price of a ticket?",
+    title: "Who should attend?",
     description:
-      "Limited in-person tickets are available for $199 per ticket. If the cost of the ticket prevents you from attending CDE Universe, please send us a short message on Twitter",
+      "We'll have attendees who work in roles like platform engineering, DevOps, and developer experience as well as engineering leadership.\n\nEveryone interested in improving the developer experience of their team is welcome.",
   },
   {
-    title: "What's included in the ticket?",
+    title: "What if I cannot take two days off from work?",
     description:
-      "The ticket gives you access to the conference venue and all talks on both days of the event. Additionally, you will get drinks, snacks, and lunch.",
+      "The event is designed to give you time to work on both Thursday and Friday.\n\nOn Thursday, we'll start at 2 PM and run until 9 PM. On Friday, the event will be organized like a long “Lunch & Learn”, going from 11 AM to 4 PM.",
+  },
+  {
+    title: "What is included in the ticket?",
+    description:
+      "The ticket includes access to the event on both days including all talks and workshops.\n\nIt also includes drinks and refreshments, as well as a dinner (Thursday) and lunch (Friday).",
+  },
+  {
+    title: "Who is behind CDE Universe?",
+    description:
+      "The conference is organized by the team at Gitpod - the developer platform for on-demand cloud development environments to create software faster and more securely.",
   },
   {
     title: "Will there be recordings?",
-    description: "Yes, talks will be recorded.",
-  },
-  {
-    title: "Can I attend virtually as well?",
     description:
-      "No, this is an in-person event. Recordings will be up on our YouTube channel after the event.",
+      "Yes, talks will be recorded and up on our YouTube channel after the event.",
   },
 ];
 
@@ -177,47 +194,4 @@ export const jobRoles: JobRoles[] = [
   { value: "devrel", label: "DevRel" },
   { value: "product-design", label: "Product" },
   { value: JOB_ROLE_OTHER, label: "Other" },
-];
-
-export const PrincipleItems: PrincipleListItem[] = [
-  {
-    description: "A fresh disposable development environment for every task.",
-    heading: "Ephemeral",
-    subHeading: "over long lived",
-  },
-  {
-    description: "Consistently replicable without manual intervention.",
-    heading: "Reproducible",
-    subHeading: "over cobbled together",
-  },
-  {
-    description: "With minimal friction and difficulty.",
-    heading: "Effortless",
-    subHeading: "over arduous",
-  },
-  {
-    description: "Instantaneously obtainable, seemingly infinite.",
-    heading: "Abundant",
-    subHeading: "over scarce",
-  },
-  {
-    description: "Isolated and self-sufficient.",
-    heading: "Independent",
-    subHeading: "over tangled",
-  },
-  {
-    description: "Supports the most expansive development activities.",
-    heading: "Powerful",
-    subHeading: "over constrained",
-  },
-  {
-    description: "Lowers the barrier to software development.",
-    heading: "Equitable",
-    subHeading: "over requiring specialized skills",
-  },
-  {
-    description: "Enables collaboration across time, space and practice.",
-    heading: "Collaborative",
-    subHeading: "over solitary",
-  },
 ];

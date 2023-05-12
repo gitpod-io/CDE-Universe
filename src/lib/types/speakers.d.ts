@@ -7,4 +7,5 @@ export interface Speaker {
   mastodon?: string;
   linkedin?: string;
   github?: string;
+  large?: boolean;
 }

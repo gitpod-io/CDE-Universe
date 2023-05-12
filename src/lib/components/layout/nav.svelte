@@ -20,18 +20,12 @@
   >
     <CDEUniverse />
 
-    <div class="hidden items-center gap-x-small sm:flex">
+    <div class="items-center gap-x-small flex mt-4">
+      <a class="no-underline text-white hover:text-rose" href="/faq">FAQs</a>
+
       <SecondaryButton
         href="https://www.eventbrite.co.uk/e/cde-universe-2023-cloud-development-conference-by-gitpod-tickets-626052498877"
         text="Buy tickets"
-        isDisabled={false}
-      />
-    </div>
-    <div class="sm:hidden items-center flex">
-      <SecondaryButton
-        href="https://www.eventbrite.co.uk/e/cde-universe-2023-cloud-development-conference-by-gitpod-tickets-626052498877"
-        text="Register"
-        isDisabled={false}
       />
     </div>
   </div>
