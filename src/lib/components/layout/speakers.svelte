@@ -101,7 +101,7 @@
   }
 
   .spkrsqr:hover .image {
-    opacity: 0.25;
+    opacity: 0.15;
   }
 
   .middle {
