@@ -29,7 +29,7 @@
       class="flex gap-x-20 gap-y-12 flex-wrap justify-center md:justify-start max-w-6xl mx-auto items-stretch"
     >
       {#each speakers as speaker}
-        <div class="w-56 mb-4" class:w-80={speaker.large}>
+        <div class="w-56 mb-4" class:w-[325px]={speaker.large}>
           <div
             class="rounded-xl bg-blue border-blue border-8 mb-3 spkrsqr relative"
             class:border-rose={speaker.large}
