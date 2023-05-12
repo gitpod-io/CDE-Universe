@@ -16,6 +16,11 @@
 <div class="mt-xx-large md:mt-xxx-large max-w-7xl w-11/12 mx-auto space-y-10">
   <h1 class="text-7xl md:text-8xl font-normal text-headlines">The venue</h1>
 
+  <img
+    class="translate-y-40 mx-auto  w-80 h-52 md:h-full object-cover rounded-3xl"
+    src="/images/venue/cde-universe-banner.webp"
+    alt="Venue"
+  />
   <div
     class="flex flex-col md:grid grid-cols-2 grid-rows-2 gap-4 md:max-h-[600px]"
   >
