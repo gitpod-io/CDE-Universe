@@ -4,8 +4,9 @@
   import AttendCta from "$lib/components/layout/attend-cta.svelte";
   import Speakers from "$lib/components/layout/speakers.svelte";
   import Partners from "$lib/components/layout/partners.svelte";
-  import About from "$lib/components/layout/about.svelte";
   import JoinUs from "$lib/components/layout/join-us.svelte";
+  import About from "$lib/components/layout/about.svelte";
+  import Venue from "$lib/components/layout/venue.svelte";
   import Hero from "$lib/components/index/hero.svelte";
   import { speakers } from "$lib/data";
 </script>
@@ -25,5 +26,6 @@
 <ConferenceInfo />
 <Speakers {speakers} />
 <AttendCta />
+<Venue />
 <Partners />
 <JoinUs />
