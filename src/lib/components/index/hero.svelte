@@ -44,7 +44,7 @@
   />
 </div>
 
-<p class="text-center max-w-2xl mx-auto text-xl">
+<p class="text-center max-w-2xl mx-auto text-xl mt-16">
   Gitpod's conference for you to learn about cloud-native developer tools and
   build connections with the DevX community.
 </p>

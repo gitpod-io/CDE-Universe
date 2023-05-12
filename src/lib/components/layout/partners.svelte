@@ -11,7 +11,7 @@
   <div class="flex flex-col gap-10 text-left">
     <h1 class="text-7xl md:text-8xl font-normal text-headlines">Partners</h1>
 
-    <div class="flex items-center gap-8 justify-start">
+    <div class="flex items-center gap-8 justify-start flex-wrap">
       <div class="w-36"><GitpodLight /></div>
       <div class="w-36"><Pebblebed /></div>
       <div class="w-36"><Sourcegraph /></div>
