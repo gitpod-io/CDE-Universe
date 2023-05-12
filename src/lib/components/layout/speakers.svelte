@@ -20,7 +20,7 @@
         To view the full agenda, check out our <a
           href="https://gitpod.notion.site/CDE-Universe-2023-Agenda-e410e877d7f745af9934a2a0e90f4467"
           target="_blank"
-          class="text-headlines">🗓️ Event Schedule</a
+          class="text-headlines">🗓️ Event schedule</a
         >
       </p>
     </div>

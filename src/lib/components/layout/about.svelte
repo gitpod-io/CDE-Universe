@@ -2,14 +2,14 @@
   import PrimaryButton from "../library/primary-button.svelte";
 
   const items = [
-    "CDE Adoption Journeys",
-    "AI Code Assistants",
-    "Next-Gen Editors",
-    "Ephemeral Databases",
+    "CDE adoption journeys",
+    "AI code assistants",
+    "Next-Gen editors",
+    "Ephemeral databases",
     "Generative AI",
-    "Secure Remote Access",
-    "Secrets Management",
-    "Developer Productivity",
+    "Secure remote access",
+    "Secrets management",
+    "Developer productivity",
   ];
 </script>
 
