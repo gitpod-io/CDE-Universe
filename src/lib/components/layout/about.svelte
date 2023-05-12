@@ -26,7 +26,11 @@
     {/each}
   </div>
 
-  <img src="/images/skateboard.webp" alt="CDE Universe Skateboard" />
+  <img
+    src="/images/skateboard.webp"
+    alt="CDE Universe Skateboard"
+    class="pt-4 md:pt-8 pb-2"
+  />
 
   <div class="items-start md:w-fit mx-auto">
     <p class="text-xl font-bold text-white">Attend Conference</p>
