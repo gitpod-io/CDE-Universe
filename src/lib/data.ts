@@ -15,22 +15,32 @@ export const speakers: Speaker[] = [
   {
     image: "/images/speakers/johannes.webp",
     name: "Johannes Landgraf",
-    title: "CEO & Co-Founder at Gitpod",
+    title: "CEO at Gitpod",
     // mastodon: "https://fosstodon.org/@gitpod",
     twitter: "jolandgraf",
     linkedin: "https://www.linkedin.com/in/johanneslandgraf/",
     imgTitle:
-      "Johannes is the CEO at Gitpod, a CDE used by 800k+ developers. <a href='https://www.gitpod.io/cde' target='_blank'> Read about Gitpod's vision for CDEs. </a>",
+      "Johannes is the CEO at Gitpod, a CDE used by 900k+ developers. <a href='https://www.gitpod.io/cde' target='_blank'> Read about Gitpod's vision for CDEs. </a>",
     large: true,
   },
   {
     image: "/images/speakers/beyang.webp",
     name: "Beyang Liu",
-    title: "CTO & Co-Founder Sourcegraph",
+    title: "CTO Sourcegraph",
     twitter: "beyang",
     linkedin: "https://www.linkedin.com/in/beyang-liu/",
     imgTitle:
       "Beyang co-founded Sourcegraph and will share his take on LLM-backed coding assistants. <a href='https://about.sourcegraph.com/blog/cheating-is-all-you-need' target='_blank'>Read more</a>.",
+    large: true,
+  },
+  {
+    image: "/images/speakers/chris.webp",
+    name: "Chris Aniszczyk",
+    title: "CTO Cloud Native Computing Foundation",
+    twitter: "cra",
+    linkedin: "https://www.linkedin.com/in/caniszczyk",
+    imgTitle:
+      "Chris is CTO at CNCF and will talk about the role of CDEs in securing our software supply chain.",
     large: true,
   },
   {
