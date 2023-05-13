@@ -3,7 +3,7 @@
 </script>
 
 <div
-  class="mt-x-large relative w-11/12 md:w-fit mx-auto justify-between text-left md:mb-[360px]"
+  class="mt-x-large relative w-11/12 md:w-fit mx-auto justify-between text-left mb-20 md:mb-[360px]"
 >
   <div class="md:ml-36">
     <h1 class="text-5xl md:text-6xl font-extrabold">
