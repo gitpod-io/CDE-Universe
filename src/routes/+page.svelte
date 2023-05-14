@@ -8,7 +8,7 @@
   import About from "$lib/components/layout/about.svelte";
   import Venue from "$lib/components/layout/venue.svelte";
   import Hero from "$lib/components/index/hero.svelte";
-  import { speakers } from "$lib/data";
+  import { speakers, primarySpeakers } from "$lib/data";
 </script>
 
 <OpenGraph
@@ -24,7 +24,7 @@
 <Hero />
 <About />
 <ConferenceInfo />
-<Speakers {speakers} />
+<Speakers {speakers} {primarySpeakers} />
 <AttendCta />
 <Venue />
 <Partners />

@@ -1,8 +1,9 @@
 import type { JobRoles } from "./types/job-roles";
 import type { Speaker } from "./types/speakers";
+import type { PrimarySpeaker } from "./types/primary-speakers";
 import type { FAQ } from "./types/faq";
 
-export const speakers: Speaker[] = [
+export const primarySpeakers: PrimarySpeaker[] = [
   {
     image: "/images/speakers/pamela.webp",
     name: "Pamela Vagata",
@@ -10,7 +11,6 @@ export const speakers: Speaker[] = [
     linkedin: "https://www.linkedin.com/in/pamela-vagata-8396074",
     imgTitle:
       "Pamela is a former AI Tech Lead at Stripe, now co-founder of Pebblebed. She will discuss Generative AI in CDEs.",
-    large: true,
   },
   {
     image: "/images/speakers/johannes.webp",
@@ -21,28 +21,28 @@ export const speakers: Speaker[] = [
     linkedin: "https://www.linkedin.com/in/johanneslandgraf/",
     imgTitle:
       "Johannes is the CEO at Gitpod, a CDE used by 900k+ developers. <a href='https://www.gitpod.io/cde' target='_blank'> Read about Gitpod's vision for CDEs. </a>",
-    large: true,
   },
   {
     image: "/images/speakers/beyang.webp",
     name: "Beyang Liu",
-    title: "CTO Sourcegraph",
+    title: "CTO at Sourcegraph",
     twitter: "beyang",
     linkedin: "https://www.linkedin.com/in/beyang-liu/",
     imgTitle:
       "Beyang co-founded Sourcegraph and will share his take on LLM-backed coding assistants. <a href='https://about.sourcegraph.com/blog/cheating-is-all-you-need' target='_blank'>Read more</a>.",
-    large: true,
   },
   {
     image: "/images/speakers/chris.webp",
     name: "Chris Aniszczyk",
-    title: "CTO Cloud Native Computing Foundation",
+    title: "CTO at Cloud Native Computing Foundation",
     twitter: "cra",
     linkedin: "https://www.linkedin.com/in/caniszczyk",
     imgTitle:
       "Chris is CTO at CNCF and will talk about the role of CDEs in securing our software supply chain.",
-    large: true,
   },
+];
+
+export const speakers: Speaker[] = [
   {
     image: "/images/speakers/kent-beck.webp",
     name: "Kent Beck",
