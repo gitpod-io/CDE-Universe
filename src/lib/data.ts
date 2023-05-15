@@ -15,7 +15,7 @@ export const primarySpeakers: PrimarySpeaker[] = [
   {
     image: "/images/speakers/johannes.webp",
     name: "Johannes Landgraf",
-    title: "CEO at Gitpod",
+    title: "CEO & Co-Founder at Gitpod",
     // mastodon: "https://fosstodon.org/@gitpod",
     twitter: "jolandgraf",
     linkedin: "https://www.linkedin.com/in/johanneslandgraf/",
@@ -25,7 +25,7 @@ export const primarySpeakers: PrimarySpeaker[] = [
   {
     image: "/images/speakers/beyang.webp",
     name: "Beyang Liu",
-    title: "CTO at Sourcegraph",
+    title: "CTO & Co-Founder at Sourcegraph",
     twitter: "beyang",
     linkedin: "https://www.linkedin.com/in/beyang-liu/",
     imgTitle:
