@@ -1,6 +1,7 @@
 <script>
   import PrimaryButton from "../library/primary-button.svelte";
   import DesktopEllipse from "../svgs/ellipse.svelte";
+  import MobileEllipse from "../svgs/mobile-ellipse.svelte";
 </script>
 
 <div
@@ -34,17 +35,9 @@
     class="hidden md:flex max-w-4xl -z-10 select-none w-[85vw] transfrom scale-[2.12] absolute translate-x-[100%] translate-y-[-180%] rotate-[-10deg] md:transform md:translate-x-[25%] md:translate-y-[-75%] md:scale-[2.10]"
   />
 
-  <!-- <img
-  src="/images/ellipse1.webp"
-  alt="CDE Ellipse"
-  draggable={false}
-  class="hidden md:flex max-w-4xl -z-10 select-none w-[85vw] transfrom scale-[2.12] absolute translate-x-[100%] translate-y-[-180%] rotate-[-6deg] md:transform md:translate-x-[25%] md:translate-y-[-95%] md:scale-[2.10]"
-/> -->
-  <img
+  <MobileEllipse
     style="top: -20%; left: 30%; transform: translate(-20%, -50%)"
     class="flex md:hidden absolute w-screen min-w-[65vw] z-[-10] scale-150"
-    src="/images/primary-ellipse-mobile.webp"
-    alt="ring line"
   />
 </div>
 
