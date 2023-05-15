@@ -33,7 +33,7 @@
   />
 
   <div class="items-start md:w-fit mx-auto">
-    <p class="text-xl font-bold text-white">Attend Conference</p>
+    <p class="text-xl font-bold text-white">Attend conference</p>
     <p class="mt-1">Limited tickets are available now.</p>
 
     <div class="mt-6 inline-flex">

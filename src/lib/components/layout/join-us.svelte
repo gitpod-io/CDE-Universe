@@ -3,8 +3,8 @@
   import Twitter from "../svgs/twitter.svelte";
 </script>
 
-<div class="mt-64" id="join">
-  <div class="flex flex-col gap-20 items-start md:items-center">
+<div class="mt-20 md:mt-64" id="join">
+  <div class="flex flex-col gap-10 md:gap-20 items-start md:items-center">
     <div class="relative overflow-visible">
       <h1
         class="font-bold text-headlines text-center md:text-left text-8xl md:text-[200px] xl:text-[360px]"
@@ -21,7 +21,7 @@
     </div>
 
     <div
-      class="grid-rows-2 grid text-left md:grid-rows-1 md:grid-cols-2 gap-12 md:gap-[120px] mx-auto max-w-4xl"
+      class="grid-rows-2 grid text-left md:grid-rows-1 md:grid-cols-2 gap-4 md:gap-[120px] mx-auto max-w-4xl"
     >
       <div class="space-y-2">
         <h4 class="font-bold text-[20px] md:text-[28px] mb-2 md:mb-4">Who?</h4>

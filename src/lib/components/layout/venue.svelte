@@ -14,7 +14,9 @@
 </script>
 
 <div class="mt-xx-large md:mt-xxx-large max-w-7xl w-11/12 mx-auto space-y-2">
-  <h1 class="text-7xl md:text-8xl font-normal text-headlines">The venue</h1>
+  <h1 class="text-7xl md:text-8xl font-normal text-headlines mb-8 md:mb-0">
+    The venue
+  </h1>
 
   <img
     class="translate-y-40 mx-auto w-80 h-52 md:h-full object-cover rounded-3xl hidden md:block"
