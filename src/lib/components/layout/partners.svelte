@@ -2,6 +2,7 @@
   import GitpodLight from "../svgs/gitpod-light.svelte";
   import Sourcegraph from "../svgs/sourcegraph.svelte";
   import Pebblebed from "../svgs/pebblebed.svelte";
+  import JetBrains from "../svgs/jetbrains.svelte";
 </script>
 
 <div
@@ -15,6 +16,7 @@
       <div class="w-36"><GitpodLight /></div>
       <div class="w-36"><Pebblebed /></div>
       <div class="w-36"><Sourcegraph /></div>
+      <div class="w-36"><JetBrains /></div>
     </div>
 
     <p class="text-xl">CDE Universe is supported by ecosystem partners.</p>

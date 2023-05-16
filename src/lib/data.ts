@@ -88,6 +88,15 @@ export const speakers: Speaker[] = [
       "Conference introduction sharing our vision for CDEs, extensibility and a vibrant ecosystem.",
   },
   {
+    image: "/images/speakers/louis.webp",
+    name: "Louis Knight-Webb",
+    title: "CEO & Co-Founder Bloop.ai",
+    twitter: "LouisKnightWebb",
+    linkedin: "https://www.linkedin.com/in/knightwebb/",
+    imgTitle:
+      "Louis is CEO & Co-Founder from <a href='https://bloop.ai' target='_blank'>bloop.ai</a>. He will talk about navigating large codebases with LLMs and how CDEs can help.</a>",
+  },
+  {
     image: "/images/speakers/slyvestor-george.webp",
     name: "Sylvestor George",
     title: "Staff Software Engineer at Slack",
@@ -150,7 +159,7 @@ export const speakers: Speaker[] = [
   {
     image: "/images/speakers/aaron.webp",
     name: "Aaron Williams",
-    title: "VP Marketing, Chief Advocate at FOSSA",
+    title: "Chief Advocate at FOSSA",
     twitter: "_arw_",
     linkedin: "https://www.linkedin.com/in/aaronwilliams/",
     imgTitle:
