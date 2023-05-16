@@ -145,7 +145,7 @@ export const speakers: Speaker[] = [
     title: "Senior Solutions Architect at Amazon Web Services",
     twitter: "pahudnet",
     imgTitle:
-      "Pahud is part of the AWS CDK team and will be talking about how to boost your DevX using AWS CDK with Gitpod,",
+      "Pahud is part of the AWS CDK team and will be talking about how to boost your DevX using AWS CDK with Gitpod.",
   },
   {
     image: "/images/speakers/aaron.webp",
