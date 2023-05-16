@@ -145,7 +145,7 @@ export const speakers: Speaker[] = [
     title: "Senior Solutions Architect at Amazon Web Services",
     twitter: "pahudnet",
     imgTitle:
-      "Pahud is part of the AWS CDK team at AWS. and will be talking about Boosting your Developer Experience Using AWS CDK with Gitpod",
+      "Pahud is part of the AWS CDK team and will be talking about how to boost your DevX using AWS CDK with Gitpod,",
   },
   {
     image: "/images/speakers/aaron.webp",
@@ -153,7 +153,8 @@ export const speakers: Speaker[] = [
     title: "VP Marketing, Chief Advocate at FOSSA",
     twitter: "_arw_",
     linkedin: "https://www.linkedin.com/in/aaronwilliams/",
-    imgTitle: "",
+    imgTitle:
+      "Aaron talks about how to manage software supply chain security and open source risk.",
   },
   {
     image: "/images/speakers/pauline.webp",
