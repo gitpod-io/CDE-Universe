@@ -140,6 +140,23 @@ export const speakers: Speaker[] = [
       "Matas Strukčinskas is part of the Devpod team at Uber. <a href='https://www.uber.com/en-DE/blog/devpod-improving-developer-productivity-at-uber/' target='_blank'>Read about Uber’s CDE approach.</a>",
   },
   {
+    image: "/images/speakers/pahud.webp",
+    name: "Pahud Hsieh",
+    title: "Senior Solutions Architect at Amazon Web Services",
+    twitter: "pahudnet",
+    imgTitle:
+      "Pahud is part of the AWS CDK team and will be talking about how to boost your DevX using AWS CDK with Gitpod,",
+  },
+  {
+    image: "/images/speakers/aaron.webp",
+    name: "Aaron Williams",
+    title: "VP Marketing, Chief Advocate at FOSSA",
+    twitter: "_arw_",
+    linkedin: "https://www.linkedin.com/in/aaronwilliams/",
+    imgTitle:
+      "Aaron talks about how to manage software supply chain security and open source risk.",
+  },
+  {
     image: "/images/speakers/pauline.webp",
     name: "Pauline Narvas",
     title: "Head of Community at Gitpod",
