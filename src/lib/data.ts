@@ -79,15 +79,6 @@ export const speakers: Speaker[] = [
       "Swyx is a DX engineer (Airbyte, Temporal, Netlify) and Tech writer. Read his post <a href='https://dx.tips/the-end-of-localhost' target='_blank'>The end of localhost.</a>",
   },
   {
-    image: "/images/speakers/mike.webp",
-    name: "Mike Brevoort",
-    title: "Chief Product Officer at Gitpod",
-    twitter: "mbrevoort",
-    linkedin: "https://www.linkedin.com/in/mikebrevoort",
-    imgTitle:
-      "Conference introduction sharing our vision for CDEs, extensibility and a vibrant ecosystem.",
-  },
-  {
     image: "/images/speakers/louis.webp",
     name: "Louis Knight-Webb",
     title: "CEO & Co-Founder Bloop.ai",
@@ -95,6 +86,15 @@ export const speakers: Speaker[] = [
     linkedin: "https://www.linkedin.com/in/knightwebb/",
     imgTitle:
       "Louis is CEO & Co-Founder from <a href='https://bloop.ai' target='_blank'>bloop.ai</a>. He will talk about navigating large codebases with LLMs and how CDEs can help.</a>",
+  },
+  {
+    image: "/images/speakers/mike.webp",
+    name: "Mike Brevoort",
+    title: "Chief Product Officer at Gitpod",
+    twitter: "mbrevoort",
+    linkedin: "https://www.linkedin.com/in/mikebrevoort",
+    imgTitle:
+      "Conference introduction sharing our vision for CDEs, extensibility and a vibrant ecosystem.",
   },
   {
     image: "/images/speakers/slyvestor-george.webp",
@@ -123,14 +123,6 @@ export const speakers: Speaker[] = [
       "Soam is part of the Dev Environments team at Stripe. <a href='https://www.infoq.com/presentations/stripe-dev-env-infrastructure/' target='_blank'> Read about Stripe's CDE approach. </a>",
   },
   {
-    image: "/images/speakers/kabir.webp",
-    name: "Kabir Sikand",
-    title: "Product Manager at Tailscale",
-    twitter: "kabirsikand",
-    imgTitle:
-      "Kabir will give a glimpse at modern remote cloud development with <a href='https://tailscale.com/blog/tailscale-funnel-beta/' target='_blank'>Tailscale Funnels</a>",
-  },
-  {
     image: "/images/speakers/nic-manoogian.webp",
     name: "Nic Manoogian",
     title: "Senior Software Developer at Doppler",
@@ -141,20 +133,20 @@ export const speakers: Speaker[] = [
       "Nic works at Doppler, a platform for managing secrets at scale. <a href='https://www.gitpod.io/blog/securely-manage-development-secrets-with-doppler-and-gitpod' target='_blank'> Read about Doppler for CDEs.</a>",
   },
   {
+    image: "/images/speakers/kabir.webp",
+    name: "Kabir Sikand",
+    title: "Product Manager at Tailscale",
+    twitter: "kabirsikand",
+    imgTitle:
+      "Kabir will give a glimpse at modern remote cloud development with <a href='https://tailscale.com/blog/tailscale-funnel-beta/' target='_blank'>Tailscale Funnels</a>",
+  },
+  {
     image: "/images/speakers/matas.webp",
     name: "Matas Strukčinskas",
     title: "Software Engineer II at Uber",
     linkedin: "https://www.linkedin.com/in/matas-strukcinskas/",
     imgTitle:
       "Matas Strukčinskas is part of the Devpod team at Uber. <a href='https://www.uber.com/en-DE/blog/devpod-improving-developer-productivity-at-uber/' target='_blank'>Read about Uber’s CDE approach.</a>",
-  },
-  {
-    image: "/images/speakers/pahud.webp",
-    name: "Pahud Hsieh",
-    title: "Senior Solutions Architect at Amazon Web Services",
-    twitter: "pahudnet",
-    imgTitle:
-      "Pahud is part of the AWS CDK team and will be talking about how to boost your DevX using AWS CDK with Gitpod.",
   },
   {
     image: "/images/speakers/aaron.webp",
@@ -164,6 +156,14 @@ export const speakers: Speaker[] = [
     linkedin: "https://www.linkedin.com/in/aaronwilliams/",
     imgTitle:
       "Aaron talks about how to manage software supply chain security and open source risk.",
+  },
+  {
+    image: "/images/speakers/pahud.webp",
+    name: "Pahud Hsieh",
+    title: "Senior Solutions Architect at Amazon Web Services",
+    twitter: "pahudnet",
+    imgTitle:
+      "Pahud is part of the AWS CDK team and will be talking about how to boost your DevX using AWS CDK with Gitpod.",
   },
   {
     image: "/images/speakers/pauline.webp",

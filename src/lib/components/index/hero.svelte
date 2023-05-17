@@ -36,7 +36,7 @@
   />
 
   <MobileEllipse
-    style="top: -20%; left: 30%; transform: translate(-20%, -50%)"
+    style="top: -20%; left: 15%; transform: translate(-20%, -50%)"
     class="flex md:hidden absolute w-screen min-w-[65vw] z-[-10] scale-150"
   />
 </div>
