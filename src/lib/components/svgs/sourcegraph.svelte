@@ -5,6 +5,7 @@
   fill="none"
   viewBox="0 0 177 31"
 >
+  <title>Sourcegraph</title>
   <g clip-path="url(#a)">
     <path
       fill="#F96216"

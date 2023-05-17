@@ -1,7 +1,6 @@
 <script>
   import GitpodLight from "../svgs/gitpod-light.svelte";
   import Sourcegraph from "../svgs/sourcegraph.svelte";
-  import Pebblebed from "../svgs/pebblebed.svelte";
   import JetBrains from "../svgs/jetbrains.svelte";
 </script>
 
@@ -14,7 +13,9 @@
 
     <div class="flex items-center gap-8 justify-start flex-wrap">
       <div class="w-36"><GitpodLight /></div>
-      <div class="w-36"><Pebblebed /></div>
+      <div class="w-36">
+        <img src="/images/pebblebed.webp" alt="Pebblebed" />
+      </div>
       <div class="w-36"><Sourcegraph /></div>
       <div class="w-36"><JetBrains /></div>
     </div>
