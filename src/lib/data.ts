@@ -97,7 +97,7 @@ export const speakers: Speaker[] = [
       "Conference introduction sharing our vision for CDEs, extensibility and a vibrant ecosystem.",
   },
   {
-    image: "/images/speakers/slyvestor-george.webp",
+    image: "/images/speakers/sylvestor.webp",
     name: "Sylvestor George",
     title: "Staff Software Engineer at Slack",
     twitter: "sylvestor88",
