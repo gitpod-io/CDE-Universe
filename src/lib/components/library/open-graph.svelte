@@ -5,7 +5,7 @@
   const type = "website";
   const {
     description,
-    image = "/og.webp",
+    image = "/open-graph.png",
     title,
     keywords = "",
     norobots = false,
