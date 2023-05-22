@@ -5,7 +5,7 @@
   const type = "website";
   const {
     description,
-    image = "/open-graph.png",
+    image = "/open-graph.jpg",
     title,
     keywords = "",
     norobots = false,
