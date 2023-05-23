@@ -212,6 +212,11 @@ export const faqs: FAQ[] = [
     description:
       "Yes, talks will be recorded and up on our YouTube channel after the event.",
   },
+  {
+    title: "Coronavirus (COVID-19) information",
+    description:
+      "At CDE Universe, we’ll implement the following health & safety measures: Upon request, we will provide optional and free masks and COVID-19 testing kits to participants. We will conduct frequent on-site cleaning and sanitizing of touch points. We will provide a sanitation station. We recommend that on-site participants wear a mask and get tested for COVID-19 prior to joining the event in person, in order to best protect themselves and other attendees. If you are not feeling well onsite, please refrain from attending the event and/or get tested. In line with local regulation, we do not require a proof of vaccination or a negative test to enter the event. If you are not feeling well onsite, please refrain from attending the event and/or get tested.",
+  },
 ];
 
 /**
