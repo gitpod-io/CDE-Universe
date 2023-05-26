@@ -16,10 +16,10 @@
 <div class="mt-xx-large md:mt-xxx-large max-w-7xl w-11/12 mx-auto space-y-10">
   <h1 class="text-6xl font-normal text-headlines md:text-center">All about</h1>
 
-  <div class="flex flex-wrap gap-4 md:justify-center">
+  <div class="flex-wrap gap-4 md:justify-center grid grid-cols-2 md:flex">
     {#each items as item}
       <p
-        class="border-blue border-2 m-0 rounded-xl px-4 py-2 font-medium text-white"
+        class="border-blue border-2 m-0 rounded-xl text-center px-2 md:px-4 py-2 font-medium text-white"
       >
         {item}
       </p>
