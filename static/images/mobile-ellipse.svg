@@ -1,17 +1,8 @@
-<script lang="ts">
-  let clazz = "";
-  let stylez = "";
-  export { stylez as style };
-  export { clazz as class };
-</script>
-
 <svg
   width="362"
   height="428"
   viewBox="0 0 362 428"
   fill="none"
-  class={clazz}
-  style={stylez}
   xmlns="http://www.w3.org/2000/svg"
   xmlns:xlink="http://www.w3.org/1999/xlink"
 >
