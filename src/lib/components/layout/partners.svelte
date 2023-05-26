@@ -17,7 +17,7 @@
         <img src="/images/pebblebed.webp" alt="Pebblebed" />
       </div>
       <div class="w-36"><Sourcegraph /></div>
-      <div class="w-36 ml-4 md:ml-8 justify-center"><JetBrains /></div>
+      <div class="w-36 pl-6 ml-0 md:ml-8"><JetBrains /></div>
     </div>
 
     <p class="text-xl">CDE Universe is supported by ecosystem partners.</p>
