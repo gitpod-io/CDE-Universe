@@ -10,9 +10,8 @@ ports:
 
 # List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/configure/workspaces/tasks/
 tasks:
-  - name: Installing Dependencies
+  - name: Install Dependencies and Start Dev Server
     init: npm install
-  - name: Start Dev Server
     command: npm run dev
 
 github:
