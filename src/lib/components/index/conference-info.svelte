@@ -13,13 +13,22 @@
   </div>
 
   <p class="text-xl md:text-2xl mt-large max-w-xl mb-8">
-    We can't wait to meet you at CDE Universe!<br /><br />
-    Join us on June 1 (2PM-9PM) and June 2 (11AM-4PM) to exchange ideas about the
-    tools and practices that enable a better developer experience.
+    Thank you all for attending CDE universe and making it such a memorable
+    conference. The energy and enthusiasm around CDEs in one space was
+    unmatched! <br /><br />We can't wait to bring everyone together once again.
   </p>
 
-  <PrimaryButton
-    href="https://www.eventbrite.co.uk/e/cde-universe-2023-cloud-development-conference-by-gitpod-tickets-626052498877"
-    text="Buy tickets"
-  />
+  <div
+    class="items-start flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4"
+  >
+    <PrimaryButton
+      href="https://youtube.com/playlist?list=PL3TSF5whlprWDA0q5GshRk-yPRGJzaY3q"
+      text="View recordings"
+    />
+    <PrimaryButton
+      style="line"
+      href="/notify"
+      text="Get notified on upcoming events"
+    />
+  </div>
 </div>

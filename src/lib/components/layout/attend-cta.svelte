@@ -10,16 +10,16 @@
       class="mx-auto w-fit flex flex-col gap-9 items-start md:items-start text-left"
     >
       <h1 class="text-5xl md:text-6xl font-normal md:font-medium">
-        Be part of it
+        Thanks to all speakers
       </h1>
 
       <p class="text-p-large md:text-p-x-large max-w-sm text-left">
-        The DevX community comes together at CDE Universe. Join us!
+        The future of CDEs is here. View the recording to learn more about it.
       </p>
 
       <PrimaryButton
-        text="Buy tickets"
-        href="https://www.eventbrite.co.uk/e/cde-universe-2023-cloud-development-conference-by-gitpod-tickets-626052498877"
+        text="View recordings"
+        href="https://youtube.com/playlist?list=PL3TSF5whlprWDA0q5GshRk-yPRGJzaY3q"
       />
     </div>
 

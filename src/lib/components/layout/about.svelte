@@ -1,6 +1,4 @@
 <script lang="ts">
-  import PrimaryButton from "../library/primary-button.svelte";
-
   const items = [
     "CDE adoption journeys",
     "AI code assistants",
@@ -31,16 +29,4 @@
     alt="CDE Universe Skateboard"
     class="pt-4 md:pt-8 pb-2"
   />
-
-  <div class="items-start md:w-fit mx-auto">
-    <p class="text-xl font-bold text-white">Attend conference</p>
-    <p class="mt-1">Limited tickets are available now.</p>
-
-    <div class="mt-6 inline-flex">
-      <PrimaryButton
-        href="https://www.eventbrite.co.uk/e/cde-universe-2023-cloud-development-conference-by-gitpod-tickets-626052498877"
-        text="Buy tickets for $60"
-      />
-    </div>
-  </div>
 </div>

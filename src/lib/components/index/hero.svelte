@@ -12,20 +12,24 @@
     </h1>
 
     <div class="mt-4 text-xl md:text-[28px] md:leading-[2.5rem]">
-      June 1 and 2
+      Past event
+    </div>
+
+    <div class="text-rose text-xl md:text-[28px] md:leading-[2.5rem]">
+      <div>San Francisco, California</div>
     </div>
 
     <div
-      class="mt-1 font-medium text-rose text-xl md:text-[28px] md:leading-[2.5rem]"
+      class="mt-6 items-start flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4"
     >
-      <div>Pebblebed</div>
-      <div>San Francisco, CA</div>
-    </div>
-
-    <div class="mt-6">
       <PrimaryButton
-        href="https://www.eventbrite.co.uk/e/cde-universe-2023-cloud-development-conference-by-gitpod-tickets-626052498877"
-        text="Buy tickets"
+        href="https://youtube.com/playlist?list=PL3TSF5whlprWDA0q5GshRk-yPRGJzaY3q"
+        text="View recordings"
+      />
+      <PrimaryButton
+        style="line"
+        href="/notify"
+        text="Get notified on upcoming events"
       />
     </div>
   </div>
@@ -43,8 +47,12 @@
 </div>
 
 <div class="w-11/12 md:w-10/12 mx-auto">
-  <p class="max-w-xs text-2xl">
-    Gitpod's conference for you to learn about cloud-first developer tools and
-    build connections with the developer community.
+  <p class="max-w-[380px] text-2xl text-headlines font-normal">
+    Gitpod's conference for you to learn about <span
+      class="text-rose font-extrabold">cloud-first developer tools</span
+    >
+    and
+    <span class="text-rose font-extrabold">build connections</span> with the developer
+    community.
   </p>
 </div>

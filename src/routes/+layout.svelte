@@ -3,6 +3,7 @@
   import Container from "$lib/components/layout/container.svelte";
   import Footer from "$lib/components/layout/footer.svelte";
   import "../app.css";
+  import { page } from "$app/stores";
 </script>
 
 <div class="flex min-h-screen flex-col">
@@ -13,5 +14,7 @@
   >
     <slot />
   </Container>
-  <Footer />
+  {#if $page.url.pathname !== "/notify/success"}
+    <Footer />
+  {/if}
 </div>
