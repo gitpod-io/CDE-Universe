@@ -8,8 +8,5 @@
     We'll email you when we have more information about next year's CDE
     Universe.
   </p>
-  <PrimaryButton
-    href="https://www.gitpod.io/cde"
-    text="Gitpod's 8 Principles of CDEs"
-  />
+  <PrimaryButton href="https://www.gitpod.io/cde" text="Lear more about CDEs" />
 </div>
