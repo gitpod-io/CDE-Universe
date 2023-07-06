@@ -12,7 +12,7 @@
 
 <OpenGraph
   data={{
-    title: "Get notified",
+    title: "Get notified | CDE Universe",
     description: "Make sure not to miss the next CDE universe.",
   }}
 />
