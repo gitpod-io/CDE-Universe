@@ -47,8 +47,12 @@
 </div>
 
 <div class="w-11/12 md:w-10/12 mx-auto">
-  <p class="max-w-xs text-2xl">
-    Gitpod's conference for you to learn about cloud-first developer tools and
-    build connections with the developer community.
+  <p class="max-w-[380px] text-2xl">
+    Gitpod's conference for you to learn about <span
+      class="text-rose font-extrabold">cloud-first developer tools</span
+    >
+    and
+    <span class="text-rose font-extrabold">build connections</span> with the developer
+    community.
   </p>
 </div>
