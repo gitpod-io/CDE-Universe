@@ -3,12 +3,12 @@
     {
       title: "Discover Pebblebed",
       description:
-        "Located in the heart of the Mission, Pebblebed is a former production studio. Today, it serves as a community space for artists, tinkerers, and builders. Its interior is one-of-a-kind in San Francisco and the perfect location for CDE Universe.\n\nThere will be a main room with a conference stage as well as several breakout areas to mingle and have discussions.",
+        "Located in the heart of the Mission, Pebblebed is a former production studio. Today, it serves as a community space for artists, tinkerers, and builders. Its interior is one-of-a-kind in San Francisco and was the perfect location for CDE Universe.\n\nAlongside the main room with the conference stage, there were several breakout areas to mingle and have discussions.",
     },
     {
       title: "Fun, food & drinks",
       description:
-        "CDE Universe is about meeting the DevX community and forging lasting connections. Next to the talks, we'll have time for connection and fun (did someone say there will be skateboards?)\n\nWe'll offer dinner (Thursday), lunch (Friday) and snacks and refreshments throughout the conference. To close out the first day, there will be drinks with craft beer, wine, and non-alcoholic drinks.",
+        "CDE Universe is about meeting the DevX community and forging lasting connections. Next to the talks, we had time for connection and fun (did someone say there will be skateboards?).\n\nWe offered dinner (Thursday), lunch (Friday) and snacks and refreshments throughout the conference. We closed out the first day with craft beer, wine, and non-alcoholic drinks.",
     },
   ];
 </script>
