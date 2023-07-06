@@ -8,9 +8,7 @@ import {
 interface WaitlistData {
   name: string;
   email: string;
-  companyWebsite: string;
-  jobRole: string;
-  message: string;
+  message?: string;
 }
 
 export async function addToWaitlist(data: WaitlistData) {
@@ -37,7 +35,7 @@ export async function addToWaitlist(data: WaitlistData) {
 
   if (existingKeys.includes(data.email)) {
     throw new Error(
-      "Your email is already in the waitlist. Just lean back, you will hear from us."
+      "Your email is already in the subscribers list. Just lean back, you will hear from us."
     );
   }
 

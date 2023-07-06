@@ -1,7 +1,6 @@
 <script lang="ts">
-  import type { ActionData } from "../../../../routes/join/$types";
+  import type { ActionData } from "../../../../routes/notify/$types";
   import OpenGraph from "../../library/open-graph.svelte";
-  import { jobRoles, JOB_ROLE_OTHER } from "$lib/data";
   import FieldError from "./field-error.svelte";
   import { enhance } from "$app/forms";
   import SecondaryButton from "$lib/components/library/secondary-button.svelte";
@@ -9,21 +8,31 @@
   export let form: ActionData;
 
   let disabled = false;
-  let role: string | undefined = undefined;
 </script>
 
 <OpenGraph
   data={{
-    title: "Buy tickets",
-    description: "Buy tickets for CDE Universe 2023",
+    title: "Get notified | CDE Universe",
+    description: "Make sure not to miss the next CDE universe.",
   }}
 />
 
-<div class="flex flex-col items-start gap-10 ">
-  <h1 class="text-7xl md:text-8xl font-normal mx-auto">Buy tickets</h1>
-
-  <p class="text-xl mx-auto">Apply below for a ticket to CDE Universe 2023.</p>
-
+<div class="flex flex-col items-center mb-12 mx-auto">
+  <h1
+    class="font-bold md:font-extrabold text-[64px] leading-none mb-4 max-w-xl"
+  >
+    Get notified
+  </h1>
+  <p class="text-base md:text-lg !mx-auto max-w-xl">
+    Make sure not to miss the next CDE universe.
+  </p>
+</div>
+<div
+  class="rounded-[40px] border-rose border-[10px] px-8 md:px-14 py-14 max-w-2xl mx-auto"
+>
+  <h1 class="font-bold max-w-xl text-h4 leading-none mb-8 mx-auto">
+    Sign-up for email updates
+  </h1>
   <form
     method="POST"
     class="grid grid-cols-2 gap-4 md:gap-10 max-w-xl mx-auto"
@@ -37,55 +46,24 @@
       };
     }}
   >
-    <label>
+    <label class="col-span-2">
       Full Name*
       <input required {disabled} name="name" type="text" />
       <FieldError error={form?.fieldErrors?.name} />
     </label>
 
-    <label>
-      Work e-mail*
+    <label class="col-span-2">
+      E-Mail*
       <input required {disabled} name="email" type="email" />
       <FieldError error={form?.fieldErrors?.email} />
     </label>
 
-    <label>
-      Company website*
-      <input required {disabled} name="website" type="url" value="https://" />
-      <FieldError error={form?.fieldErrors?.website} />
-    </label>
-
-    <label>
-      Role*
-
-      <select {disabled} name="role" bind:value={role}>
-        <option value={undefined} disabled>Please select</option>
-
-        {#each jobRoles as role}
-          <option value={role.value}>{role.label}</option>
-        {/each}
-      </select>
-
-      {#if role == JOB_ROLE_OTHER}
-        <input
-          {disabled}
-          required
-          name="role"
-          type="text"
-          placeholder="Specify your role"
-        />
-      {/if}
-
-      <FieldError error={form?.fieldErrors?.role} />
-    </label>
-
     <label class="col-span-2">
-      What do you want to learn?*
-      <textarea required {disabled} name="question" rows="6" />
-      <FieldError error={form?.fieldErrors?.question} />
+      Your message (optional)
+      <textarea required={false} {disabled} name="question" rows="6" />
     </label>
 
-    <p class="col-span-2 text-xs">
+    <p class="col-span-2 text-xs md:text-[15px]">
       By submitting this form, I confirm that I acknowledge the collection and
       processing of personal data by CDE universe, as further described in the
       <a href="/privacy">Privacy Policy</a>.
