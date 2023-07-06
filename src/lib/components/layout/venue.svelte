@@ -18,6 +18,11 @@
     Past event
   </h1>
 
+  <img
+    class="translate-y-24 mx-auto w-80 h-52 md:h-full object-cover rounded-3xl hidden md:block"
+    src="/images/venue/cde-universe-banner.webp"
+    alt="Venue"
+  />
   <div
     class="flex flex-col md:flex-row md:w-[1094.11px] md:h-[668.12px] justify-start items-start gap-4 md:inline-flex"
   >
