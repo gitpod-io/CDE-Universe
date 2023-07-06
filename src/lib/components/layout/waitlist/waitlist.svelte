@@ -63,7 +63,7 @@
       <textarea required={false} {disabled} name="question" rows="6" />
     </label>
 
-    <p class="col-span-2 text-xs md:text-[15px]">
+    <p class="col-span-2 text-xs md:text-[15px] leading-5">
       By submitting this form, I confirm that I acknowledge the collection and
       processing of personal data by CDE universe, as further described in the
       <a href="/privacy">Privacy Policy</a>.
