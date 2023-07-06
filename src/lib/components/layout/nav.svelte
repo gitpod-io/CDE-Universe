@@ -24,8 +24,8 @@
       <a class="no-underline text-white hover:text-rose" href="/faq">FAQs</a>
 
       <SecondaryButton
-        href="https://www.eventbrite.co.uk/e/cde-universe-2023-cloud-development-conference-by-gitpod-tickets-626052498877"
-        text="Buy tickets"
+        href="https://youtube.com/playlist?list=PL3TSF5whlprWDA0q5GshRk-yPRGJzaY3q"
+        text="View recordings"
       />
     </div>
   </div>
