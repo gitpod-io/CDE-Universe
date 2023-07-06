@@ -1,5 +1,4 @@
 import { addToWaitlist } from "$lib/utils/spreadsheet.server";
-import { jobRoles } from "$lib/data";
 import { fail, redirect } from "@sveltejs/kit";
 import { z } from "zod";
 
@@ -15,17 +14,10 @@ const schema = z.object({
     .email({ message: "Please give a valid email" })
     .trim(),
 
-  website: z.string({ required_error: "Company website is required" }).url(),
-
-  role: z
-    .string({ required_error: "Role is required" })
-    .trim()
-    .min(1, "Can't be empty"),
-
   question: z
     .string({ required_error: "Question is required" })
     .trim()
-    .min(1, "Can't be empty")
+    .min(0, "Optional")
     .max(256, "Max length is 256 chars"),
 });
 
@@ -55,9 +47,7 @@ export const actions = {
       await addToWaitlist({
         name: result.data.name,
         email: result.data.email,
-        companyWebsite: result.data.website,
-        jobRole: result.data.role,
-        message: result.data.question,
+        message: result.data?.question,
       });
     } catch (error) {
       // If there is an error return it
@@ -69,6 +59,6 @@ export const actions = {
       });
     }
 
-    throw redirect(307, "/join/success");
+    throw redirect(307, "/notify/success");
   },
 };

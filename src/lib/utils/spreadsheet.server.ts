@@ -8,9 +8,7 @@ import {
 interface WaitlistData {
   name: string;
   email: string;
-  companyWebsite: string;
-  jobRole: string;
-  message: string;
+  message?: string;
 }
 
 export async function addToWaitlist(data: WaitlistData) {
