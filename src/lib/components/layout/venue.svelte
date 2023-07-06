@@ -24,26 +24,34 @@
     alt="Venue"
   />
   <div
-    class="flex flex-col md:flex-row md:w-[1094.11px] md:h-[668.12px] justify-start items-start gap-4 md:inline-flex"
+    class="flex flex-col md:flex-row md:h-[668.12px] justify-start items-start gap-4 md:inline-flex"
   >
-    <div class="flex flex-col justify-end items-start gap-4 md:inline-flex">
+    <div
+      class="flex flex-wrap flex-col justify-end items-start gap-4 md:inline-flex"
+    >
       <img
-        class="w-full  md:w-[699px] md:h-[356px] rounded-2xl"
+        class="w-full md:h-[356px] rounded-2xl object-contain"
         src="/images/venue/one.webp"
+        alt="Talks at CDE Universe"
       />
       <img
-        class="w-full  md:w-[699px] md:h-[296.12px] rounded-2xl"
+        class="w-full md:h-[296.12px] rounded-2xl object-contain"
         src="/images/venue/two.webp"
+        alt="Gitpodders at CDE Universe"
       />
     </div>
-    <div class="flex flex-col  justify-end items-start gap-4 md:inline-flex">
+    <div
+      class="flex flex-col flex-wrap justify-end items-start gap-4 md:inline-flex"
+    >
       <img
-        class="w-full h-52 object-cover md:object-contain md:w-[379.11px] md:h-[468.04px] rounded-2xl"
+        class="w-full h-52 object-cover sm:object-contain md:h-[468.04px] rounded-2xl"
         src="/images/venue/three.webp"
+        alt="Gitpodder holding CDE Universe skateboard"
       />
       <img
-        class="w-full object-contain md:w-[379.11px] md:h-[183.15px] rounded-2xl"
+        class="w-full object-contain md:h-[183.15px] rounded-2xl"
         src="/images/venue/four.webp"
+        alt="Attendees at CDE Universe"
       />
     </div>
   </div>
