@@ -23,19 +23,19 @@
   });
 </script>
 
-<div class="text-center space-y-6 mt-12 mb-32">
-  <h1 class="text-6xl font-extrabold">View recordings</h1>
+<div class="text-center space-y-3 md:space-y-6 mt-12 mb-32">
+  <h1 class="text-3xl md:text-6xl font-extrabold">View recordings</h1>
 
-  <p class="text-lg font-normal">
+  <p class="text-md md:text-lg font-normal">
     All recordings from CDE Universe June 1-2 2023
   </p>
 </div>
 
-<div class="flex flex-wrap justify-center gap-x-8 gap-y-xx-large">
+<div class="flex flex-wrap justify-center gap-x-8 gap-y-xx-large mx-4">
   {#each recordings as recording}
-    <div class="max-w-[400px]">
+    <div class="max-w-[400px] text-center md:text-left">
       <div
-        class="bg-blue relative rounded-xl flex gap-8 px-8 py-10 items-center"
+        class="bg-blue relative rounded-xl flex flex-col md:flex-row  gap-4 md:gap-8 px-6 py-8 md:px-8 md:py-10 items-center"
       >
         <a
           href={recording.link}
@@ -65,7 +65,9 @@
         <div>
           <h4 class="text-sm m-0 mb-4">{recording.title}</h4>
 
-          <p class="text-sm font-bold text-white m-0">{recording.person}</p>
+          <p class="hidden md:block text-sm font-bold text-white m-0">
+            {recording.person}
+          </p>
           <p class="text-sm m-0">{recording.jobTitle}</p>
         </div>
       </div>
