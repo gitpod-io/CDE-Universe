@@ -12,15 +12,53 @@
     link: string;
   }
 
-  const recordings: Recording[] = Array(6).fill({
-    title: "Accelerate developers with a CDE",
-    description:
-      "Olga introduces Isospin, the runtime environment used in Shopify's CDE.",
-    pfp: "/images/speakers/olga.webp",
-    person: "Olga Pilipenco",
-    jobTitle: "Senior Production Engineer at Shopify",
-    link: "https://200.willow.sh",
-  });
+  const recordings: Recording[] = [
+    {
+      title: "Accelerate developers with a CDE",
+      description:
+        "Olga introduces Isospin, the runtime environment used in Shopify's CDE.",
+      pfp: "/images/speakers/olga.webp",
+      person: "Olga Pilipenco",
+      jobTitle: "Senior Production Engineer at Shopify",
+      link: "https://youtu.be/uoGmXdB65PI",
+    },
+    {
+      title: "Automating menial engineering tasks with LLMs",
+      description:
+        "Louis talks about navigating large codebases with LLMs and how CDEs can help.",
+      pfp: "/images/speakers/louis.webp",
+      person: "Louis Knight-Webb",
+      jobTitle: "CEO & Co-Founder Bloop.ai",
+      link: "https://youtu.be/xoLxcW8VnMc",
+    },
+    {
+      title: "How DevPod became Uber's primary development environment",
+      description:
+        "Matas talks about how DevPod became Uber's primary development environment",
+      pfp: "/images/speakers/matas.webp",
+      person: "Matas Strukčinskas",
+      jobTitle: "Software Engineer II at Uber",
+      link: "https://youtu.be/TJsuLPk7ZYw",
+    },
+    {
+      title: "The power of SecretOps automating secret workflows",
+      description:
+        "Nic dives into the power of SecretOps automating secret workflows.",
+      pfp: "/images/speakers/nic-manoogian.webp",
+      person: "Nic Manoogian",
+      jobTitle: "Senior Software Developer at Doppler",
+      link: "https://youtu.be/wOBah-1VouY",
+    },
+    {
+      title: "Remote development, without the networking",
+      description:
+        "Kabir will give a glimpse at modern remote cloud development with Tailscale Funnels.",
+      pfp: "/images/speakers/kabir.webp",
+      person: "Kabir Sikand",
+      jobTitle: "Senior Production Engineer at Shopify",
+      link: "https://youtu.be/6_BvMMObC4A",
+    },
+  ];
 </script>
 
 <div class="text-center space-y-3 md:space-y-6 mt-12 mb-32">
