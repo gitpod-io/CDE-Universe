@@ -106,12 +106,13 @@
           <p class="text-sm font-bold text-white m-0">
             {recording.person}
           </p>
+
           <p class="text-sm m-0">{recording.jobTitle}</p>
         </div>
       </div>
 
       <h3 class="hidden md:block mt-4 mb-2">{recording.person}</h3>
-      <p class="max-w-[300px] mt-4 md:mt-0">{recording.description}</p>
+      <p class="md:max-w-[300px] mt-4 md:mt-0">{recording.description}</p>
     </div>
   {/each}
 </div>
