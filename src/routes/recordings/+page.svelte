@@ -1,5 +1,6 @@
 <script lang="ts">
   import PrimaryButton from "$lib/components/library/primary-button.svelte";
+  import OpenGraph from "$lib/components/library/open-graph.svelte";
 
   interface Recording {
     title: string;
@@ -60,6 +61,15 @@
     },
   ];
 </script>
+
+<OpenGraph
+  data={{
+    title: "CDE Universe 2023 Talk Recordings | Learn from the experts",
+    description:
+      "Watch all the talk recordings from CDE Universe 2023. This includes keynote speakers, breakout sessions, and more. Learn from the experts and get inspired to start your CDE Journey today ",
+    keywords: "recordings, conference recordings, talk recordings",
+  }}
+/>
 
 <div class="text-center space-y-3 md:space-y-6 mt-12 mb-32">
   <h1 class="text-3xl md:text-6xl font-extrabold">View recordings</h1>
