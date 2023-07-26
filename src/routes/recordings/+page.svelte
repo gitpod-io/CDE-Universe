@@ -67,7 +67,7 @@
     title: "CDE Universe 2023 Talk Recordings | Learn from the experts",
     description:
       "Watch all the talk recordings from CDE Universe 2023. This includes keynote speakers, breakout sessions, and more. Learn from the experts and get inspired to start your CDE Journey today ",
-    keywords: "recordings, conference recordings, talk recordings",
+    keywords: "CDE Universe recordings, conference recordings, talk recordings, CDE Universe talks",
   }}
 />
 
