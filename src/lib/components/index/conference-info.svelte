@@ -21,10 +21,7 @@
   <div
     class="items-start flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4"
   >
-    <PrimaryButton
-      href="https://youtube.com/playlist?list=PL3TSF5whlprWDA0q5GshRk-yPRGJzaY3q"
-      text="View recordings"
-    />
+    <PrimaryButton href="/recordings" text="View recordings" />
     <PrimaryButton
       style="line"
       href="/notify"

@@ -23,10 +23,7 @@
     <div class="items-center gap-x-small flex mt-4">
       <a class="no-underline text-white hover:text-rose" href="/faq">FAQs</a>
 
-      <SecondaryButton
-        href="https://youtube.com/playlist?list=PL3TSF5whlprWDA0q5GshRk-yPRGJzaY3q"
-        text="View recordings"
-      />
+      <SecondaryButton href="/recordings" text="View recordings" />
     </div>
   </div>
 </nav>

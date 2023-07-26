@@ -17,10 +17,7 @@
         The future of CDEs is here. View the recording to learn more about it.
       </p>
 
-      <PrimaryButton
-        text="View recordings"
-        href="https://youtube.com/playlist?list=PL3TSF5whlprWDA0q5GshRk-yPRGJzaY3q"
-      />
+      <PrimaryButton text="View recordings" href="/recordings" />
     </div>
 
     <img
