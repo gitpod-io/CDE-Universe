@@ -190,7 +190,6 @@
 </div>
 
 <div class="text-center mx-auto mt-32 text-2xl">
-  <p>More recordings will follow soon.</p>
   <p class="mt-0 mb-6">
     Sign-up if you'd like to get notified about upcoming events.
   </p>
