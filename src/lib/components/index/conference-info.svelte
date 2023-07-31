@@ -15,7 +15,19 @@
   <p class="text-xl md:text-2xl mt-large max-w-xl mb-8">
     Thank you all for attending CDE universe and making it such a memorable
     conference. The energy and enthusiasm around CDEs in one space was
-    unmatched! <br /><br />We can't wait to bring everyone together once again.
+    unmatched! <br /><br />
+
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/Lxp393R2w-w"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    />
+
+    <br />We can't wait to bring everyone together once again.
   </p>
 
   <div
