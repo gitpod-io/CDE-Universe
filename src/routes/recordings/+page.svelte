@@ -59,6 +59,67 @@
       jobTitle: "Senior Production Engineer at Shopify",
       link: "https://youtu.be/6_BvMMObC4A",
     },
+    {
+      title: "Boost your Developer Experience Using AWS CDK with Gitpod",
+      description:
+        "Pahud will share how to boost your Developer Experience Using AWS CDK with Gitpod.",
+      pfp: "/images/speakers/pahud.webp",
+      person: "Pahud Hsieh",
+      jobTitle: "Senior Solutions Architect at AWS",
+      link: "https://youtu.be/6s1Pf3AOvr8",
+    },
+    {
+      title: "Building and Scaling Developer Environments at Stripe",
+      description: "Soam will share how Stripe build developer environments.",
+      pfp: "/images/speakers/soam-vasani.webp",
+      person: "Soam Vasani",
+      jobTitle: "Software Engineer at Stripe",
+      link: "https://youtu.be/TjD7fEGMPhE",
+    },
+    {
+      title: "Cody, an open source AI coding assistant",
+      description: "Beyang will talk about Cody AI.",
+      pfp: "/images/speakers/beyang.webp",
+      person: "Beyang Liu",
+      jobTitle: "CTO and co-founder at Sourcegraph",
+      link: "https://youtu.be/kxZXjMrsiRU",
+    },
+    {
+      title:
+        "Re-envisioning Local Development and Testing With Cloud Databases",
+      description:
+        "Shelby will talk about role of a cloud database within cloud-native development workflows.",
+      pfp: "/images/speakers/shelby.webp",
+      person: "Shelby Carpenter",
+      jobTitle: "Senior Marketing Manager at MongoDB",
+      link: "https://youtu.be/15u3QVnSHew",
+    },
+    {
+      title: "Turning codebases into conversations",
+      description:
+        "Nathan will share about what they're building at Zed Industries.",
+      pfp: "/images/speakers/nathan.webp",
+      person: "Nathan Sobo",
+      jobTitle: "Founder at Zed Industries.",
+      link: "https://youtu.be/mlWzdiyLUYA",
+    },
+    {
+      title: "The role of CDEs in Generative AI",
+      description: "Pamela talks about the role of CDEs in AI.",
+      pfp: "/images/speakers/pamela.webp",
+      person: "Pamela Vagata",
+      jobTitle: "Former AI Tech Lead at Stripe",
+      link: "https://youtu.be/V3tjS720jPE",
+    },
+    {
+      title: "The role of CDEs in securing your software supply chain",
+      description:
+        "Chris shares how CDEs can secure your software supply chain.",
+      pfp: "/images/speakers/chris.webp",
+      person: "Chris Aniszczyk",
+      jobTitle: "CTO at Cloud Native Computing Foundation",
+      link: "https://youtu.be/RrYjJoY-XZk",
+    },
   ];
 </script>
 
@@ -67,7 +128,8 @@
     title: "CDE Universe 2023 Talk Recordings | Learn from the experts",
     description:
       "Watch all the talk recordings from CDE Universe 2023. This includes keynote speakers, breakout sessions, and more. Learn from the experts and get inspired to start your CDE Journey today ",
-    keywords: "CDE Universe recordings, conference recordings, talk recordings, CDE Universe talks",
+    keywords:
+      "CDE Universe recordings, conference recordings, talk recordings, CDE Universe talks",
   }}
 />
 
@@ -128,7 +190,6 @@
 </div>
 
 <div class="text-center mx-auto mt-32 text-2xl">
-  <p>More recordings will follow soon.</p>
   <p class="mt-0 mb-6">
     Sign-up if you'd like to get notified about upcoming events.
   </p>
