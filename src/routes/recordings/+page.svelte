@@ -15,6 +15,15 @@
 
   const recordings: Recording[] = [
     {
+      title: "Local to CDEs: Slack's Remote Development Journey",
+      description:
+        "Sylvestor will share how Slack has built their internal CDE.",
+      pfp: "/images/speakers/sylvestor.webp",
+      person: "Sylvestor George",
+      jobTitle: "Staff Software Engineer at Slack",
+      link: "https://www.youtube.com/watch?v=cc10pjk9lLU",
+    },
+    {
       title: "Accelerate developers with a CDE",
       description:
         "Olga introduces Isospin, the runtime environment used in Shopify's CDE.",
